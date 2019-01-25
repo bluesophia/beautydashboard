@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    <link rel="stylesheet" href="https://rawgit.com/lykmapipo/themify-icons/master/css/themify-icons.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/weather-icons.css">
+    <link rel="stylesheet" href="./assets/css/themify-icons.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dashboard</title>
+</head>
+<body class="skin-default mini-sidebar">
+    <!-- preloader -->
+    <div class="preloader"></div>
+    <!-- main-wrapper -->
+    <div class="main-wrapper">
+        <!-- topbar header -->
+        <header class="topbar">
+            <nav class="navbar top-navbar">
+                <!-- logo -->
+                <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">
+                            <!-- Logo icon -->
+                            <b>
+                                <!-- Dark Logo icon -->
+                                <img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/logo-icon.png" alt="homepage" class="dark-logo">
+                                <!-- Light Logo icon -->
+                                <!-- <img src="" alt="homepage" class="light-logo"> -->
+                            </b>
+                            <!--End Logo icon -->
+                            <!-- Logo text -->
+                            <span style="display: none;">
+                                <!-- dark Logo text -->
+                                <img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/logo-text.png" alt="homepage" class="dark-logo">
+                                <!-- Light Logo text -->    
+                                <!-- <img src="" class="light-logo" alt="homepage"> -->
+                            </span> 
+                        </a>
+                    </div>
+                <!-- end logo -->
+                <!-- collapse -->
+                <div class="navbar-collapse">
+                    <!-- toggle & nav items -->
+                    <ul class="navbar-nav mr-auto">
+                        <!-- menu  -->
+                        <li class="nav-item"> 
+                            <a class="nav-link nav-toggler d-block d-md-none waves-effect waves-dark" href="javascript:void(0)">
+                                <i class="ti-menu"></i>
+                            </a> 
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link sidebartoggler d-none d-lg-block d-md-block waves-effect waves-dark" href="javascript:void(0)">
+                                <i class="icon-menu ti-menu"></i>
+                            </a> 
+                        </li>
+                        <!-- end menu  -->
+                        <!-- Search -->
+                        <li class="nav-item">
+                            <form class="app-search d-none d-md-block d-lg-block">
+                                <input type="text" class="form-control" placeholder="Search &amp; enter">
+                            </form>
+                        </li>
+                        <!-- end Search -->
+                    </ul>
+                    <!-- end toggle & nav items -->
+                    <!-- userprofile and search -->
+                </div>
+                <!-- end collapse -->
+            </nav>
+        </header>
+        <!-- end topbar header -->
+        <!-- left sidebar -->
+        <!-- end left sidebar -->
+        <!-- page wrapper -->
+        <div class="page-wrapper" style="min-height: 620px;">
+            <!-- container fluid -->
+            <div class="container-fluid">
+                <!-- breadcrumb & right sidebar toggle -->
+                <div class="row page-titles">
+                    <div class="col-md-5 align-self-center">
+                        <h4 class="text-themecolor">Dashboard 1</h4>
+                    </div>
+                    <div class="col-md-7 align-self-center text-right">
+                        <div class="d-flex justify-content-start align-items-center">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a href="javascript:void(0)">Home</a>
+                                </li>
+                                <li class="breadcrumb-item active">
+                                    Dashboard 1
+                                </li>
+                            </ol>
+                            <!-- <button type="button d-none d-lg-block m-l-15">
+                                <i class="fa fa-plus-circle"></i>
+                            </button> -->
+                        </div>
+                    </div>
+                    <!-- end breadcrumb & right sidebar toggle -->
+                </div>
+                <!-- end breadcrumb & right sidebar toggle -->
+                <!-- infobox -->
+                <div class="card-group infobox-card-group">
+                    <div class="card infobox">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="d-flex no-block align-items-center">
+                                        <div>
+                                            <h3>
+                                                <i class="icon-screen-desktop"></i>
+                                            </h3>
+                                            <p class="text-muted">MYNEW CLIENTS</p>
+                                        </div>
+                                        <div class="ml-auto">
+                                            <h2 class="counter text-orange">23</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-orange" role="progressbar" style="width: 85%; height: 6px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="card infobox">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="d-flex no-block align-items-center">
+                                        <div>
+                                            <h3>
+                                                <i class="icon-note"></i>
+                                            </h3>
+                                            <p class="text-muted">NEW PROJECTS</p>
+                                        </div>
+                                        <div class="ml-auto">
+                                            <h2 class="counter text-cyan">169</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-cyan" role="progressbar" style="width: 85%; height: 6px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="card infobox">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="d-flex no-block align-items-center">
+                                        <div>
+                                            <h3>
+                                                <i class="icon-doc"></i>
+                                            </h3>
+                                            <p class="text-muted">NEW INVOICES</p>
+                                        </div>
+                                        <div class="ml-auto">
+                                            <h2 class="counter text-purple">157</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-purple" role="progressbar" style="width: 85%; height: 6px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="card infobox">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="d-flex no-block align-items-center">
+                                        <div>
+                                            <h3>
+                                                <i class="icon-bag"></i>
+                                            </h3>
+                                            <p class="text-muted">ALL PROJECTS</p>
+                                        </div>
+                                        <div class="ml-auto">
+                                            <h2 class="counter text-green">431</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-green" role="progressbar" style="width: 85%; height: 6px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end infobox -->
+                <!-- graph weather and comment -->
+                <div class="row graph">
+                    <!-- graph -->
+                    <div class="col-lg-8 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex m-b-40 align-items-center no-block">
+                                    <h5 class="card-title">YEARLY SALES</h5>
+                                    <div class="ml-auto">
+                                        <ul class="list-inline font-12">
+                                            <li><i class="fa fa-circle fa-sm text-cyan"></i> Iphone</li>
+                                            <li><i class="fa fa-circle text-orange"></i> Ipad</li>
+                                            <li><i class="fa fa-circle text-purple"></i> Ipod</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div id="morris-area-chart" style="height: 340px; position: relative; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                    <svg height="340" version="1.1" width="315" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative;">
+                                    <desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.2.0</desc>
+                                    <defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs>
+                                    <text x="32.515625" y="301" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal">
+                                    <tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">0</tspan>
+                                    </text>
+                                    <path fill="none" stroke="#e0e0e0" d="M45.015625,301H290" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                                    <text x="32.515625" y="232" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">75</tspan>
+                                    </text>
+                                    <path fill="none" stroke="#e0e0e0" d="M45.015625,232H290" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                                    <text x="32.515625" y="163" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal">
+                                    <tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">150</tspan>
+                                    </text>
+                                    <path fill="none" stroke="#e0e0e0" d="M45.015625,163H290" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                                    <text x="32.515625" y="94" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal">
+                                    <tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">225</tspan>
+                                    </text>
+                                    <path fill="none" stroke="#e0e0e0" d="M45.015625,94H290" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                                    <text x="32.515625" y="25" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal">
+                                    <tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">300</tspan>
+                                    </text>
+                                    <path fill="none" stroke="#e0e0e0" d="M45.015625,25H290" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                                    <text x="290" y="313.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)">
+                                    <tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2016</tspan>
+                                    </text>
+                                    <text x="208.37581298493836" y="313.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)">
+                                    <tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2014</tspan>
+                                    </text>
+                                    <text x="126.63981201506161" y="313.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)">
+                                    <tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2012</tspan>
+                                    </text>
+                                    <text x="45.015625" y="313.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)">
+                                    <tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2010</tspan>
+                                    </text>
+                                    <path fill="#0cdae3" stroke="none" d="M45.015625,255C55.2186483768827,236.6,75.6246951306481,184.84999999999997,85.8277185075308,181.39999999999998C96.0307418844135,177.95,116.43678863817891,220.509439124487,126.63981201506161,227.39999999999998C136.8707888806481,234.30943912448697,157.3327426118211,248.115731874145,167.56371947740757,236.6C177.76674285429027,225.115731874145,198.17278960805567,139.425,208.37581298493836,135.4C218.57883636182106,131.375,238.98488311558648,212.45,249.18790649246918,204.39999999999998C259.3909298693519,196.34999999999997,279.7969766231173,104.35,290,71L290,301L45.015625,301Z" fill-opacity="0" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 0;"></path>
+                                    <path fill="none" stroke="#00bfc7" d="M45.015625,255C55.2186483768827,236.6,75.6246951306481,184.84999999999997,85.8277185075308,181.39999999999998C96.0307418844135,177.95,116.43678863817891,220.509439124487,126.63981201506161,227.39999999999998C136.8707888806481,234.30943912448697,157.3327426118211,248.115731874145,167.56371947740757,236.6C177.76674285429027,225.115731874145,198.17278960805567,139.425,208.37581298493836,135.4C218.57883636182106,131.375,238.98488311558648,212.45,249.18790649246918,204.39999999999998C259.3909298693519,196.34999999999997,279.7969766231173,104.35,290,71" stroke-width="3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                                    <circle cx="45.015625" cy="255" r="3" fill="#00bfc7" stroke="#00bfc7" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle>
+                                    <circle cx="85.8277185075308" cy="181.39999999999998" r="3" fill="#00bfc7" stroke="#00bfc7" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle>
+                                    <circle cx="126.63981201506161" cy="227.39999999999998" r="3" fill="#00bfc7" stroke="#00bfc7" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle>
+                                    <circle cx="167.56371947740757" cy="236.6" r="3" fill="#00bfc7" stroke="#00bfc7" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle>
+                                    <circle cx="208.37581298493836" cy="135.4" r="3" fill="#00bfc7" stroke="#00bfc7" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle>
+                                    <circle cx="249.18790649246918" cy="204.39999999999998" r="3" fill="#00bfc7" stroke="#00bfc7" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle>
+                                    <circle cx="290" cy="71" r="3" fill="#00bfc7" stroke="#00bfc7" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle>
+                                    <path fill="#fad0c3" stroke="none" d="M45.015625,227.39999999999998C55.2186483768827,222.79999999999998,75.6246951306481,206.7,85.8277185075308,209C96.0307418844135,211.3,116.43678863817891,257.284268125855,126.63981201506161,245.8C136.8707888806481,234.284268125855,157.3327426118211,127.36415868673052,167.56371947740757,117C177.76674285429027,106.6641586867305,198.17278960805567,151.5,208.37581298493836,163C218.57883636182106,174.5,238.98488311558648,209,249.18790649246918,209C259.3909298693519,209,279.7969766231173,174.5,290,163L290,301L45.015625,301Z" fill-opacity="0" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 0;"></path><path fill="none" stroke="#fb9678" d="M45.015625,227.39999999999998C55.2186483768827,222.79999999999998,75.6246951306481,206.7,85.8277185075308,209C96.0307418844135,211.3,116.43678863817891,257.284268125855,126.63981201506161,245.8C136.8707888806481,234.284268125855,157.3327426118211,127.36415868673052,167.56371947740757,117C177.76674285429027,106.6641586867305,198.17278960805567,151.5,208.37581298493836,163C218.57883636182106,174.5,238.98488311558648,209,249.18790649246918,209C259.3909298693519,209,279.7969766231173,174.5,290,163" stroke-width="3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><circle cx="45.015625" cy="227.39999999999998" r="3" fill="#fb9678" stroke="#fb9678" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="85.8277185075308" cy="209" r="3" fill="#fb9678" stroke="#fb9678" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="126.63981201506161" cy="245.8" r="3" fill="#fb9678" stroke="#fb9678" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="167.56371947740757" cy="117" r="3" fill="#fb9678" stroke="#fb9678" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="208.37581298493836" cy="163" r="3" fill="#fb9678" stroke="#fb9678" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="249.18790649246918" cy="209" r="3" fill="#fb9678" stroke="#fb9678" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="290" cy="163" r="3" fill="#fb9678" stroke="#fb9678" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><path fill="#bba8dc" stroke="none" d="M45.015625,282.6C55.2186483768827,268.8,75.6246951306481,233.14999999999998,85.8277185075308,227.39999999999998C96.0307418844135,221.64999999999998,116.43678863817891,243.49056087551298,126.63981201506161,236.6C136.8707888806481,229.690560875513,157.3327426118211,180.2610123119015,167.56371947740757,172.2C177.76674285429027,164.1610123119015,198.17278960805567,165.29999999999998,208.37581298493836,172.2C218.57883636182106,179.1,238.98488311558648,234.29999999999998,249.18790649246918,227.39999999999998C259.3909298693519,220.49999999999997,279.7969766231173,144.6,290,117L290,301L45.015625,301Z" fill-opacity="0" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 0;"></path><path fill="none" stroke="#9675ce" d="M45.015625,282.6C55.2186483768827,268.8,75.6246951306481,233.14999999999998,85.8277185075308,227.39999999999998C96.0307418844135,221.64999999999998,116.43678863817891,243.49056087551298,126.63981201506161,236.6C136.8707888806481,229.690560875513,157.3327426118211,180.2610123119015,167.56371947740757,172.2C177.76674285429027,164.1610123119015,198.17278960805567,165.29999999999998,208.37581298493836,172.2C218.57883636182106,179.1,238.98488311558648,234.29999999999998,249.18790649246918,227.39999999999998C259.3909298693519,220.49999999999997,279.7969766231173,144.6,290,117" stroke-width="3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><circle cx="45.015625" cy="282.6" r="3" fill="#9675ce" stroke="#9675ce" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="85.8277185075308" cy="227.39999999999998" r="3" fill="#9675ce" stroke="#9675ce" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="126.63981201506161" cy="236.6" r="3" fill="#9675ce" stroke="#9675ce" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="167.56371947740757" cy="172.2" r="3" fill="#9675ce" stroke="#9675ce" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="208.37581298493836" cy="172.2" r="3" fill="#9675ce" stroke="#9675ce" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="249.18790649246918" cy="227.39999999999998" r="3" fill="#9675ce" stroke="#9675ce" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="290" cy="117" r="3" fill="#9675ce" stroke="#9675ce" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle></svg><div class="morris-hover morris-default-style" style="left: 187.86px; top: 102px; display: none;"><div class="morris-hover-row-label">2015</div><div class="morris-hover-point" style="color: #00bfc7">
+                                    iPhone:
+                                    105
+                                </div>
+                                <div class="morris-hover-point" style="color: #fb9678">
+                                    iPad:
+                                    100
+                                </div>
+                                <div class="morris-hover-point" style="color: #9675ce">
+                                    iPod Touch:
+                                    80
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <!-- end graph -->
+                    <!-- column weather and comment -->
+                    <div class="col-lg-4 col-md-12">
+                        <div class="row">
+                            <!-- weather -->
+                            <div class="col-md-12">
+                                <div class="card card-bg-cyan card-text-white">
+                                    <div class="card-body">
+                                        <div class="row weather">
+                                            <div class="col-6 m-t-40">
+                                                <h3>&nbsp;</h3>
+                                                <div class="display-4 card-text-white">73<sup>°F</sup></div>
+                                                <p class="text-white">AHMEDABAD, INDIA</p>
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                <h1 class="m-b-"><i class="wi wi-day-cloudy-high"></i></h1>
+                                                <b class="text-white">SUNNEY DAY</b>
+                                                <p class="op-5">April 14</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- comment -->
+                            <div class="col-md-12">
+                                    <div class="card card-bg-orange card-text-white">
+                                        <div class="card-body">
+                                            <div id="myCarouse2" class="carousel slide" data-ride="carousel">
+                                                <!-- Carousel items -->
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <h4 class="cmin-height">My Acting blown <span class="font-medium">Your Mind</span> and you also <br>laugh at the moment</h4>
+                                                        <div class="d-flex no-block">
+                                                            <span><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/1.jpg" alt="user" width="50" class="img-circle"></span>
+                                                            <span class="m-l-10">
+                                                        <h4 class="card-text-white m-b-0">Govinda</h4>
+                                                        <p class="card-text-white">Actor</p>
+                                                        </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <h4 class="cmin-height">My Acting blown <span class="font-medium">Your Mind</span> and you also <br>laugh at the moment</h4>
+                                                        <div class="d-flex no-block">
+                                                            <span><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/2.jpg" alt="user" width="50" class="img-circle"></span>
+                                                            <span class="m-l-10">
+                                                        <h4 class="card-text-white m-b-0">Govinda</h4>
+                                                        <p class="card-text-white">Actor</p>
+                                                        </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <h4 class="cmin-height">My Acting blown <span class="font-medium">Your Mind</span> and you also <br>laugh at the moment</h4>
+                                                        <div class="d-flex no-block">
+                                                            <span><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/3.jpg" alt="user" width="50" class="img-circle"></span>
+                                                            <span class="m-l-10">
+                                                        <h4 class="card-text-white m-b-0">Govinda</h4>
+                                                        <p class="card-text-white">Actor</p>
+                                                        </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <!-- column -->
+                        </div>
+                    </div>
+                    <!-- end column weather and comment -->
+                </div>
+                <!-- end graph weather and comment -->
+                <!-- Comment & sales table -->
+                <div class="row">
+                    <!-- Comment widgets -->
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Recent Comments</h5>
+                            </div>
+                            <!-- Comment widgets -->
+                            <div class="comment-widgets ps ps--theme_default ps--active-y" id="comment" style="height: 630px;position: relative;" data-ps-id="53ebd8ac-e7c0-987e-771e-420f52b016bc">
+                                    <!-- Comment Row -->
+                                    <div class="d-flex no-block comment-row">
+                                        <div class="p-2"><span class="round"><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/1.jpg" alt="user" width="50"></span></div>
+                                        <div class="comment-text w-100">
+                                            <h5 class="font-medium">James Anderson</h5>
+                                            <p class="m-b-10 text-muted">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                                            <div class="comment-footer">
+                                                <span class="text-muted">April 14, 2016</span> <span class="badge badge-pill badge-info align-middle">Pending</span> 
+                                                <span class="action-icons">
+                                                        <a href="javascript:void(0)"><i class="ti-pencil-alt"></i></a>
+                                                        <a href="javascript:void(0)"><i class="ti-check"></i></a>
+                                                        <a href="javascript:void(0)"><i class="ti-heart"></i></a>    
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Comment Row -->
+                                    <div class="d-flex no-block comment-row border-top">
+                                        <div class="p-2"><span class="round"><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/2.jpg" alt="user" width="50"></span></div>
+                                        <div class="comment-text active w-100">
+                                            <h5 class="font-medium">Michael Jorden</h5>
+                                            <p class="m-b-10 text-muted">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry..</p>
+                                            <div class="comment-footer">
+                                                <span class="text-muted">April 14, 2016</span>
+                                                <span class="badge badge-pill badge-success align-middle">Approved</span>
+                                                <span class="action-icons active">
+                                                        <a href="javascript:void(0)"><i class="ti-pencil-alt"></i></a>
+                                                        <a href="javascript:void(0)"><i class="icon-close"></i></a>
+                                                        <a href="javascript:void(0)"><i class="ti-heart text-danger"></i></a>    
+                                                    </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Comment Row -->
+                                    <div class="d-flex no-block comment-row border-top">
+                                        <div class="p-2"><span class="round"><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/3.jpg" alt="user" width="50"></span></div>
+                                        <div class="comment-text w-100">
+                                            <h5 class="font-medium">Johnathan Doeting</h5>
+                                            <p class="m-b-10 text-muted">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                                            <div class="comment-footer">
+                                                <span class="text-muted">April 14, 2016</span>
+                                                <span class="badge badge-pill badge-danger align-middle">Rejected</span>
+                                                <span class="action-icons">
+                                                        <a href="javascript:void(0)"><i class="ti-pencil-alt"></i></a>
+                                                        <a href="javascript:void(0)"><i class="ti-check"></i></a>
+                                                        <a href="javascript:void(0)"><i class="ti-heart"></i></a>    
+                                                    </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Comment Row -->
+                                    <div class="d-flex no-block comment-row border-top">
+                                        <div class="p-2"><span class="round"><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/4.jpg" alt="user" width="50"></span></div>
+                                        <div class="comment-text active w-100">
+                                            <h5 class="font-medium">Genelia doe</h5>
+                                            <p class="m-b-10 text-muted">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry..</p>
+                                            <div class="comment-footer">
+                                                <span class="text-muted">April 14, 2016</span>
+                                                <span class="badge badge-pill badge-success align-middle">Approved</span>
+                                                <span class="action-icons active">
+                                                        <a href="javascript:void(0)"><i class="ti-pencil-alt"></i></a>
+                                                        <a href="javascript:void(0)"><i class="icon-close"></i></a>
+                                                        <a href="javascript:void(0)"><i class="ti-heart text-danger"></i></a>    
+                                                    </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="ps__scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+                                    <div class="ps__scrollbar-x" tabindex="0" style="left: 0px; width: 0px;">
+                                    </div>
+                                </div>
+                                <div class="ps__scrollbar-y-rail" style="top: 0px; height: 630px; right: 0px;">
+                                    <div class="ps__scrollbar-y" tabindex="0" style="top: 0px; height: 443px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Comment widgets -->
+                    <!-- table -->
+                    <div class="col-lg-6 sales-table">
+                        <div class="card table">
+                            <div class="card-body">
+                                <div class="d-flex table">
+                                    <div>
+                                        <h5 class="card-title">Sales Overview</h5>
+                                        <h6 class="card-subtitle">Check the monthly sales </h6>
+                                    </div>
+                                    <div class="ml-auto">
+                                        <select class="form-control b-0">
+                                            <option>January</option>
+                                            <option value="1">February</option>
+                                            <option value="2" selected="">March</option>
+                                            <option value="3">April</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body bg-light">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h3>March 2017</h3>
+                                        <h5 class="font-light m-t-0">Report for this month</h5></div>
+                                    <div class="col-6 align-self-center display-6 text-right">
+                                        <h2 class="text-success">$3,690</h2></div>
+                                </div>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table table-hover no-wrap">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-center">#</th>
+                                            <th>NAME</th>
+                                            <th>STATUS</th>
+                                            <th>DATE</th>
+                                            <th>PRICE</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center">1</td>
+                                            <td class="txt-oflo">Elite admin</td>
+                                            <td><span class="badge badge-success badge-pill">sale</span> </td>
+                                            <td class="txt-oflo">April 18, 2017</td>
+                                            <td><span class="text-success sales-price">$24</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">2</td>
+                                            <td class="txt-oflo">Real Homes</td>
+                                            <td><span class="badge badge-info badge-pill">extended</span></td>
+                                            <td class="txt-oflo">April 19, 2017</td>
+                                            <td><span class="text-info sales-price">$1250</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">3</td>
+                                            <td class="txt-oflo">Ample Admin</td>
+                                            <td><span class="badge badge-info badge-pill">extended</span></td>
+                                            <td class="txt-oflo">April 19, 2017</td>
+                                            <td><span class="text-info sales-price">$1250</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">4</td>
+                                            <td class="txt-oflo">Medical Pro</td>
+                                            <td><span class="badge badge-danger badge-pill">tax</span></td>
+                                            <td class="txt-oflo">April 20, 2017</td>
+                                            <td><span class="text-danger sales-price">-$24</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">5</td>
+                                            <td class="txt-oflo">Hosting press html</td>
+                                            <td><span class="badge badge-success badge-pill">sale</span></td>
+                                            <td class="txt-oflo">April 21, 2017</td>
+                                            <td><span class="text-success sales-price">$24</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">6</td>
+                                            <td class="txt-oflo">Digital Agency PSD</td>
+                                            <td><span class="badge badge-success badge-pill">sale</span> </td>
+                                            <td class="txt-oflo">April 23, 2017</td>
+                                            <td><span class="text-danger sales-price">-$14</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">7</td>
+                                            <td class="txt-oflo">Helping Hands</td>
+                                            <td><span class="badge badge-warning badge-pill">member</span></td>
+                                            <td class="txt-oflo">April 22, 2017</td>
+                                            <td><span class="text-success sales-price">$64</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">8</td>
+                                            <td class="txt-oflo">Ample Admin</td>
+                                            <td><span class="badge badge-info badge-pill">extended</span></td>
+                                            <td class="txt-oflo">April 19, 2017</td>
+                                            <td><span class="text-info sales-price">$1250</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end table -->
+                </div>
+                <!-- end Comment & sales table -->
+                <!-- sales difference  & visit statastics table -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-8 col-md-12 sales-difference-area-chart">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex m-b-40 align-items-center no-block">
+                                    <h5 class="card-title ">SALES DIFFERENCE</h5>
+                                    <div class="ml-auto">
+                                        <ul class="list-inline font-12">
+                                            <li><i class="fa fa-circle text-cyan"></i> SITE A</li>
+                                            <li><i class="fa fa-circle text-orange"></i> SITE B</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div id="morris-area-chart2" style="height: 340px; position: relative; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><svg height="340" version="1.1" width="315" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.2.0</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><text x="32.515625" y="301" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">0</tspan></text><path fill="none" stroke="#e0e0e0" d="M45.015625,301H290" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="32.515625" y="232" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">75</tspan></text><path fill="none" stroke="#e0e0e0" d="M45.015625,232H290" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="32.515625" y="163" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">150</tspan></text><path fill="none" stroke="#e0e0e0" d="M45.015625,163H290" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="32.515625" y="94" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">225</tspan></text><path fill="none" stroke="#e0e0e0" d="M45.015625,94H290" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="32.515625" y="25" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">300</tspan></text><path fill="none" stroke="#e0e0e0" d="M45.015625,25H290" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="290" y="313.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2016</tspan></text><text x="208.37581298493836" y="313.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2014</tspan></text><text x="126.63981201506161" y="313.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2012</tspan></text><text x="45.015625" y="313.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2010</tspan></text><path fill="#e2e5ea" stroke="none" d="M45.015625,301L85.8277185075308,181.39999999999998L126.63981201506161,227.39999999999998L167.56371947740757,236.6L208.37581298493836,135.4L249.18790649246918,204.39999999999998L290,71L290,301L45.015625,301Z" fill-opacity="0.4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 0.4;"></path><path fill="none" stroke="#b4becb" d="M45.015625,301L85.8277185075308,181.39999999999998L126.63981201506161,227.39999999999998L167.56371947740757,236.6L208.37581298493836,135.4L249.18790649246918,204.39999999999998L290,71" stroke-width="0" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><circle cx="45.015625" cy="301" r="0" fill="#b4becb" stroke="#b4becb" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="85.8277185075308" cy="181.39999999999998" r="0" fill="#b4becb" stroke="#b4becb" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="126.63981201506161" cy="227.39999999999998" r="0" fill="#b4becb" stroke="#b4becb" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="167.56371947740757" cy="236.6" r="0" fill="#b4becb" stroke="#b4becb" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="208.37581298493836" cy="135.4" r="0" fill="#b4becb" stroke="#b4becb" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="249.18790649246918" cy="204.39999999999998" r="0" fill="#b4becb" stroke="#b4becb" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="290" cy="71" r="0" fill="#b4becb" stroke="#b4becb" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><path fill="#0ddbe4" stroke="none" d="M45.015625,301L85.8277185075308,209L126.63981201506161,245.8L167.56371947740757,117L208.37581298493836,163L249.18790649246918,218.2L290,163L290,301L45.015625,301Z" fill-opacity="0.4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 0.4;"></path><path fill="none" stroke="#01c0c8" d="M45.015625,301L85.8277185075308,209L126.63981201506161,245.8L167.56371947740757,117L208.37581298493836,163L249.18790649246918,218.2L290,163" stroke-width="0" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><circle cx="45.015625" cy="301" r="0" fill="#01c0c8" stroke="#01c0c8" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="85.8277185075308" cy="209" r="0" fill="#01c0c8" stroke="#01c0c8" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="126.63981201506161" cy="245.8" r="0" fill="#01c0c8" stroke="#01c0c8" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="167.56371947740757" cy="117" r="0" fill="#01c0c8" stroke="#01c0c8" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="208.37581298493836" cy="163" r="0" fill="#01c0c8" stroke="#01c0c8" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="249.18790649246918" cy="218.2" r="0" fill="#01c0c8" stroke="#01c0c8" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="290" cy="163" r="0" fill="#01c0c8" stroke="#01c0c8" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle></svg><div class="morris-hover morris-default-style" style="left: 222.609px; top: 60px; display: none;"><div class="morris-hover-row-label">2016</div><div class="morris-hover-point" style="color: #b4becb">
+                                    Site A:
+                                    250
+                                    </div><div class="morris-hover-point" style="color: #01c0c8">
+                                    Site B:
+                                    150
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <div class="col-lg-4 col-md-12 sales-difference-barandcircle-chart">
+                        <div class="row">
+                            <!-- Column -->
+                            <div class="col-md-12 barchart">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">SALES DIFFERENCE</h5>
+                                        <div class="row">
+                                            <div class="col-6  m-t-30">
+                                                <h1 class="text-info">$647</h1>
+                                                <p class="text-muted">APRIL 2017</p>
+                                                <b>(150 Sales)</b> </div>
+                                            <div class="col-6">
+                                                <div id="sparkline2dash" class="text-right">
+                                                    <canvas width="88" height="154" style="display: inline-block; width: 88px; height: 154px; vertical-align: top;"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <div class="col-md-12 visitstatastics">
+                                <div class="card card-bg-purple text-white">
+                                    <div class="card-body">
+                                        <h5 class="card-title">VISIT STATASTICS</h5>
+                                        <div class="row">
+                                            <div class="col-6  m-t-30">
+                                                <h1 class="text-white">$347</h1>
+                                                <p class="light_op_text">APRIL 2017</p>
+                                                <b class="text-white">(150 Sales)</b> </div>
+                                            <div class="col-6">
+                                                <div id="sales1" class="text-right"><canvas width="90" height="90" style="display: inline-block; width: 90px; height: 90px; vertical-align: top;"></canvas></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                        </div>
+                    </div>
+                </div>
+                <!-- end sales difference  & visit statastics table -->
+                <!-- Todo, chat, notification -->
+                <div class="row">
+                    <!-- toodlist -->
+                    <div class="col-md-4 todo">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex no-block align-items-center">
+                                    <div>
+                                        <h5 class="card-title m-b-0">TO DO LIST</h5>
+                                    </div>
+                                    <div class="ml-auto">
+                                        <button class="pull-right btn btn-circle btn-success" data-toggle="modal" data-target="#myModal">
+                                            <i class="ti-plus text-white"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <!-- To do list widgets -->
+                                <div class="to-do-widget m-t-20 ps ps--theme_default ps--active-y" id="todo" style="height: 400px;position: relative;" data-ps-id="9d2a8ff6-835c-bbf6-c119-08672255d32d">
+                                    <!-- modal for add task -->
+                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Add Task</h4>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">×</span> </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form>
+                                                        <div class="form-group">
+                                                            <label>Task name</label>
+                                                            <input type="text" class="form-control" placeholder="Enter Task Name"> </div>
+                                                        <div class="form-group">
+                                                            <label>Assign to</label>
+                                                            <select class="custom-select form-control pull-right">
+                                                                <option selected="">Sachin</option>
+                                                                <option value="1">Sehwag</option>
+                                                                <option value="2">Pritam</option>
+                                                                <option value="3">Alia</option>
+                                                                <option value="4">Varun</option>
+                                                            </select>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+                                                </div>
+                                            </div>
+                                            <!-- /.modal-content -->
+                                        </div>
+                                        <!-- /.modal-dialog -->
+                                    </div>
+                                    <!-- /.modal -->
+                                    <ul class="list-task todo-list list-group m-b-0" data-role="tasklist">
+                                        <li class="list-group-item" data-role="task">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck">
+                                                <label class="custom-control-label" for="customCheck">
+                                                    <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</span> <span class="badge badge-pill badge-danger float-right">Today</span>
+                                                </label>
+                                            </div>
+                                            <ul class="assignedto">
+                                                <li><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/1.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Steave"></li>
+                                                <li><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/2.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Jessica"></li>
+                                                <li><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/3.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Priyanka"></li>
+                                                <li><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Selina"></li>
+                                            </ul>
+                                        </li>
+                                        <li class="list-group-item" data-role="task">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                <label class="custom-control-label" for="customCheck1">
+                                                    <span>Lorem Ipsum is simply dummy text of the printing</span><span class="badge badge-pill badge-orange float-right">1 week </span>
+                                                </label>
+                                            </div>
+                                            <div class="item-date"> 26 jun 2017</div>
+                                        </li>
+                                        <li class="list-group-item" data-role="task">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                                <label class="custom-control-label" for="customCheck2">
+                                                    <span>Give Purchase report to</span> <span class="badge badge-pill badge-info float-right">Yesterday</span>
+                                                </label>
+                                            </div>
+                                            <ul class="assignedto">
+                                                <li><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/3.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Priyanka"></li>
+                                                <li><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Selina"></li>
+                                            </ul>
+                                        </li>
+                                        <li class="list-group-item" data-role="task">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                                <label class="custom-control-label" for="customCheck3">
+                                                    <span>Lorem Ipsum is simply dummy text of the printing </span> <span class="badge badge-pill badge-warning float-right">2 weeks</span>
+                                                </label>
+                                            </div>
+                                            <div class="item-date"> 26 jun 2017</div>
+                                        </li>
+                                        <li class="list-group-item" data-role="task">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                                <label class="custom-control-label" for="customCheck4">
+                                                    <span>Give Purchase report to</span> <span class="badge badge-pill badge-info float-right">Yesterday</span>
+                                                </label>
+                                            </div>
+                                            <ul class="assignedto">
+                                                <li><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/3.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Priyanka"></li>
+                                                <li><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Selina"></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                <div class="ps__scrollbar-x-rail" style="left: 0px; bottom: -79px;"><div class="ps__scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__scrollbar-y-rail" style="top: 79px; height: 400px; right: 0px;"><div class="ps__scrollbar-y" tabindex="0" style="top: 56px; height: 284px;"></div></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end toodlist -->
+                    <!-- notification -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">YOU HAVE 5 NEW MESSAGES</h5>
+                                <div class="message-box ps ps--theme_default ps--active-y" id="msg" style="height: 430px;position: relative;" data-ps-id="5db8dc68-c6fe-0357-43c4-82d69efb0ec5">
+                                    <div class="message-widget message-scroll">
+                                        <!-- Message -->
+                                        <a href="javascript:void(0)">
+                                            <div class="user-img"> <img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                                            <div class="mail-contnet">
+                                                <h5>Pavan kumar</h5> <span class="mail-desc">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been.</span> <span class="time">9:30 AM</span> </div>
+                                        </a>
+                                        <!-- Message -->
+                                        <a href="javascript:void(0)">
+                                            <div class="user-img"> <img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/2.jpg" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
+                                            <div class="mail-contnet">
+                                                <h5>Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span> </div>
+                                        </a>
+                                        <!-- Message -->
+                                        <a href="javascript:void(0)">
+                                            <div class="user-img"> <span class="round">A</span> <span class="profile-status away pull-right"></span> </div>
+                                            <div class="mail-contnet">
+                                                <h5>Arijit Sinh</h5> <span class="mail-desc">Simply dummy text of the printing and typesetting industry.</span> <span class="time">9:08 AM</span> </div>
+                                        </a>
+                                        <!-- Message -->
+                                        <a href="javascript:void(0)">
+                                            <div class="user-img"> <img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/4.jpg" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
+                                            <div class="mail-contnet">
+                                                <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
+                                        </a>
+                                        <!-- Message -->
+                                        <a href="javascript:void(0)">
+                                            <div class="user-img"> <img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                                            <div class="mail-contnet">
+                                                <h5>Pavan kumar</h5> <span class="mail-desc">Welcome to the Elite Admin</span> <span class="time">9:30 AM</span> </div>
+                                        </a>
+                                        <!-- Message -->
+                                        <a href="javascript:void(0)">
+                                            <div class="user-img"> <img src="../assets/images/users/2.jpg" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
+                                            <div class="mail-contnet">
+                                                <h5>Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span> </div>
+                                        </a>
+                                    </div>
+                                <div class="ps__scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps__scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__scrollbar-y-rail" style="top: 0px; height: 430px; right: 0px;"><div class="ps__scrollbar-y" tabindex="0" style="top: 0px; height: 216px;"></div></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end notification -->
+                    <!-- chat -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CHAT</h5>
+                                <div class="chat-box ps ps--theme_default ps--active-y" id="chat" style="height: 327px;position: relative;" data-ps-id="95a81029-ae58-4f0b-4a89-a7b51dc20f9c">
+                                    <!--chat Row -->
+                                    <ul class="chat-list">
+                                        <!--chat Row -->
+                                        <li>
+                                            <div class="chat-img"><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/1.jpg" alt="user"></div>
+                                            <div class="chat-content">
+                                                <h5>James Anderson</h5>
+                                                <div class="box bg-light-info">Lorem Ipsum is simply dummy text of the printing &amp; type setting industry.</div>
+                                            </div>
+                                            <div class="chat-time">10:56 am</div>
+                                        </li>
+                                        <!--chat Row -->
+                                        <li>
+                                            <div class="chat-img"><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/2.jpg" alt="user"></div>
+                                            <div class="chat-content">
+                                                <h5>Bianca Doe</h5>
+                                                <div class="box bg-light-info">It’s Great opportunity to work.</div>
+                                            </div>
+                                            <div class="chat-time">10:57 am</div>
+                                        </li>
+                                        <!--chat Row -->
+                                        <li class="odd">
+                                            <div class="chat-content">
+                                                <div class="box bg-light-inverse">I would love to join the team.</div>
+                                                <br>
+                                            </div>
+                                            <div class="chat-time">10:58 am</div>
+                                        </li>
+                                        <!--chat Row -->
+                                        <li class="odd">
+                                            <div class="chat-content">
+                                                <div class="box bg-light-inverse">Whats budget of the new project.</div>
+                                                <br>
+                                            </div>
+                                            <div class="chat-time">10:59 am</div>
+                                        </li>
+                                        <!--chat Row -->
+                                        <li>
+                                            <div class="chat-img"><img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/3.jpg" alt="user"></div>
+                                            <div class="chat-content">
+                                                <h5>Angelina Rhodes</h5>
+                                                <div class="box bg-light-info">Well we have good budget for the project</div>
+                                            </div>
+                                            <div class="chat-time">11:00 am</div>
+                                        </li>
+                                        <!--chat Row -->
+                                    </ul>
+                                    <!--end chat Row -->
+                                <div class="ps__scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps__scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__scrollbar-y-rail" style="top: 0px; height: 327px; right: 0px;"><div class="ps__scrollbar-y" tabindex="0" style="top: 0px; height: 178px;"></div></div></div>
+                            </div>
+                            <!-- type message -->
+                            <div class="card-body border-top type-message">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <textarea placeholder="Type your message here" class="form-control border-0"></textarea>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <button type="button" class="btn btn-info btn-circle btn-lg"><i class="fas fa-paper-plane"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end type message -->
+                        </div>
+                    </div>
+                    <!-- endchat -->
+                </div>
+                <!-- End Todo, chat, notification -->
+                <!-- Right sidebar -->
+                <!-- .right-sidebar -->
+                <div class="row"></div>
+                <!-- End Right sidebar -->
+            </div>
+            <!-- end container fluid -->    
+            </div>
+        <!-- end page wrapper -->
+        <!-- footer -->
+        <footer class="footer">
+                © 2019 Eliteadmin by themedesigner.in
+        </footer>
+        <!-- end footer -->
+    </div>
+    <!-- end main-wrapper -->
+    
+    <!-- All Jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" ></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="dist/js/perfect-scrollbar.jquery.min.js"></script>
+    <!-- wave effect -->
+    <script src="dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="dist/js/custom.min.js"></script>
+    
+    
+    <!-- This page plugins -->
+    <!--morris JavaScript -->
+    <script src="../assets/node_modules/raphael/raphael-min.js"></script>
+    <script src="../assets/dist/js/morris.min.js"></script>
+    <script src="../assets/node_modules/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <!-- Popup message jquery -->
+    <script src="../assets/node_modules/toast-master/js/jquery.toast.js"></script>
+    <!-- Chart JS -->
+    <script src="dist/js/dashboard1.js"></script>
+    <script src="../assets/node_modules/toast-master/js/jquery.toast.js"></script>
+    <div class="jq-toast-single jq-has-icon jq-icon-info" style="text-align: left; display: none;">
+        <span class="jq-toast-loader jq-toast-loaded" style="-webkit-transition: width 3.1s ease-in;-o-transition: width 3.1s ease-in;transition: width 3.1s ease-in;background-color: #ff6849;"></span>
+        <span class="close-jq-toast-single">×</span>
+        <h2 class="jq-toast-heading">Welcome to Elite admin</h2>Use the predefined ones, or specify a custom position object.
+    </div>
+</body>
+</html>

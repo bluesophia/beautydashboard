@@ -1,0 +1,137 @@
+@import 'theme';
+
+/************************************
+            nav topbar
+************************************/
+
+.topbar {
+    width: 100%;
+    position: fixed;
+    background: var(--topbar-bg-color);
+    z-index: 50;
+    @media (max-width: 767px){
+        width: 100%;
+    }
+    .navbar {
+        padding: 0;
+    }
+    
+    .top-navbar {
+        min-height: 50px;
+        padding: 0px;   
+        @media (max-width: 767px){
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+        .navbar-header {
+            background: var(--navbar-bg-header);
+            line-height: 65px;
+            padding-left: 10px;
+            min-width: 70px;
+        }
+        .navbar-brand{
+            margin-right: 0px;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            b{
+                line-height: 50px;
+                display: inline-block;
+            }
+        }
+        .navbar-collapse {
+            flex-basis: 100%;
+            flex-grow: 1;
+            align-items: center;
+            padding: 0;
+            @media(max-width: 767px){
+                display: flex;
+                width: 100%;
+            } 
+        }
+        .navbar-nav {
+            @media(max-width: 767px){
+                    flex-direction: row;
+            }
+            .nav-item{
+                .nav-link {
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    font-size: 18px;
+                    line-height: 50px;
+                }
+            }
+        }
+        .nav-link {
+            padding-left: 15px;
+            padding-right: 15px;
+            font-size: 18px;
+            line-height: 50px;
+        }
+        
+    }
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+}    
+
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+.navbar-header {
+    background: var(--navbar-bg-header);
+    line-height: 65px;
+    padding-left: 10px;
+    min-width: 70px;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.33594rem;
+    padding-bottom: 0.33594rem;
+    margin-right: 1rem;
+    font-size: 1.09375rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none;
+}
+
+
+/************************************
+            search
+************************************/
+.app-search {
+    line-height: 60px;
+    .form-control {
+        border-radius: 60px;
+        border-color: transparent;
+        transition: 0.2s ease-in;
+        width: 180px;
+    }
+}
