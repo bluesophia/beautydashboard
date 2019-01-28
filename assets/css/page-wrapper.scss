@@ -103,7 +103,7 @@
                card
 ************************************/
 .card {
-    margin-bottom: 20px !important;
+    margin-bottom: 20px;
     h3{
         font-size: 24px !important;
         i {
@@ -144,7 +144,13 @@
 }
 .infobox-card-group {
     margin-bottom: 20px !important;
+    @media (min-width: 576px){
+        .card{
+            border-right: 1px solid #e9ecef !important;
+        }
+    }
 }
+
 
 
 /************************************
@@ -531,3 +537,4 @@ sales difference  & visit statastics table
     }
     
 }
+
