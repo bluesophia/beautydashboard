@@ -5,6 +5,12 @@
             container
 ************************************/
 .page-wrapper {
+    @media (min-width: 768px){
+        margin-left:70px;
+    }
+    @media (min-width: 1024px){
+        margin-left:220px;
+    }
     background: #edf1f5;
     position: relative;
 
@@ -231,10 +237,6 @@ h5.card-title {
         border-bottom: 1px solid transparent;
         padding: 14px;
     }
-}
-.ps {
-    touch-action: auto;
-    overflow: hidden!important;
 }
 .p-2 {
     padding: 0.5rem!important;
