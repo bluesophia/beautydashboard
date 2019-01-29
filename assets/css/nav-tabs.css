@@ -852,6 +852,12 @@ body .d-flex {
 }
 
 @media (max-width: 1023px) {
+  body .d-flex {
+    display: block !important;
+  }
+}
+
+@media (max-width: 1023px) {
   body .d-flex.no-block {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -892,6 +898,10 @@ body .ml-auto, body .mx-auto {
 
 body .m-l-10 {
   margin-left: 10px;
+}
+
+body .m-l-15 {
+  margin-left: 15px;
 }
 
 body .m-b-0 {

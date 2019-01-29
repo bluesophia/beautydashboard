@@ -675,12 +675,17 @@ body {
     }
     .d-flex {
         display: flex!important;
+        @media (max-width: 1023px){
+                display: block!important;
+        }
     }
+    
     @media (max-width: 1023px){
         .d-flex.no-block {
             display: flex!important;
         }
     }
+    
 
     .d-none {
         display: none!important;
@@ -710,6 +715,9 @@ body {
     }
     .m-l-10 {
         margin-left: 10px;
+    }
+    .m-l-15 {
+        margin-left: 15px;
     }
     .m-b-0 {
         margin-bottom: 0;
