@@ -437,6 +437,12 @@ body a.link {
   }
 }
 
+body blockquote {
+  border-left: 5px solid var(--primary);
+  border: 1px solid var(--border-bottom-color);
+  padding: 15px;
+}
+
 body dl, body ol, body ul {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -513,7 +519,7 @@ body .form-group .form-control {
   color: #4F5467;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #e9ecef;
+  border: 1px solid var(--border-bottom-color);
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -1272,4 +1278,40 @@ body .sl-date {
 /************************************
            right-sidebar
 ************************************/
+.shw-rside {
+  right: 0px;
+  width: 240px;
+  display: block;
+}
+
+.right-sidebar {
+  position: fixed;
+  right: -240px;
+  width: 240px;
+  display: none;
+  z-index: 1100;
+  background: var(--white);
+  top: 0px;
+  padding-bottom: 20px;
+  height: 100%;
+  -webkit-box-shadow: 5px 1px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 1px 40px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.right-sidebar .rpanel-title {
+  display: block;
+  padding: 22px 20px;
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 15px;
+  background: var(--primary);
+}
+
+.right-sidebar .rpanel-title span {
+  float: right;
+  cursor: pointer;
+  font-size: 11px;
+}
 /*# sourceMappingURL=right-sidebar.css.map */

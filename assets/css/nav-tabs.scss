@@ -40,6 +40,17 @@
 .tab-content>.tab-pane {
     display: none;
 }
+.tab-content>.active {
+    display: block;
+}
+.tab-pane {
+    h5 {
+        font-size: 16px;
+    }
+}
+textarea.form-control {
+    height: auto !important;
+}
 /************************************
           profiletimelien
 ************************************/
@@ -66,4 +77,8 @@
 .profiletimeline .sl-date {
     font-size: 12px;
     color: var(--gray);
+}
+
+blockquote {
+margin: 0 0 1rem;
 }
