@@ -1275,27 +1275,7 @@ body .sl-date {
   position: relative;
 }
 
-.footer {
-  font-size: 14px;
-  font-weight: 300;
-  bottom: 0;
-  color: #212529;
-  left: 0px;
-  padding: 17px 15px;
-  right: 0;
-  border-top: 1px solid #e9ecef;
-  background: var(--white);
+center .img-circle {
+  width: 150px !important;
 }
-
-@media (min-width: 768px) {
-  .footer {
-    margin-left: 70px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .footer {
-    margin-left: 220px;
-  }
-}
-/*# sourceMappingURL=footer.css.map */
+/*# sourceMappingURL=pages-profile.css.map */

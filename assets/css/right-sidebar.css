@@ -1275,27 +1275,43 @@ body .sl-date {
   position: relative;
 }
 
-.footer {
-  font-size: 14px;
-  font-weight: 300;
-  bottom: 0;
-  color: #212529;
-  left: 0px;
-  padding: 17px 15px;
-  right: 0;
-  border-top: 1px solid #e9ecef;
+/************************************
+           right-sidebar
+************************************/
+.shw-rside {
+  right: 0px;
+  width: 240px;
+  display: block;
+}
+
+.right-sidebar {
+  position: fixed;
+  right: -240px;
+  width: 240px;
+  display: none;
+  z-index: 1100;
   background: var(--white);
+  top: 0px;
+  padding-bottom: 20px;
+  height: 100%;
+  -webkit-box-shadow: 5px 1px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 1px 40px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-@media (min-width: 768px) {
-  .footer {
-    margin-left: 70px;
-  }
+.right-sidebar .rpanel-title {
+  display: block;
+  padding: 22px 20px;
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 15px;
+  background: var(--primary);
 }
 
-@media (min-width: 1024px) {
-  .footer {
-    margin-left: 220px;
-  }
+.right-sidebar .rpanel-title span {
+  float: right;
+  cursor: pointer;
+  font-size: 11px;
 }
-/*# sourceMappingURL=footer.css.map */
+/*# sourceMappingURL=right-sidebar.css.map */
