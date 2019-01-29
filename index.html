@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/css/weather-icons.css">
+    <link rel="stylesheet" href="./assets/css/weather-icons.min.css">
     <link rel="stylesheet" href="./assets/css/themify-icons.css"/>
     <link rel="stylesheet" href="./assets/css/metisMenu.css"/>
     <link rel="stylesheet" href="./assets/css/animate.css"/>
@@ -22,7 +22,12 @@
 </head>
 <body class="skin-default fixed-layout mini-sidebar">
     <!-- preloader -->
-    <div class="preloader"></div>
+    <div class="preloader" style="display: none;">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label">Elite admin</p>
+        </div>
+    </div>
     <!-- main-wrapper -->
     <div class="main-wrapper">
         <!-- topbar header -->
@@ -1664,18 +1669,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" ></script>
     <!-- slimscrollbar scrollbar JavaScript -->
-    <script src="dist/js/perfect-scrollbar.min.js"></script>
+    <script src="./assets/dist/js/perfect-scrollbar.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.4.0/perfect-scrollbar.js"></script>
     <!-- wave effect -->
-    <script src="dist/js/waves.js"></script>
+    <script src="./assets/dist/js/waves.js"></script>
     <!-- metisMenu effect
     <script src="dist/js/metisMenu.js"></script> -->
     <script src="https://unpkg.com/metismenu"></script>
     <!--Menu sidebar -->
-    <script src="dist/js/sidebarmenu.js"></script>
+    <script src="./assets/dist/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
-    <script src="dist/js/custom.js"></script>
-    <script src="dist/js/custom.min.js"></script>
+    <script src="../assets/js/custom.js"></script>
+    <script src="../assets/js/custom.min.js"></script>
     <script>
             document.getElementById("openNav").addEventListener("click", function(){ 
                 // alert("hhi");
@@ -1695,12 +1700,12 @@
     <!-- This page plugins -->
     <!--morris JavaScript -->
     <script src="../assets/node_modules/raphael/raphael-min.js"></script>
-    <script src="../assets/dist/js/morris.min.js"></script>
+    <script src="../assets/js/morris.min.js"></script>
     <script src="../assets/node_modules/jquery-sparkline/jquery.sparkline.min.js"></script>
     <!-- Popup message jquery -->
     <script src="../assets/node_modules/toast-master/js/jquery.toast.js"></script>
     <!-- Chart JS -->
-    <script src="dist/js/dashboard1.js"></script>
+    <script src="../assets/js/dashboard1.js"></script>
     <script src="../assets/node_modules/toast-master/js/jquery.toast.js"></script>
     <div class="jq-toast-single jq-has-icon jq-icon-info" style="text-align: left; display: none;">
         <span class="jq-toast-loader jq-toast-loaded" style="-webkit-transition: width 3.1s ease-in;-o-transition: width 3.1s ease-in;transition: width 3.1s ease-in;background-color: #ff6849;"></span>

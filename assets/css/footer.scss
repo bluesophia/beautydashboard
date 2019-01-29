@@ -1,6 +1,14 @@
 @import 'theme';
 
 .footer {
+    @media (min-width: 768px){
+        margin-left:70px;
+    }
+    @media (min-width: 1024px){
+        margin-left:220px;
+    }
+    font-size: 14px;
+    font-weight: 300;
     bottom: 0;
     color: #212529;
     left: 0px;

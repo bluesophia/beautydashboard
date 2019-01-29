@@ -1,0 +1,57 @@
+@import 'theme';
+
+.login-register {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    padding: 10% 0;
+    position: fixed;
+    @media(max-width: 767px){
+        position:relative;
+        overflow: hidden;
+    }
+    .login-box {    
+            width: 400px;
+            margin: 0 auto;
+        @media(max-width: 767px){
+            width: 90%;
+            margin: 0 auto;
+            .social {
+                display: block;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    h3 {
+        margin-top: 0 !important;
+    }
+    i {
+        font-size: 14px;
+    }
+    button.btn.btn-block.btn-lg.btn-info.btn-rounded {
+        width: 100%;
+    }
+    button.btn.btn-primary.btn-lg.btn-block.text-uppercase.waves-effect.waves-light {
+        width: 100%;
+    }
+}
+
+
+.form-material .form-control, .form-material .form-control.focus, .form-material .form-control:focus {
+    background-image: linear-gradient(#fb9678, #fb9678), linear-gradient(#e9ecef, #e9ecef) !important;
+    border: 0 none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    float: none !important;
+}
+.form-material .form-control.focus, .form-material .form-control:focus {
+    background-size: 100% 2px, 100% 1px;
+    outline: 0 none;
+    transition-duration: 0.3s;
+}
+
+#recoverform {
+    display: none;
+}
