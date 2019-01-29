@@ -238,19 +238,19 @@ html {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1169px){
+@media (min-width: 768px) and (max-width: 1023px){
     .mini-sidebar .left-sidebar {
         width: 70px;
     }
 }
-@media (min-width: 768px) and (max-width: 1169px){
+@media (min-width: 768px) and (max-width: 1023px){
     .mini-sidebar .scroll-sidebar {
         padding-bottom: 0px;
         position: absolute;
         height: calc(100vh - 70px);
     }
 }
-@media (min-width: 768px) and (max-width: 1169px){
+@media (min-width: 768px) and (max-width: 1023px){
     .mini-sidebar .scroll-sidebar .u-dropdown {
         display: none;
     }
@@ -261,18 +261,18 @@ html {
     }
 }   
 
-@media (min-width: 768px)and (max-width: 1169px){
+@media (min-width: 768px)and (max-width: 1023px){
     .mini-sidebar .sidebar-nav #sidebarnav li {
         position: relative;
     }
 }
-@media (min-width: 768px)and (max-width: 1169px){
+@media (min-width: 768px)and (max-width: 1023px){
     .mini-sidebar .sidebar-nav #sidebarnav>li>a {
         width: 70px;
         padding: 15px 15px 15px 25px;
     }
 }
-@media (min-width: 768px)and (max-width: 1169px){
+@media (min-width: 768px)and (max-width: 1023px){
     .mini-sidebar .sidebar-nav #sidebarnav>li>ul {
         position: absolute;
         left: 70px;
@@ -290,7 +290,7 @@ html {
         display: none;
     }
 }
-@media (min-width: 1169px){
+@media (min-width: 1023px){
     .mini-sidebar .sidebar-nav #sidebarnav .hide-menu, .mini-sidebar .sidebar-nav #sidebarnav .nav-small-cap, .mini-sidebar .sidebar-nav #sidebarnav .sidebar-footer, .mini-sidebar .sidebar-nav #sidebarnav .user-profile .profile-text, .mini-sidebar .sidebar-nav #sidebarnav>.label, .mini-sidebar .sidebar-nav #sidebarnav>li>a.has-arrow:after {
         display: block;
     }
@@ -557,7 +557,7 @@ body {
         }
     }
     .left-sidebar {
-        @media (min-width: 768px)and(max-width: 1160px){
+        @media (min-width: 768px)and(max-width: 1023px){
             width: 70px !important;
             flex-shrink: 0;
         }
@@ -673,6 +673,12 @@ body {
     .p-b-20 {
         padding-bottom: 20px;
     }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -10px;
+        margin-left: -10px;
+    }
     /************************************
                    effect
     ************************************/
@@ -731,6 +737,9 @@ body {
         padding: 1.25rem;
         font-size: 14px;
         font-weight: 300;
+        h6 {
+            font-size: 14px;
+        }
     }
     .card-subtitle {
         font-weight: 300;
