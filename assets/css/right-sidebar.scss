@@ -23,17 +23,86 @@
     box-shadow: 5px 1px 40px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }   
-
+/************************************
+        right-sidebar-title
+************************************/
 .right-sidebar .rpanel-title {
     display: block;
     padding: 22px 20px;
     color: var(--white);
     text-transform: uppercase;
     font-size: 15px;
+    font-weight: 300 !important;
     background: var(--primary);
+    i {
+        font-size: 11px !important;
+    }
 }
 .right-sidebar .rpanel-title span {
     float: right;
     cursor: pointer;
     font-size: 11px;
+}
+.right-sidebar .r-panel-body ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+/************************************
+            panel-body
+************************************/
+.right-sidebar .r-panel-body {
+    padding: 20px;
+}
+ul#themecolors {
+    display: block;
+}
+.right-sidebar .r-panel-body ul {
+    margin: 0px;
+    padding: 0px;
+}
+ul#themecolors li:first-child {
+    display: block;
+}
+ul#themecolors li {
+    display: inline-block;
+}
+ul#themecolors li a {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 5px;
+    color: transparent !important;
+    position: relative;
+}
+.right-sidebar .r-panel-body ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+.r-panel-body {
+    b {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+/************************************
+            chat-option
+************************************/
+.chatonline img {
+    margin-right: 10px;
+    float: left;
+    width: 30px !important;
+}
+.chatonline li a {
+    padding: 13px 0;
+    float: left;
+    width: 100%;
+}
+.chatonline li a span {
+    color: var(--gray-m-dark);
+    font-size: 14px !important;
+    font-weight: 300;
+}
+.chatonline li a span small {
+    display: block;
+    font-size: 10px;
 }

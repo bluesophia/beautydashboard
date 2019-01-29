@@ -14,6 +14,7 @@
     --blue-light:#1eaaf0;
     --blue-extra-light: #99dbf8;
     --indigo:#6610f2;
+    --megna: #01c0c8;
     --purple:#ab8ce4 !important;
     --pink:#e83e8c;
     --red:#E26B78 !important;
@@ -49,6 +50,54 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+/************************************
+        theme(Light Sidebar)
+************************************/
+.default-theme {
+    background: var(--gray);
+}
+.green-theme {
+    background: var(--teal);
+}
+.red-theme {
+    background: var(--red);
+}
+.blue-theme {
+    background: var(--blue-light);
+}
+.purple-theme {
+    background: var(--purple);
+}
+.megna-theme {
+    background: var(--megna);
+}
+/************************************
+        theme(Dark Sidebar)
+************************************/
+.default-dark-theme {
+    background: var(--gray);
+    background: linear-gradient(to right, #343a40 0%, #343a40 23%, #6c757d 23%, #6c757d 99%);
+}
+.green-dark-theme {
+    background: var(--gray);
+    background: linear-gradient(to right, #343a40 0%, #343a40 23%, #00c292 23%, #00c292 99%);
+}
+.red-dark-theme {
+    background: var(--red);
+    background: linear-gradient(to right, #343a40 0%, #343a40 23%, #e46a76 23%, #e46a76 99%);
+}
+.blue-dark-theme {
+    background: var(--blue-light);
+    background: linear-gradient(to right, #343a40 0%, #343a40 23%, #03a9f3 23%, #03a9f3 99%);
+}
+.purple-dark-theme {
+    background: var(--purple);
+    background: linear-gradient(to right, #343a40 0%, #343a40 23%, #ab8ce4 23%, #ab8ce4 99%);
+}
+.megna-dark-theme {
+    background: var(--megna);
+    background: linear-gradient(to right, #343a40 0%, #343a40 23%, #01c0c8 23%, #01c0c8 99%);
+}
 /************************************
         custom-color-tag
 ************************************/
@@ -390,6 +439,24 @@ body {
     textarea:focus, input:focus{
         outline: none !important;
     }
+    .font-bold {
+        font-weight: 700;
+    }
+    /************************************
+                   table
+    ************************************/
+    .table th, .table thead th {
+        font-weight: 500;
+    }
+    .table thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid var(--btn-border-color);
+    }
+    .table td, .table th {
+        padding: 1rem;
+        vertical-align: top;
+        border-top: 1px solid var(--btn-border-color);
+    }
     /************************************
                    form
     ************************************/
@@ -608,12 +675,17 @@ body {
     }
     .d-flex {
         display: flex!important;
+        @media (max-width: 1023px){
+                display: block!important;
+        }
     }
+    
     @media (max-width: 1023px){
         .d-flex.no-block {
             display: flex!important;
         }
     }
+    
 
     .d-none {
         display: none!important;
@@ -643,6 +715,9 @@ body {
     }
     .m-l-10 {
         margin-left: 10px;
+    }
+    .m-l-15 {
+        margin-left: 15px;
     }
     .m-b-0 {
         margin-bottom: 0;
@@ -745,7 +820,7 @@ body {
         font-size: 14px;
         font-weight: 300;
         h6 {
-            font-size: 14px;
+            font-size: 14px;    
         }
     }
     .card-subtitle {
@@ -811,12 +886,18 @@ body {
         background-color: #e2e6ea;
         border-color: #dae0e5;
     }
-    .btn-lg{
-        width: 50px;
-        height: 50px;
-        padding: 14px 15px;
-        font-size: 18px;
-        line-height: 23px;
+    // .btn-lg{
+    //     width: 50px;
+    //     height: 50px;
+    //     padding: 14px 15px;
+    //     font-size: 18px;
+    //     line-height: 23px;
+    // }
+    .btn-lg {
+        padding: 0.5rem 1rem;
+        font-size: 1.09375rem;
+        line-height: 1.5;
+        border-radius: 0.3rem;
     }
     .btn-success.focus, .btn-success:focus {
         box-shadow: 0 0 0 0.2rem rgba(38, 203, 162, 0.5) !important;
@@ -841,6 +922,10 @@ body {
     .btn-rounded.btn-lg {
         padding: .75rem 1.5rem;
     }
+    .btn:focus, .btn:active {
+        outline: none !important;
+        box-shadow: none !important;
+      }
     /************************************
                 message-box
     ************************************/
