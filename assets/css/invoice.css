@@ -1374,76 +1374,11 @@ body .sl-date {
   position: relative;
 }
 
-/************************************
-           logincard
-************************************/
-.login-register {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 100%;
-  width: 100%;
-  padding: 10% 0;
-  position: fixed;
+#print span, #print i {
+  font-size: 14px !important;
 }
 
-@media (max-width: 767px) {
-  .login-register {
-    position: relative;
-    overflow: hidden;
-  }
+.printableArea span {
+  font-size: 24px;
 }
-
-.login-register .login-box {
-  width: 400px;
-  margin: 0 auto;
-}
-
-@media (max-width: 767px) {
-  .login-register .login-box {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .login-register .login-box .social {
-    display: block;
-    margin-bottom: 30px;
-  }
-}
-
-.login-register h3 {
-  margin-top: 0 !important;
-}
-
-.login-register i {
-  font-size: 14px;
-}
-
-.login-register button.btn.btn-block.btn-lg.btn-info.btn-rounded {
-  width: 100%;
-}
-
-.login-register button.btn.btn-primary.btn-lg.btn-block.text-uppercase.waves-effect.waves-light {
-  width: 100%;
-}
-
-.form-material .form-control, .form-material .form-control.focus, .form-material .form-control:focus {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fb9678), to(#fb9678)), -webkit-gradient(linear, left top, left bottom, from(#e9ecef), to(#e9ecef)) !important;
-  background-image: linear-gradient(#fb9678, #fb9678), linear-gradient(#e9ecef, #e9ecef) !important;
-  border: 0 none !important;
-  border-radius: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-  float: none !important;
-}
-
-.form-material .form-control.focus, .form-material .form-control:focus {
-  background-size: 100% 2px, 100% 1px;
-  outline: 0 none;
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
-}
-
-#recoverform {
-  display: none;
-}
-/*# sourceMappingURL=login.css.map */
+/*# sourceMappingURL=invoice.css.map */

@@ -408,6 +408,9 @@ body {
                   tag
     ************************************/
   /************************************
+                   table
+    ************************************/
+  /************************************
                    form
     ************************************/
   /************************************
@@ -554,6 +557,25 @@ body textarea {
 
 body textarea:focus, body input:focus {
   outline: none !important;
+}
+
+body .font-bold {
+  font-weight: 700;
+}
+
+body .table th, body .table thead th {
+  font-weight: 500;
+}
+
+body .table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid var(--btn-border-color);
+}
+
+body .table td, body .table th {
+  padding: 1rem;
+  vertical-align: top;
+  border-top: 1px solid var(--btn-border-color);
 }
 
 body .form-control {
@@ -1120,6 +1142,12 @@ body .btn-rounded.btn-lg {
   padding: .75rem 1.5rem;
 }
 
+body .btn:focus, body .btn:active {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 body .message-box .message-widget a .mail-contnet .mail-desc, body .message-box .message-widget a .mail-contnet .time {
   font-size: 12px;
   display: block;
@@ -1357,7 +1385,9 @@ body .sl-date {
 
 .right-sidebar {
   position: fixed;
+  right: -240px;
   width: 240px;
+  display: none;
   z-index: 1100;
   background: var(--white);
   top: 0px;

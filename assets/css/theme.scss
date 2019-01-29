@@ -439,6 +439,24 @@ body {
     textarea:focus, input:focus{
         outline: none !important;
     }
+    .font-bold {
+        font-weight: 700;
+    }
+    /************************************
+                   table
+    ************************************/
+    .table th, .table thead th {
+        font-weight: 500;
+    }
+    .table thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid var(--btn-border-color);
+    }
+    .table td, .table th {
+        padding: 1rem;
+        vertical-align: top;
+        border-top: 1px solid var(--btn-border-color);
+    }
     /************************************
                    form
     ************************************/
@@ -890,6 +908,10 @@ body {
     .btn-rounded.btn-lg {
         padding: .75rem 1.5rem;
     }
+    .btn:focus, .btn:active {
+        outline: none !important;
+        box-shadow: none !important;
+      }
     /************************************
                 message-box
     ************************************/
