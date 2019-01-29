@@ -13,6 +13,7 @@
   --blue-light:#1eaaf0;
   --blue-extra-light: #99dbf8;
   --indigo:#6610f2;
+  --megna: #01c0c8;
   --purple:#ab8ce4 !important;
   --pink:#e83e8c;
   --red:#E26B78 !important;
@@ -46,6 +47,72 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Poppins", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/************************************
+        theme(Light Sidebar)
+************************************/
+.default-theme {
+  background: var(--gray);
+}
+
+.green-theme {
+  background: var(--teal);
+}
+
+.red-theme {
+  background: var(--red);
+}
+
+.blue-theme {
+  background: var(--blue-light);
+}
+
+.purple-theme {
+  background: var(--purple);
+}
+
+.megna-theme {
+  background: var(--megna);
+}
+
+/************************************
+        theme(Dark Sidebar)
+************************************/
+.default-dark-theme {
+  background: var(--gray);
+  background: -webkit-gradient(linear, left top, right top, from(#343a40), color-stop(23%, #343a40), color-stop(23%, #6c757d), color-stop(99%, #6c757d));
+  background: linear-gradient(to right, #343a40 0%, #343a40 23%, #6c757d 23%, #6c757d 99%);
+}
+
+.green-dark-theme {
+  background: var(--gray);
+  background: -webkit-gradient(linear, left top, right top, from(#343a40), color-stop(23%, #343a40), color-stop(23%, #00c292), color-stop(99%, #00c292));
+  background: linear-gradient(to right, #343a40 0%, #343a40 23%, #00c292 23%, #00c292 99%);
+}
+
+.red-dark-theme {
+  background: var(--red);
+  background: -webkit-gradient(linear, left top, right top, from(#343a40), color-stop(23%, #343a40), color-stop(23%, #e46a76), color-stop(99%, #e46a76));
+  background: linear-gradient(to right, #343a40 0%, #343a40 23%, #e46a76 23%, #e46a76 99%);
+}
+
+.blue-dark-theme {
+  background: var(--blue-light);
+  background: -webkit-gradient(linear, left top, right top, from(#343a40), color-stop(23%, #343a40), color-stop(23%, #03a9f3), color-stop(99%, #03a9f3));
+  background: linear-gradient(to right, #343a40 0%, #343a40 23%, #03a9f3 23%, #03a9f3 99%);
+}
+
+.purple-dark-theme {
+  background: var(--purple);
+  background: -webkit-gradient(linear, left top, right top, from(#343a40), color-stop(23%, #343a40), color-stop(23%, #ab8ce4), color-stop(99%, #ab8ce4));
+  background: linear-gradient(to right, #343a40 0%, #343a40 23%, #ab8ce4 23%, #ab8ce4 99%);
+}
+
+.megna-dark-theme {
+  background: var(--megna);
+  background: -webkit-gradient(linear, left top, right top, from(#343a40), color-stop(23%, #343a40), color-stop(23%, #01c0c8), color-stop(99%, #01c0c8));
+  background: linear-gradient(to right, #343a40 0%, #343a40 23%, #01c0c8 23%, #01c0c8 99%);
 }
 
 /************************************
