@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/css/weather-icons.css">
+    <link rel="stylesheet" href="./assets/css/weather-icons.min.css">
     <link rel="stylesheet" href="./assets/css/themify-icons.css"/>
+    <link rel="stylesheet" href="./assets/css/metisMenu.css"/>
     <link rel="stylesheet" href="./assets/css/animate.css"/>
+    <link rel="stylesheet" href="./assets/css/perfect-scrollbar.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900">
@@ -20,7 +22,12 @@
 </head>
 <body class="skin-default fixed-layout mini-sidebar">
     <!-- preloader -->
-    <div class="preloader"></div>
+    <div class="preloader" style="display: none;">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label">Elite admin</p>
+        </div>
+    </div>
     <!-- main-wrapper -->
     <div class="main-wrapper">
         <!-- topbar header -->
@@ -38,7 +45,7 @@
                             </b>
                             <!--End Logo icon -->
                             <!-- Logo text -->
-                            <span>
+                            <span class="logo">
                                 <!-- dark Logo text -->
                                 <img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/logo-text.png" alt="homepage" class="dark-logo">
                                 <!-- Light Logo text -->    
@@ -53,8 +60,8 @@
                     <ul class="navbar-nav mr-auto">
                         <!-- menu  -->
                         <li class="nav-item"> 
-                            <a class="nav-link nav-toggler d-block d-md-none waves-effect waves-dark">
-                                <i class="ti-menu"></i>
+                            <a class="nav-link nav-toggler d-block d-md-none waves-effect waves-dark" id="openNav">
+                                <i class="ti-close ti-menu" id="menuBtn"></i>
                             </a> 
                         </li>
                         <li class="nav-item"> 
@@ -283,17 +290,17 @@
         </header>
         <!-- end topbar header -->
         <!-- left sidebar -->
-        <aside class="left-sidebar">
+        <aside class="left-sidebar" id="leftSidebar">
             <!-- Sidebar scroll-->
             <div class="scroll-sidebar ps ps--theme_default ps--active-y" data-ps-id="df719931-dec9-3f8b-f119-fcd70bce939e">
                 <!-- User Profile-->
-                <div class="user">
+                <div class="user-profile">
                     <div class="user-pro-body">
                         <div>
                             <img src="http://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/2.jpg" alt="user-img" class="img-circle">
                         </div>
                         <div class="dropdown">
-                            <a href="javascript:void(0)" class="dropdown-toggle u-dropdown link hide-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Steave Gection
+                            <a class="dropdown-toggle u-dropdown link hide-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Steave Gection
                                 <span class="caret"></span>
                             </a>
                             <div class="dropdown-menu animated flipInY">
@@ -321,15 +328,16 @@
                         </div>
                     </div>
                 </div>
+                <!-- end User Profile-->
                 <!-- Sidebar navigation-->
                 <nav class="sidebar-nav">
-                    <ul id="sidebarnav">
+                    <ul id="sidebarnav" class="metismenu">
                         <li class="nav-small-cap">--- PERSONAL</li>
                         <li class="active">
-                            <a class="has-arrow waves-effect waves-dark active" href="javascript:void(0)" aria-expanded="false">
+                            <a class="has-arrow waves-effect waves-dark active" aria-expanded="false">
                                 <i class="icon-speedometer"></i>
                                 <span class="hide-menu">Dashboard
-                                    <span class="badge badge-pill badge-cyan ml-auto">4</span>
+                                    <span class="badge badge-pill badge-info ml-auto">4</span>
                                 </span>
                             </a>
                             <ul aria-expanded="false" class="collapse in">
@@ -1661,30 +1669,43 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" ></script>
     <!-- slimscrollbar scrollbar JavaScript -->
-    <script src="dist/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="./assets/dist/js/perfect-scrollbar.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.4.0/perfect-scrollbar.js"></script>
     <!-- wave effect -->
-    <script src="dist/js/waves.js"></script>
+    <script src="./assets/dist/js/waves.js"></script>
+    <!-- metisMenu effect
+    <script src="dist/js/metisMenu.js"></script> -->
+    <script src="https://unpkg.com/metismenu"></script>
     <!--Menu sidebar -->
-    <script src="dist/js/sidebarmenu.js"></script>
+    <script src="./assets/dist/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
-    <script src="dist/js/custom.js"></script>
-    <script src="dist/js/custom.min.js"></script>
+    <script src="../assets/js/custom.js"></script>
+    <script src="../assets/js/custom.min.js"></script>
     <script>
             document.getElementById("openNav").addEventListener("click", function(){ 
-                document.getElementById("aside").style.display="none";
-            });
+                // alert("hhi");
+                const element = document.getElementById("leftSidebar");
+                const openBtn = document.getElementById("menuBtn");
+                
+                openBtn.classList.toggle("ti-menu");
+                
+                if(element.style.display == 'block')
+                element.style.display = 'none';
+                else
+                element.style.display = 'block';
+                        });
         
     </script>
     
     <!-- This page plugins -->
     <!--morris JavaScript -->
     <script src="../assets/node_modules/raphael/raphael-min.js"></script>
-    <script src="../assets/dist/js/morris.min.js"></script>
+    <script src="../assets/js/morris.min.js"></script>
     <script src="../assets/node_modules/jquery-sparkline/jquery.sparkline.min.js"></script>
     <!-- Popup message jquery -->
     <script src="../assets/node_modules/toast-master/js/jquery.toast.js"></script>
     <!-- Chart JS -->
-    <script src="dist/js/dashboard1.js"></script>
+    <script src="../assets/js/dashboard1.js"></script>
     <script src="../assets/node_modules/toast-master/js/jquery.toast.js"></script>
     <div class="jq-toast-single jq-has-icon jq-icon-info" style="text-align: left; display: none;">
         <span class="jq-toast-loader jq-toast-loaded" style="-webkit-transition: width 3.1s ease-in;-o-transition: width 3.1s ease-in;transition: width 3.1s ease-in;background-color: #ff6849;"></span>
