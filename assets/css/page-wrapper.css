@@ -393,6 +393,12 @@
   background-color: var(--red) !important;
 }
 
+.btn-warning {
+  color: var(--white) !important;
+  border-color: var(--yellow) !important;
+  background-color: var(--yellow) !important;
+}
+
 .btn-primary {
   color: var(--white) !important;
   border-color: var(--primary) !important;
@@ -1833,6 +1839,10 @@ body .close:not(:disabled):not(.disabled) {
   background: transparent;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
+}
+
+.container-fluid .page-titles .breadcrumb li a {
+  color: var(--gray-extra-dark);
 }
 
 .container-fluid .page-titles ol li {

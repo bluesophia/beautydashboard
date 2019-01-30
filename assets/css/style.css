@@ -404,6 +404,12 @@
   background-color: var(--red) !important;
 }
 
+.btn-warning {
+  color: var(--white) !important;
+  border-color: var(--yellow) !important;
+  background-color: var(--yellow) !important;
+}
+
 .btn-primary {
   color: var(--white) !important;
   border-color: var(--primary) !important;
@@ -2153,6 +2159,12 @@ body .close:not(:disabled):not(.disabled) {
   color: var(--white) !important;
   border-color: var(--red) !important;
   background-color: var(--red) !important;
+}
+
+.btn-warning {
+  color: var(--white) !important;
+  border-color: var(--yellow) !important;
+  background-color: var(--yellow) !important;
 }
 
 .btn-primary {
@@ -4174,6 +4186,12 @@ body .close:not(:disabled):not(.disabled) {
   background-color: var(--red) !important;
 }
 
+.btn-warning {
+  color: var(--white) !important;
+  border-color: var(--yellow) !important;
+  background-color: var(--yellow) !important;
+}
+
 .btn-primary {
   color: var(--white) !important;
   border-color: var(--primary) !important;
@@ -6071,6 +6089,12 @@ body .close:not(:disabled):not(.disabled) {
   background-color: var(--red) !important;
 }
 
+.btn-warning {
+  color: var(--white) !important;
+  border-color: var(--yellow) !important;
+  background-color: var(--yellow) !important;
+}
+
 .btn-primary {
   color: var(--white) !important;
   border-color: var(--primary) !important;
@@ -7944,6 +7968,12 @@ ul#themecolors li a {
   background-color: var(--red) !important;
 }
 
+.btn-warning {
+  color: var(--white) !important;
+  border-color: var(--yellow) !important;
+  background-color: var(--yellow) !important;
+}
+
 .btn-primary {
   color: var(--white) !important;
   border-color: var(--primary) !important;
@@ -9785,6 +9815,12 @@ textarea.form-control {
   background-color: var(--red) !important;
 }
 
+.btn-warning {
+  color: var(--white) !important;
+  border-color: var(--yellow) !important;
+  background-color: var(--yellow) !important;
+}
+
 .btn-primary {
   color: var(--white) !important;
   border-color: var(--primary) !important;
@@ -11227,6 +11263,10 @@ body .close:not(:disabled):not(.disabled) {
   font-size: 12px;
 }
 
+.container-fluid .page-titles .breadcrumb li a {
+  color: var(--gray-extra-dark);
+}
+
 .container-fluid .page-titles ol li {
   margin: 5px 0;
 }
@@ -12121,6 +12161,12 @@ sales difference  & visit statastics table
   color: var(--white) !important;
   border-color: var(--red) !important;
   background-color: var(--red) !important;
+}
+
+.btn-warning {
+  color: var(--white) !important;
+  border-color: var(--yellow) !important;
+  background-color: var(--yellow) !important;
 }
 
 .btn-primary {
@@ -13876,6 +13922,12 @@ center .img-circle {
   color: var(--white) !important;
   border-color: var(--red) !important;
   background-color: var(--red) !important;
+}
+
+.btn-warning {
+  color: var(--white) !important;
+  border-color: var(--yellow) !important;
+  background-color: var(--yellow) !important;
 }
 
 .btn-primary {
@@ -15700,6 +15752,12 @@ body .close:not(:disabled):not(.disabled) {
   color: var(--white) !important;
   border-color: var(--red) !important;
   background-color: var(--red) !important;
+}
+
+.btn-warning {
+  color: var(--white) !important;
+  border-color: var(--yellow) !important;
+  background-color: var(--yellow) !important;
 }
 
 .btn-primary {
@@ -17672,6 +17730,12 @@ button.btn.btn-info.btn-circle.btn-lg i {
   background-color: var(--red) !important;
 }
 
+.btn-warning {
+  color: var(--white) !important;
+  border-color: var(--yellow) !important;
+  background-color: var(--yellow) !important;
+}
+
 .btn-primary {
   color: var(--white) !important;
   border-color: var(--primary) !important;
@@ -19429,6 +19493,12 @@ body .close:not(:disabled):not(.disabled) {
   color: var(--white) !important;
   border-color: var(--red) !important;
   background-color: var(--red) !important;
+}
+
+.btn-warning {
+  color: var(--white) !important;
+  border-color: var(--yellow) !important;
+  background-color: var(--yellow) !important;
 }
 
 .btn-primary {
@@ -21253,6 +21323,12 @@ body .close:not(:disabled):not(.disabled) {
   color: var(--white) !important;
   border-color: var(--red) !important;
   background-color: var(--red) !important;
+}
+
+.btn-warning {
+  color: var(--white) !important;
+  border-color: var(--yellow) !important;
+  background-color: var(--yellow) !important;
 }
 
 .btn-primary {
