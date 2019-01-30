@@ -261,6 +261,22 @@
 }
 
 /************************************
+        timeline-badge
+************************************/
+.timeline-badge.success {
+    background-color: var(--teal)!important;
+}
+.timeline-badge.warning {
+    background-color: var(--yellow)!important;
+}
+.timeline-badge.danger {
+    background-color: var(--red)!important;
+}
+.timeline-badge.info {
+    background-color: var(--cyan)!important;
+}
+
+/************************************
         custom-color-alert
 ************************************/
 .alert {
@@ -1487,7 +1503,10 @@ body {
     .close:not(:disabled):not(.disabled) {
         cursor: pointer;
     }
-    
+    .img-responsive {
+        max-width: 100%;
+        height: auto;
+    }
 }   
 
 .scroll-sidebar {
