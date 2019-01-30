@@ -1,0 +1,123 @@
+@import 'theme';
+
+.comment-footer {
+    span {
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
+/************************************
+            components-list
+************************************/
+.list-group {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.list-group-item:first-child {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.todo-list li {
+    border: 0px;
+    margin-bottom: 0px;
+    padding: 20px 15px 15px 0px;
+}
+.todo-list li .custom-checkbox {
+    width: 100%;
+}
+.custom-control {
+    position: relative;
+    display: block;
+    min-height: 1.3125rem;
+    padding-left: 1.5rem;
+}
+.custom-control-input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.todo-list li .custom-checkbox label {
+    font-weight: 400;
+    width: 100%;
+}
+.custom-control-label {
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: top;
+}
+.todo-list li .custom-checkbox label span:first-child {
+    width: 70%;
+    display: inline-block;
+    line-height: 25px;
+    font-size: 14px;
+}
+.todo-list li .assignedto {
+    padding: 0px 0 0 30px;
+    margin: 0px;
+}
+.todo-list li .assignedto li {
+    list-style: none;
+    padding: 0px;
+    display: inline-block;
+    border: 0px;
+    margin-right: 2px;
+}
+.todo-list li .assignedto li img {
+    width: 30px;
+    border-radius: 100%;
+}
+.todo-list li .item-date {
+    padding-left: 30px;
+    font-size: 12px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.wi-showersicon {
+    i, span {
+        font-size: 48px !important;
+    }
+}
+/************************************
+          weather report
+************************************/
+.city-weather-days {
+    margin: 0px;
+}
+.city-weather-days li {
+    text-align: center;
+    padding: 15px 0;
+}
+.city-weather-days li i {
+    display: block;
+    font-size: 20px !important;
+    color: var(--primary);
+}
+.city-weather-days li span {
+    display: block;
+    padding: 10px 0 0;
+    color: var(--gray);
+    font-size: 14px;
+}
+.city-weather-days li h3 {
+    font-weight: 300;
+    margin-top: 5px;
+    font-size: 14px;
+}
+button.btn.btn-info.btn-circle.btn-lg {
+    i {
+        font-size: 18px !important;
+    }
+}

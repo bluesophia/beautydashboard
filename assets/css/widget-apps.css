@@ -1561,149 +1561,142 @@ body .sl-date {
   position: relative;
 }
 
-.user-profile .user-pro-body img {
-  width: 50px;
-  display: block;
-  margin: 0 auto 10px;
-}
-
-.user-profile .u-dropdown {
-  display: block;
-  text-align: center;
+.comment-footer span {
   font-size: 14px;
   font-weight: 300;
-}
-
-.user-profile .u-dropdown a {
-  text-decoration: none;
-}
-
-.user-profile .dropdown-menu {
-  right: 0 !important;
-  width: 180px;
-  left: 0;
-  top: 20px !important;
-  margin: 0 auto;
-  font-size: 14px;
-  font-weight: 300;
-}
-
-.user-profile .dropdown-menu i {
-  font-size: 14px;
 }
 
 /************************************
-            sidebar-nav
+            components-list
 ************************************/
-.sidebar-nav {
-  padding: 15px 0 0 0px;
+.list-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
-.sidebar-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-.sidebar-nav ul li {
-  list-style: none;
-}
-
-.sidebar-nav ul li a {
-  color: var(--gray-light);
-  padding: 10px 35px 10px 15px;
-  display: block;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.sidebar-nav ul li a i {
-  width: 25px;
-  font-size: 16px;
-  float: left;
-  vertical-align: middle;
-}
-
-.sidebar-nav ul li a .badge {
-  float: right !important;
-  font-weight: 500 !important;
-}
-
-.sidebar-nav ul li a .badge .badge-pill {
-  padding: 0.2em 1em;
-}
-
-.sidebar-nav ul li a.active {
-  font-weight: 500;
-  color: var(--gray-dark);
-}
-
-.sidebar-nav ul li a.active a i {
-  color: var(--primary);
-}
-
-.sidebar-nav ul li.nav-small-cap {
-  font-size: 12px;
-  margin-bottom: 0px;
-  padding: 30px 14px 14px 0px;
-  color: var(--gray);
-  font-weight: 500;
-}
-
-.sidebar-nav > ul > li {
-  margin-bottom: 8px;
-  margin-top: 8px;
-}
-
-.sidebar-nav > ul > li.active > a {
-  color: var(--primary);
-  font-weight: 500;
-  border-left: 3px solid var(--primary);
-}
-
-.sidebar-nav .has-arrow {
+.list-group-item {
   position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-.sidebar-nav .has-arrow .right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
+.list-group-item:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 
-.sidebar-nav .waves-effect {
-  -webkit-transition: none;
-  transition: none;
+.todo-list li {
+  border: 0px;
+  margin-bottom: 0px;
+  padding: 20px 15px 15px 0px;
 }
 
-.sidebar-nav > ul > li > a {
-  border-left: 3px solid transparent;
+.todo-list li .custom-checkbox {
+  width: 100%;
 }
 
-.sidebar-nav ul li a.active i, .sidebar-nav ul li a:hover i {
-  color: var(--primary);
+.custom-control {
+  position: relative;
+  display: block;
+  min-height: 1.3125rem;
+  padding-left: 1.5rem;
 }
 
-.hide-menu {
+.custom-control-input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.todo-list li .custom-checkbox label {
+  font-weight: 400;
+  width: 100%;
+}
+
+.custom-control-label {
+  position: relative;
+  margin-bottom: 0;
+  vertical-align: top;
+}
+
+.todo-list li .custom-checkbox label span:first-child {
+  width: 70%;
+  display: inline-block;
+  line-height: 25px;
   font-size: 14px;
 }
 
-.sidebar-nav .has-arrow:after {
-  position: absolute;
-  content: '';
-  width: 7px;
-  height: 7px;
-  border-width: 1px 0 0 1px;
-  border-style: solid;
-  border-color: #8d97ad;
-  right: 20px;
-  -webkit-transform: rotate(135deg) translate(0, -50%);
-          transform: rotate(135deg) translate(0, -50%);
-  -webkit-transform-origin: top;
-          transform-origin: top;
-  top: 21px;
-  -webkit-transition: all .3s ease-out;
-  transition: all .3s ease-out;
+.todo-list li .assignedto {
+  padding: 0px 0 0 30px;
+  margin: 0px;
 }
-/*# sourceMappingURL=sidebar.css.map */
+
+.todo-list li .assignedto li {
+  list-style: none;
+  padding: 0px;
+  display: inline-block;
+  border: 0px;
+  margin-right: 2px;
+}
+
+.todo-list li .assignedto li img {
+  width: 30px;
+  border-radius: 100%;
+}
+
+.todo-list li .item-date {
+  padding-left: 30px;
+  font-size: 12px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.wi-showersicon i, .wi-showersicon span {
+  font-size: 48px !important;
+}
+
+/************************************
+          weather report
+************************************/
+.city-weather-days {
+  margin: 0px;
+}
+
+.city-weather-days li {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.city-weather-days li i {
+  display: block;
+  font-size: 20px !important;
+  color: var(--primary);
+}
+
+.city-weather-days li span {
+  display: block;
+  padding: 10px 0 0;
+  color: var(--gray);
+  font-size: 14px;
+}
+
+.city-weather-days li h3 {
+  font-weight: 300;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+button.btn.btn-info.btn-circle.btn-lg i {
+  font-size: 18px !important;
+}
+/*# sourceMappingURL=widget-apps.css.map */
