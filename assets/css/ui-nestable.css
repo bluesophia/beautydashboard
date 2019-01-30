@@ -1808,149 +1808,175 @@ body .img-responsive {
   position: relative;
 }
 
-.user-profile .user-pro-body img {
-  width: 50px;
+.dd {
+  position: relative;
   display: block;
-  margin: 0 auto 10px;
-}
-
-.user-profile .u-dropdown {
-  display: block;
-  text-align: center;
-  font-size: 14px;
-  font-weight: 300;
-}
-
-.user-profile .u-dropdown a {
-  text-decoration: none;
-}
-
-.user-profile .dropdown-menu {
-  right: 0 !important;
-  width: 180px;
-  left: 0;
-  top: 20px !important;
-  margin: 0 auto;
-  font-size: 14px;
-  font-weight: 300;
-}
-
-.user-profile .dropdown-menu i {
-  font-size: 14px;
-}
-
-/************************************
-            sidebar-nav
-************************************/
-.sidebar-nav {
-  padding: 15px 0 0 0px;
-}
-
-.sidebar-nav ul {
   margin: 0;
   padding: 0;
+  max-width: 600px;
+  list-style: none;
+  font-size: 13px;
+  line-height: 20px;
 }
 
-.sidebar-nav ul li {
+.dd-list {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
-.sidebar-nav ul li a {
-  color: var(--gray-light);
-  padding: 10px 35px 10px 15px;
+.dd-item, .dd-empty, .dd-placeholder {
   display: block;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  font-size: 14px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  min-height: 20px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.myadmin-dd .dd-list .dd-item .dd-handle {
+  background: var(--white);
+  border: 1px solid rgba(120, 130, 140, 0.13);
+  padding: 8px 16px;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  border-radius: 0;
+}
+
+.dd-handle {
+  display: block;
+  height: 30px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  cursor: move;
+  color: var(--nestable-item-color);
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid var(--nestable-item-border-color);
+  background: var(--nestable-item-bg-color);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.dd-item > button {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  width: 25px;
+  height: 20px;
+  margin: 5px 0;
+  padding: 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border: 0;
+  background: transparent;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.dd-item > button[data-action="collapse"]:before {
+  content: '-';
+}
+
+.dd-item > button:before {
+  content: '+';
+  display: block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  text-indent: 0;
+}
+
+.dd-handle:hover {
+  color: var(--nestable-dd-handle-hover);
+  background: var(--white);
+}
+
+.dd-list .dd-list {
+  padding-left: 30px;
+}
+
+/************************************
+            nestable2
+************************************/
+.dd3-handle {
+  position: absolute;
+  margin: 0;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  width: 30px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background: #d5d5d5;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.myadmin-dd-empty .dd-list .dd3-handle {
+  border: 1px solid rgba(120, 130, 140, 0.13);
+  border-bottom: 0;
+  background: var(--white);
+  height: 36px;
+  width: 36px;
+}
+
+.myadmin-dd-empty .dd-list .dd3-content {
+  height: auto;
+  border: 1px solid rgba(120, 130, 140, 0.13);
+  padding: 8px 16px 8px 46px;
+  background: var(--white);
   font-weight: 400;
 }
 
-.sidebar-nav ul li a i {
-  width: 25px;
-  font-size: 16px;
-  float: left;
-  vertical-align: middle;
-}
-
-.sidebar-nav ul li a .badge {
-  float: right !important;
-  font-weight: 500 !important;
-}
-
-.sidebar-nav ul li a .badge .badge-pill {
-  padding: 0.2em 1em;
-}
-
-.sidebar-nav ul li a.active {
-  font-weight: 500;
-  color: var(--gray-dark);
-}
-
-.sidebar-nav ul li a.active a i {
-  color: var(--primary);
-}
-
-.sidebar-nav ul li.nav-small-cap {
-  font-size: 12px;
-  margin-bottom: 0px;
-  padding: 30px 14px 14px 0px;
-  color: var(--gray);
-  font-weight: 500;
-}
-
-.sidebar-nav > ul > li {
-  margin-bottom: 8px;
-  margin-top: 8px;
-}
-
-.sidebar-nav > ul > li.active > a {
-  color: var(--primary);
-  font-weight: 500;
-  border-left: 3px solid var(--primary);
-}
-
-.sidebar-nav .has-arrow {
-  position: relative;
-}
-
-.sidebar-nav .has-arrow .right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
-.sidebar-nav .waves-effect {
-  -webkit-transition: none;
-  transition: none;
-}
-
-.sidebar-nav > ul > li > a {
-  border-left: 3px solid transparent;
-}
-
-.sidebar-nav ul li a.active i, .sidebar-nav ul li a:hover i {
-  color: var(--primary);
-}
-
-.hide-menu {
+.dd3-handle:before {
+  font-family: 'Font Awesome 5 Free';
+  content: "\f0c9";
+  font-weight: 900;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 3px;
+  width: 100%;
+  text-align: center;
+  text-indent: 0;
+  color: #fff;
   font-size: 14px;
 }
 
-.sidebar-nav .has-arrow:after {
-  position: absolute;
-  content: '';
-  width: 7px;
-  height: 7px;
-  border-width: 1px 0 0 1px;
-  border-style: solid;
-  border-color: #8d97ad;
-  right: 20px;
-  -webkit-transform: rotate(135deg) translate(0, -50%);
-          transform: rotate(135deg) translate(0, -50%);
-  -webkit-transform-origin: top;
-          transform-origin: top;
-  top: 21px;
-  -webkit-transition: all .3s ease-out;
-  transition: all .3s ease-out;
+.dd3-handle:before {
+  color: #67757c;
+  top: 7px;
 }
-/*# sourceMappingURL=sidebar.css.map */
+
+.dd3-content {
+  display: block;
+  height: 30px;
+  margin: 5px 0;
+  padding: 5px 10px 5px 40px;
+  color: #979898;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #e5e5e5;
+  background: #fafafa;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.dd3-content:hover {
+  color: var(--nestable-dd-handle-hover);
+  background: var(--white);
+}
+/*# sourceMappingURL=ui-nestable.css.map */
