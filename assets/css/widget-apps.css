@@ -20,7 +20,7 @@
   --red:#E26B78 !important;
   --yellow:#fec107;
   --green:#00c292;
-  --teal:#20c997;
+  --teal:#20c997 !important;
   --cyan:#1FC0C7 !important;
   --white:#fff;
   --gray-light: #8d97ad;
@@ -132,7 +132,7 @@
 }
 
 .text-info {
-  color: var(--blue) !important;
+  color: var(--info) !important;
 }
 
 .text-blue {
@@ -304,6 +304,45 @@
 .badge-warning {
   color: black !important;
   background-color: var(--yellow) !important;
+}
+
+/************************************
+        custom-color-alert
+************************************/
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-rounded {
+  border-radius: 60px !important;
+}
+
+.alert-success {
+  color: #00654c !important;
+  background-color: #ccf3e9 !important;
+  border-color: #b8eee0 !important;
+}
+
+.alert-danger {
+  color: #77373d !important;
+  background-color: #fae1e4 !important;
+  border-color: #f7d5d9 !important;
+}
+
+.alert-warning {
+  color: #846404 !important;
+  background-color: #fff3cd !important;
+  border-color: #ffeeba !important;
+}
+
+.alert-info {
+  color: #02587e !important;
+  background-color: #cdeefd !important;
+  border-color: #b8e7fc !important;
 }
 
 /************************************
@@ -665,6 +704,17 @@ body blockquote {
   margin: 0 0 1rem;
 }
 
+body code {
+  font-size: 87.5%;
+  color: #e83e8c;
+  word-break: break-word;
+}
+
+body code, body kbd, body pre, body samp {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 1em;
+}
+
 body dl, body ol, body ul {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -691,7 +741,7 @@ body img {
 
 body i,
 body span {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 body p {
@@ -1676,6 +1726,23 @@ body .radius {
 body .sl-date {
   font-size: 10px;
   color: var(--gray);
+}
+
+body .close {
+  float: right;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+}
+
+body .close span {
+  font-size: 21px;
+}
+
+body .close:not(:disabled):not(.disabled) {
+  cursor: pointer;
 }
 
 .scroll-sidebar {

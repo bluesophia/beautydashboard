@@ -21,7 +21,7 @@
     --red:#E26B78 !important;
     --yellow:#fec107;
     --green:#00c292;
-    --teal:#20c997;
+    --teal:#20c997 !important;
     --cyan:#1FC0C7 !important;
     --white:#fff;
     --gray-light: #8d97ad;
@@ -112,7 +112,7 @@
     color:var(--teal) !important;
 }
 .text-info {
-    color:var(--blue) !important;
+    color:var(--info) !important;
 }
 .text-blue{
     color:var(--blue) !important;
@@ -256,6 +256,39 @@
     background-color: var(--yellow)!important;
 }
 
+/************************************
+        custom-color-alert
+************************************/
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.alert-rounded {
+    border-radius: 60px !important;
+}
+.alert-success {
+    color: #00654c !important;
+    background-color: #ccf3e9 !important;
+    border-color: #b8eee0 !important;
+}
+.alert-danger {
+    color: #77373d !important;
+    background-color: #fae1e4 !important;
+    border-color: #f7d5d9 !important;
+}
+.alert-warning {
+    color: #846404 !important;
+    background-color: #fff3cd !important;
+    border-color: #ffeeba !important;
+}
+.alert-info {
+    color: #02587e !important;
+    background-color: #cdeefd !important;
+    border-color: #b8e7fc !important;
+}
 /************************************
         custom-color-label
 ************************************/
@@ -510,6 +543,15 @@ body {
     blockquote {
         margin: 0 0 1rem;
         }
+    code {
+        font-size: 87.5%;
+        color: #e83e8c;
+        word-break: break-word;
+    }
+    code, kbd, pre, samp {
+        font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 1em;
+    }
     dl, ol, ul {
         margin-top: 0;
         margin-bottom: 1rem;
@@ -532,7 +574,7 @@ body {
     }
     i,
     span {
-      font-size: 18px;
+      font-size: 14px;
     }
     
     p {
@@ -1401,6 +1443,21 @@ body {
     .sl-date {
         font-size: 10px;
         color: var(--gray);
+    }
+    .close {
+        float: right;
+        // font-size: 1.3125rem;
+        font-weight: 700;
+        line-height: 1;
+        color: #000;
+        text-shadow: 0 1px 0 #fff;
+        opacity: .5;
+        span {
+        font-size: 21px;
+        }
+    }
+    .close:not(:disabled):not(.disabled) {
+        cursor: pointer;
     }
     
 }   
