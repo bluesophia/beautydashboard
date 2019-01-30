@@ -256,9 +256,13 @@
     background-color: var(--yellow)!important;
 }
 
+<<<<<<< HEAD
 /************************************
         custom-color-label
 ************************************/
+=======
+//label
+>>>>>>> eb32fe7e515a12e10a2384a5514f601cd73b5cba
 .label-info {
     background-color: var(--blue)!important;
 }
@@ -479,8 +483,13 @@ body {
     .font-20 {
         font-size: 20px;
     }
+<<<<<<< HEAD
     .font-bold {
         font-weight: 700;
+=======
+    b, strong {
+        font-weight: bolder;
+>>>>>>> eb32fe7e515a12e10a2384a5514f601cd73b5cba
     }
     /************************************
                   tag
@@ -891,9 +900,12 @@ body {
     .p-t-10 {
         padding-top: 10px;
     }
+<<<<<<< HEAD
     .p-l-20 {
         padding-left: 20px;
     }
+=======
+>>>>>>> eb32fe7e515a12e10a2384a5514f601cd73b5cba
     .row {
         display: flex;
         flex-wrap: wrap;
