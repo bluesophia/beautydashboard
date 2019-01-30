@@ -177,6 +177,10 @@
   background: var(--blue) !important;
 }
 
+.bg-danger {
+  background-color: var(--red) !important;
+}
+
 .bg-orange {
   background: var(--primary) !important;
 }
@@ -198,6 +202,29 @@
 }
 
 .bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+         feeds-background
+************************************/
+.feeds-bg-info {
+  background: var(--blue) !important;
+}
+
+.feeds-bg-success {
+  background: var(--teal) !important;
+}
+
+.feeds-bg-warning {
+  background: var(--yellow) !important;
+}
+
+.feeds-bg-danger {
+  background: var(--red) !important;
+}
+
+.feeds-bg-dark {
   background: var(--gray-extra-dark) !important;
 }
 
@@ -1834,6 +1861,10 @@ body .sl-date {
   background: var(--blue) !important;
 }
 
+.bg-danger {
+  background-color: var(--red) !important;
+}
+
 .bg-orange {
   background: var(--primary) !important;
 }
@@ -1855,6 +1886,29 @@ body .sl-date {
 }
 
 .bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+         feeds-background
+************************************/
+.feeds-bg-info {
+  background: var(--blue) !important;
+}
+
+.feeds-bg-success {
+  background: var(--teal) !important;
+}
+
+.feeds-bg-warning {
+  background: var(--yellow) !important;
+}
+
+.feeds-bg-danger {
+  background: var(--red) !important;
+}
+
+.feeds-bg-dark {
   background: var(--gray-extra-dark) !important;
 }
 
@@ -3759,6 +3813,10 @@ body .sl-date {
   background: var(--blue) !important;
 }
 
+.bg-danger {
+  background-color: var(--red) !important;
+}
+
 .bg-orange {
   background: var(--primary) !important;
 }
@@ -3780,6 +3838,29 @@ body .sl-date {
 }
 
 .bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+         feeds-background
+************************************/
+.feeds-bg-info {
+  background: var(--blue) !important;
+}
+
+.feeds-bg-success {
+  background: var(--teal) !important;
+}
+
+.feeds-bg-warning {
+  background: var(--yellow) !important;
+}
+
+.feeds-bg-danger {
+  background: var(--red) !important;
+}
+
+.feeds-bg-dark {
   background: var(--gray-extra-dark) !important;
 }
 
@@ -5562,6 +5643,10 @@ body .sl-date {
   background: var(--blue) !important;
 }
 
+.bg-danger {
+  background-color: var(--red) !important;
+}
+
 .bg-orange {
   background: var(--primary) !important;
 }
@@ -5583,6 +5668,29 @@ body .sl-date {
 }
 
 .bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+         feeds-background
+************************************/
+.feeds-bg-info {
+  background: var(--blue) !important;
+}
+
+.feeds-bg-success {
+  background: var(--teal) !important;
+}
+
+.feeds-bg-warning {
+  background: var(--yellow) !important;
+}
+
+.feeds-bg-danger {
+  background: var(--red) !important;
+}
+
+.feeds-bg-dark {
   background: var(--gray-extra-dark) !important;
 }
 
@@ -7341,6 +7449,10 @@ ul#themecolors li a {
   background: var(--blue) !important;
 }
 
+.bg-danger {
+  background-color: var(--red) !important;
+}
+
 .bg-orange {
   background: var(--primary) !important;
 }
@@ -7362,6 +7474,29 @@ ul#themecolors li a {
 }
 
 .bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+         feeds-background
+************************************/
+.feeds-bg-info {
+  background: var(--blue) !important;
+}
+
+.feeds-bg-success {
+  background: var(--teal) !important;
+}
+
+.feeds-bg-warning {
+  background: var(--yellow) !important;
+}
+
+.feeds-bg-danger {
+  background: var(--red) !important;
+}
+
+.feeds-bg-dark {
   background: var(--gray-extra-dark) !important;
 }
 
@@ -9088,6 +9223,10 @@ textarea.form-control {
   background: var(--blue) !important;
 }
 
+.bg-danger {
+  background-color: var(--red) !important;
+}
+
 .bg-orange {
   background: var(--primary) !important;
 }
@@ -9109,6 +9248,29 @@ textarea.form-control {
 }
 
 .bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+         feeds-background
+************************************/
+.feeds-bg-info {
+  background: var(--blue) !important;
+}
+
+.feeds-bg-success {
+  background: var(--teal) !important;
+}
+
+.feeds-bg-warning {
+  background: var(--yellow) !important;
+}
+
+.feeds-bg-danger {
+  background: var(--red) !important;
+}
+
+.feeds-bg-dark {
   background: var(--gray-extra-dark) !important;
 }
 
@@ -11332,6 +11494,10 @@ sales difference  & visit statastics table
   background: var(--blue) !important;
 }
 
+.bg-danger {
+  background-color: var(--red) !important;
+}
+
 .bg-orange {
   background: var(--primary) !important;
 }
@@ -11353,6 +11519,29 @@ sales difference  & visit statastics table
 }
 
 .bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+         feeds-background
+************************************/
+.feeds-bg-info {
+  background: var(--blue) !important;
+}
+
+.feeds-bg-success {
+  background: var(--teal) !important;
+}
+
+.feeds-bg-warning {
+  background: var(--yellow) !important;
+}
+
+.feeds-bg-danger {
+  background: var(--red) !important;
+}
+
+.feeds-bg-dark {
   background: var(--gray-extra-dark) !important;
 }
 
@@ -12993,6 +13182,10 @@ center .img-circle {
   background: var(--blue) !important;
 }
 
+.bg-danger {
+  background-color: var(--red) !important;
+}
+
 .bg-orange {
   background: var(--primary) !important;
 }
@@ -13014,6 +13207,29 @@ center .img-circle {
 }
 
 .bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+         feeds-background
+************************************/
+.feeds-bg-info {
+  background: var(--blue) !important;
+}
+
+.feeds-bg-success {
+  background: var(--teal) !important;
+}
+
+.feeds-bg-warning {
+  background: var(--yellow) !important;
+}
+
+.feeds-bg-danger {
+  background: var(--red) !important;
+}
+
+.feeds-bg-dark {
   background: var(--gray-extra-dark) !important;
 }
 
@@ -14723,6 +14939,10 @@ body .sl-date {
   background: var(--blue) !important;
 }
 
+.bg-danger {
+  background-color: var(--red) !important;
+}
+
 .bg-orange {
   background: var(--primary) !important;
 }
@@ -14744,6 +14964,29 @@ body .sl-date {
 }
 
 .bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+         feeds-background
+************************************/
+.feeds-bg-info {
+  background: var(--blue) !important;
+}
+
+.feeds-bg-success {
+  background: var(--teal) !important;
+}
+
+.feeds-bg-warning {
+  background: var(--yellow) !important;
+}
+
+.feeds-bg-danger {
+  background: var(--red) !important;
+}
+
+.feeds-bg-dark {
   background: var(--gray-extra-dark) !important;
 }
 
@@ -16397,6 +16640,42 @@ button.btn.btn-info.btn-circle.btn-lg i {
 }
 
 /************************************
+               feeds
+************************************/
+.feeds {
+  margin: 0px;
+  padding: 0px;
+}
+
+.feeds li {
+  list-style: none;
+  padding: 10px;
+  display: block;
+}
+
+.feeds li > div {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 100%;
+  color: var(--white);
+}
+
+.feeds li > div i {
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.feeds li span {
+  float: right;
+  width: auto;
+  font-size: 12px;
+}
+
+/************************************
            root color
 ************************************/
 :root {
@@ -16563,6 +16842,10 @@ button.btn.btn-info.btn-circle.btn-lg i {
   background: var(--blue) !important;
 }
 
+.bg-danger {
+  background-color: var(--red) !important;
+}
+
 .bg-orange {
   background: var(--primary) !important;
 }
@@ -16584,6 +16867,29 @@ button.btn.btn-info.btn-circle.btn-lg i {
 }
 
 .bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+         feeds-background
+************************************/
+.feeds-bg-info {
+  background: var(--blue) !important;
+}
+
+.feeds-bg-success {
+  background: var(--teal) !important;
+}
+
+.feeds-bg-warning {
+  background: var(--yellow) !important;
+}
+
+.feeds-bg-danger {
+  background: var(--red) !important;
+}
+
+.feeds-bg-dark {
   background: var(--gray-extra-dark) !important;
 }
 
@@ -18228,6 +18534,10 @@ body .sl-date {
   background: var(--blue) !important;
 }
 
+.bg-danger {
+  background-color: var(--red) !important;
+}
+
 .bg-orange {
   background: var(--primary) !important;
 }
@@ -18249,6 +18559,29 @@ body .sl-date {
 }
 
 .bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+         feeds-background
+************************************/
+.feeds-bg-info {
+  background: var(--blue) !important;
+}
+
+.feeds-bg-success {
+  background: var(--teal) !important;
+}
+
+.feeds-bg-warning {
+  background: var(--yellow) !important;
+}
+
+.feeds-bg-danger {
+  background: var(--red) !important;
+}
+
+.feeds-bg-dark {
   background: var(--gray-extra-dark) !important;
 }
 
@@ -19958,6 +20291,10 @@ body .sl-date {
   background: var(--blue) !important;
 }
 
+.bg-danger {
+  background-color: var(--red) !important;
+}
+
 .bg-orange {
   background: var(--primary) !important;
 }
@@ -19979,6 +20316,29 @@ body .sl-date {
 }
 
 .bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+         feeds-background
+************************************/
+.feeds-bg-info {
+  background: var(--blue) !important;
+}
+
+.feeds-bg-success {
+  background: var(--teal) !important;
+}
+
+.feeds-bg-warning {
+  background: var(--yellow) !important;
+}
+
+.feeds-bg-danger {
+  background: var(--red) !important;
+}
+
+.feeds-bg-dark {
   background: var(--gray-extra-dark) !important;
 }
 

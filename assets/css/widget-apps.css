@@ -166,6 +166,10 @@
   background: var(--blue) !important;
 }
 
+.bg-danger {
+  background-color: var(--red) !important;
+}
+
 .bg-orange {
   background: var(--primary) !important;
 }
@@ -187,6 +191,29 @@
 }
 
 .bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+         feeds-background
+************************************/
+.feeds-bg-info {
+  background: var(--blue) !important;
+}
+
+.feeds-bg-success {
+  background: var(--teal) !important;
+}
+
+.feeds-bg-warning {
+  background: var(--yellow) !important;
+}
+
+.feeds-bg-danger {
+  background: var(--red) !important;
+}
+
+.feeds-bg-dark {
   background: var(--gray-extra-dark) !important;
 }
 
@@ -1837,5 +1864,41 @@ button.btn.btn-info.btn-circle.btn-lg i {
 .country-state h2 {
   margin-bottom: 0px;
   font-weight: 400;
+}
+
+/************************************
+               feeds
+************************************/
+.feeds {
+  margin: 0px;
+  padding: 0px;
+}
+
+.feeds li {
+  list-style: none;
+  padding: 10px;
+  display: block;
+}
+
+.feeds li > div {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 100%;
+  color: var(--white);
+}
+
+.feeds li > div i {
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.feeds li span {
+  float: right;
+  width: auto;
+  font-size: 12px;
 }
 /*# sourceMappingURL=widget-apps.css.map */

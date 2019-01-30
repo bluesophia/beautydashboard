@@ -160,3 +160,34 @@ button.btn.btn-info.btn-circle.btn-lg {
     margin-bottom: 0px;
     font-weight: 400;
 }
+/************************************
+               feeds
+************************************/
+.feeds {
+    margin: 0px;
+    padding: 0px;
+}
+.feeds li {
+    list-style: none;
+    padding: 10px;
+    display: block;
+}
+.feeds li>div {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    color: var(--white);
+}
+.feeds li>div i {
+    line-height: 40px;
+    font-size: 14px;
+}
+.feeds li span {
+    float: right;
+    width: auto;
+    font-size: 12px;
+}

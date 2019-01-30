@@ -166,6 +166,10 @@
   background: var(--blue) !important;
 }
 
+.bg-danger {
+  background-color: var(--red) !important;
+}
+
 .bg-orange {
   background: var(--primary) !important;
 }
@@ -187,6 +191,29 @@
 }
 
 .bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+         feeds-background
+************************************/
+.feeds-bg-info {
+  background: var(--blue) !important;
+}
+
+.feeds-bg-success {
+  background: var(--teal) !important;
+}
+
+.feeds-bg-warning {
+  background: var(--yellow) !important;
+}
+
+.feeds-bg-danger {
+  background: var(--red) !important;
+}
+
+.feeds-bg-dark {
   background: var(--gray-extra-dark) !important;
 }
 
