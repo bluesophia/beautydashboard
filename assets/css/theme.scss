@@ -9,6 +9,7 @@
     --navbar-menu-icon-color: rgba(255, 255, 255, 0.5);
     --border-bottom-color: #e9ecef;
     --btn-border-color: #dee2e6;
+    --social-profile-bg-over-color:rgba(56, 83, 161, 0.7); 
     --a-color: #fb9678;
     --blue:#03a9f3 !important;
     --blue-light:#1eaaf0;
@@ -98,42 +99,67 @@
     background: linear-gradient(to right, #343a40 0%, #343a40 23%, #01c0c8 23%, #01c0c8 99%);
 }
 /************************************
-        custom-color-tag
+        custom-color-text
 ************************************/
 // text
 .text-muted {
-    color:var( --gray)!important;
+    color:var(--gray)!important;
 }
 .text-danger {
-    color:var( --red) !important;
+    color:var(--red) !important;
 }
 .text-success {
-    color:var( --teal) !important;
+    color:var(--teal) !important;
 }
 .text-info {
-    color:var( --blue) !important;
+    color:var(--blue) !important;
 }
-.text-blue, .bg-blue {
-    color:var( --blue) !important;
+.text-blue{
+    color:var(--blue) !important;
 }
-.text-orange, .bg-orange {
-    color:var( --primary) !important;
+.text-orange {
+    color:var(--primary) !important;
 }
-.text-cyan, .bg-cyan, .text-cyan {
-    color:var( --cyan) !important;
+.text-cyan {
+    color:var(--cyan) !important;
 }
-.text-purple, .bg-purple {
-    color:var( --purple) !important;
+.text-purple {
+    color:var(--purple) !important;
 }
 .text-green, .bg-green {
-    color:var( --teal) !important;
+    color:var(--teal) !important;
 }
-.text-white, .bg-white, .card-text-white {
-    color:var( --white) !important;
+.text-white, .card-text-white {
+    color:var(--white) !important;
 }
 
-
-// card bg
+/************************************
+       custom-color-background
+************************************/
+.bg-blue {
+    background:var(--blue) !important;
+}
+.bg-orange {
+    background:var(--primary) !important;
+}
+.bg-cyan {
+    background:var(--cyan) !important;
+}
+.bg-purple {
+    background:var(--purple) !important;
+}
+.bg-green {
+    background:var(--teal) !important;
+}
+.bg-white {
+    background:var(--white) !important;
+}
+.bg-inverse {
+    background:var(--gray-extra-dark) !important;
+}
+/************************************
+       custom-color-card-bg
+************************************/
 .card-bg-cyan {
     background-color:var(--cyan) !important;
 }
@@ -148,7 +174,9 @@
 }
 
 
-// prograss bar
+/************************************
+      custom-color-progress-bar
+************************************/
 .progress-bar-orange {
     background-color: var(--primary) !important;
 }
@@ -162,7 +190,9 @@
     background-color: var(--teal) !important;
 }
 
-// badge
+/************************************
+        custom-color-badge
+************************************/
 .badge {
     display: inline-block;
     padding: 0.25em 0.4em;
@@ -205,7 +235,9 @@
     background-color: var(--yellow)!important;
 }
 
-//label
+/************************************
+        custom-color-label
+************************************/
 .label-info {
     background-color: var(--blue)!important;
 }
@@ -225,7 +257,9 @@
     background-color: var(--megna) !important;
 }
 
-//button
+/************************************
+        custom-color-btn
+************************************/
 .btn-success {
     color: var(--white) !important;
     border-color: var(--teal) !important;
@@ -256,7 +290,9 @@
     background-color: #dd4b39 !important;
 }
 
-// status
+/************************************
+        custom-color-status
+************************************/
 .online {
     background: var(--teal);
 }
@@ -267,6 +303,21 @@
     background: var(--yellow);
 }
 
+/************************************
+      custom-color-img-round
+************************************/
+.round-primary {
+    background: var(--primary) !important;
+}
+.round-success {
+    background: var(--teal) !important;
+}
+.round-warning {
+    background: var(--yellow) !important;
+}
+.round-danger {
+    background: var(--red) !important;
+}
 /************************************
                 all
 ************************************/
@@ -395,14 +446,20 @@ body {
     h4 {
         font-size: 18px;
     }
+    .h5, h5 {
+        font-size: 16px;
+    }
+    .font-light {
+        font-weight: 300;
+    }
     .font-medium {
         font-weight: 500;
     }
     .font-20 {
         font-size: 20px;
     }
-    b, strong {
-        font-weight: bolder;
+    .font-bold {
+        font-weight: 700;
     }
     /************************************
                   tag
@@ -420,6 +477,9 @@ body {
         @media (min-width: 768px){
         display: block !important;
         }
+    }
+    b, strong {
+        font-weight: bolder;
     }
     blockquote {
         border-left: 5px solid var(--primary);
@@ -473,8 +533,9 @@ body {
     textarea:focus, input:focus{
         outline: none !important;
     }
-    .font-bold {
-        font-weight: 700;
+    .small, small {
+        font-size: 80%;
+        font-weight: 400;
     }
     /************************************
                    table
@@ -809,6 +870,9 @@ body {
     .p-t-10 {
         padding-top: 10px;
     }
+    .p-l-20 {
+        padding-left: 20px;
+    }
     .row {
         display: flex;
         flex-wrap: wrap;
@@ -905,6 +969,14 @@ body {
         margin-bottom: 15px;
         color: var(--gray);
         font-size: 14px;
+    }
+    .card-img-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1.25rem;
     }
     /************************************
                    badge

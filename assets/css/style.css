@@ -19,6 +19,7 @@
   --navbar-menu-icon-color: rgba(255, 255, 255, 0.5);
   --border-bottom-color: #e9ecef;
   --btn-border-color: #dee2e6;
+  --social-profile-bg-over-color:rgba(56, 83, 161, 0.7);
   --a-color: #fb9678;
   --blue:#03a9f3 !important;
   --blue-light:#1eaaf0;
@@ -127,7 +128,7 @@
 }
 
 /************************************
-        custom-color-tag
+        custom-color-text
 ************************************/
 .text-muted {
   color: var(--gray) !important;
@@ -145,19 +146,19 @@
   color: var(--blue) !important;
 }
 
-.text-blue, .bg-blue {
+.text-blue {
   color: var(--blue) !important;
 }
 
-.text-orange, .bg-orange {
+.text-orange {
   color: var(--primary) !important;
 }
 
-.text-cyan, .bg-cyan, .text-cyan {
+.text-cyan {
   color: var(--cyan) !important;
 }
 
-.text-purple, .bg-purple {
+.text-purple {
   color: var(--purple) !important;
 }
 
@@ -165,10 +166,44 @@
   color: var(--teal) !important;
 }
 
-.text-white, .bg-white, .card-text-white {
+.text-white, .card-text-white {
   color: var(--white) !important;
 }
 
+/************************************
+       custom-color-background
+************************************/
+.bg-blue {
+  background: var(--blue) !important;
+}
+
+.bg-orange {
+  background: var(--primary) !important;
+}
+
+.bg-cyan {
+  background: var(--cyan) !important;
+}
+
+.bg-purple {
+  background: var(--purple) !important;
+}
+
+.bg-green {
+  background: var(--teal) !important;
+}
+
+.bg-white {
+  background: var(--white) !important;
+}
+
+.bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+       custom-color-card-bg
+************************************/
 .card-bg-cyan {
   background-color: var(--cyan) !important;
 }
@@ -185,6 +220,9 @@
   background-color: var(--purple) !important;
 }
 
+/************************************
+      custom-color-progress-bar
+************************************/
 .progress-bar-orange {
   background-color: var(--primary) !important;
 }
@@ -201,6 +239,9 @@
   background-color: var(--teal) !important;
 }
 
+/************************************
+        custom-color-badge
+************************************/
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -249,6 +290,9 @@
   background-color: var(--yellow) !important;
 }
 
+/************************************
+        custom-color-label
+************************************/
 .label-info {
   background-color: var(--blue) !important;
 }
@@ -273,6 +317,9 @@
   background-color: var(--megna) !important;
 }
 
+/************************************
+        custom-color-btn
+************************************/
 .btn-success {
   color: var(--white) !important;
   border-color: var(--teal) !important;
@@ -307,6 +354,9 @@
   background-color: #dd4b39 !important;
 }
 
+/************************************
+        custom-color-status
+************************************/
 .online {
   background: var(--teal);
 }
@@ -317,6 +367,25 @@
 
 .away {
   background: var(--yellow);
+}
+
+/************************************
+      custom-color-img-round
+************************************/
+.round-primary {
+  background: var(--primary) !important;
+}
+
+.round-success {
+  background: var(--teal) !important;
+}
+
+.round-warning {
+  background: var(--yellow) !important;
+}
+
+.round-danger {
+  background: var(--red) !important;
 }
 
 /************************************
@@ -529,6 +598,14 @@ body h4 {
   font-size: 18px;
 }
 
+body .h5, body h5 {
+  font-size: 16px;
+}
+
+body .font-light {
+  font-weight: 300;
+}
+
 body .font-medium {
   font-weight: 500;
 }
@@ -537,8 +614,8 @@ body .font-20 {
   font-size: 20px;
 }
 
-body b, body strong {
-  font-weight: bolder;
+body .font-bold {
+  font-weight: 700;
 }
 
 body a {
@@ -556,6 +633,10 @@ body a.link {
   body aside {
     display: block !important;
   }
+}
+
+body b, body strong {
+  font-weight: bolder;
 }
 
 body blockquote {
@@ -621,8 +702,9 @@ body textarea:focus, body input:focus {
   outline: none !important;
 }
 
-body .font-bold {
-  font-weight: 700;
+body .small, body small {
+  font-size: 80%;
+  font-weight: 400;
 }
 
 body .table {
@@ -1041,6 +1123,10 @@ body .p-t-10 {
   padding-top: 10px;
 }
 
+body .p-l-20 {
+  padding-left: 20px;
+}
+
 body .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1160,6 +1246,15 @@ body .card-subtitle {
   margin-bottom: 15px;
   color: var(--gray);
   font-size: 14px;
+}
+
+body .card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
 }
 
 body .badge {
@@ -1581,6 +1676,7 @@ body .sl-date {
   --navbar-menu-icon-color: rgba(255, 255, 255, 0.5);
   --border-bottom-color: #e9ecef;
   --btn-border-color: #dee2e6;
+  --social-profile-bg-over-color:rgba(56, 83, 161, 0.7);
   --a-color: #fb9678;
   --blue:#03a9f3 !important;
   --blue-light:#1eaaf0;
@@ -1689,7 +1785,7 @@ body .sl-date {
 }
 
 /************************************
-        custom-color-tag
+        custom-color-text
 ************************************/
 .text-muted {
   color: var(--gray) !important;
@@ -1707,19 +1803,19 @@ body .sl-date {
   color: var(--blue) !important;
 }
 
-.text-blue, .bg-blue {
+.text-blue {
   color: var(--blue) !important;
 }
 
-.text-orange, .bg-orange {
+.text-orange {
   color: var(--primary) !important;
 }
 
-.text-cyan, .bg-cyan, .text-cyan {
+.text-cyan {
   color: var(--cyan) !important;
 }
 
-.text-purple, .bg-purple {
+.text-purple {
   color: var(--purple) !important;
 }
 
@@ -1727,10 +1823,44 @@ body .sl-date {
   color: var(--teal) !important;
 }
 
-.text-white, .bg-white, .card-text-white {
+.text-white, .card-text-white {
   color: var(--white) !important;
 }
 
+/************************************
+       custom-color-background
+************************************/
+.bg-blue {
+  background: var(--blue) !important;
+}
+
+.bg-orange {
+  background: var(--primary) !important;
+}
+
+.bg-cyan {
+  background: var(--cyan) !important;
+}
+
+.bg-purple {
+  background: var(--purple) !important;
+}
+
+.bg-green {
+  background: var(--teal) !important;
+}
+
+.bg-white {
+  background: var(--white) !important;
+}
+
+.bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+       custom-color-card-bg
+************************************/
 .card-bg-cyan {
   background-color: var(--cyan) !important;
 }
@@ -1747,6 +1877,9 @@ body .sl-date {
   background-color: var(--purple) !important;
 }
 
+/************************************
+      custom-color-progress-bar
+************************************/
 .progress-bar-orange {
   background-color: var(--primary) !important;
 }
@@ -1763,6 +1896,9 @@ body .sl-date {
   background-color: var(--teal) !important;
 }
 
+/************************************
+        custom-color-badge
+************************************/
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -1811,6 +1947,9 @@ body .sl-date {
   background-color: var(--yellow) !important;
 }
 
+/************************************
+        custom-color-label
+************************************/
 .label-info {
   background-color: var(--blue) !important;
 }
@@ -1835,6 +1974,9 @@ body .sl-date {
   background-color: var(--megna) !important;
 }
 
+/************************************
+        custom-color-btn
+************************************/
 .btn-success {
   color: var(--white) !important;
   border-color: var(--teal) !important;
@@ -1869,6 +2011,9 @@ body .sl-date {
   background-color: #dd4b39 !important;
 }
 
+/************************************
+        custom-color-status
+************************************/
 .online {
   background: var(--teal);
 }
@@ -1879,6 +2024,25 @@ body .sl-date {
 
 .away {
   background: var(--yellow);
+}
+
+/************************************
+      custom-color-img-round
+************************************/
+.round-primary {
+  background: var(--primary) !important;
+}
+
+.round-success {
+  background: var(--teal) !important;
+}
+
+.round-warning {
+  background: var(--yellow) !important;
+}
+
+.round-danger {
+  background: var(--red) !important;
 }
 
 /************************************
@@ -2091,6 +2255,14 @@ body h4 {
   font-size: 18px;
 }
 
+body .h5, body h5 {
+  font-size: 16px;
+}
+
+body .font-light {
+  font-weight: 300;
+}
+
 body .font-medium {
   font-weight: 500;
 }
@@ -2099,8 +2271,8 @@ body .font-20 {
   font-size: 20px;
 }
 
-body b, body strong {
-  font-weight: bolder;
+body .font-bold {
+  font-weight: 700;
 }
 
 body a {
@@ -2118,6 +2290,10 @@ body a.link {
   body aside {
     display: block !important;
   }
+}
+
+body b, body strong {
+  font-weight: bolder;
 }
 
 body blockquote {
@@ -2183,8 +2359,9 @@ body textarea:focus, body input:focus {
   outline: none !important;
 }
 
-body .font-bold {
-  font-weight: 700;
+body .small, body small {
+  font-size: 80%;
+  font-weight: 400;
 }
 
 body .table {
@@ -2603,6 +2780,10 @@ body .p-t-10 {
   padding-top: 10px;
 }
 
+body .p-l-20 {
+  padding-left: 20px;
+}
+
 body .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2722,6 +2903,15 @@ body .card-subtitle {
   margin-bottom: 15px;
   color: var(--gray);
   font-size: 14px;
+}
+
+body .card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
 }
 
 body .badge {
@@ -3411,6 +3601,7 @@ body .sl-date {
   --navbar-menu-icon-color: rgba(255, 255, 255, 0.5);
   --border-bottom-color: #e9ecef;
   --btn-border-color: #dee2e6;
+  --social-profile-bg-over-color:rgba(56, 83, 161, 0.7);
   --a-color: #fb9678;
   --blue:#03a9f3 !important;
   --blue-light:#1eaaf0;
@@ -3519,7 +3710,7 @@ body .sl-date {
 }
 
 /************************************
-        custom-color-tag
+        custom-color-text
 ************************************/
 .text-muted {
   color: var(--gray) !important;
@@ -3537,19 +3728,19 @@ body .sl-date {
   color: var(--blue) !important;
 }
 
-.text-blue, .bg-blue {
+.text-blue {
   color: var(--blue) !important;
 }
 
-.text-orange, .bg-orange {
+.text-orange {
   color: var(--primary) !important;
 }
 
-.text-cyan, .bg-cyan, .text-cyan {
+.text-cyan {
   color: var(--cyan) !important;
 }
 
-.text-purple, .bg-purple {
+.text-purple {
   color: var(--purple) !important;
 }
 
@@ -3557,10 +3748,44 @@ body .sl-date {
   color: var(--teal) !important;
 }
 
-.text-white, .bg-white, .card-text-white {
+.text-white, .card-text-white {
   color: var(--white) !important;
 }
 
+/************************************
+       custom-color-background
+************************************/
+.bg-blue {
+  background: var(--blue) !important;
+}
+
+.bg-orange {
+  background: var(--primary) !important;
+}
+
+.bg-cyan {
+  background: var(--cyan) !important;
+}
+
+.bg-purple {
+  background: var(--purple) !important;
+}
+
+.bg-green {
+  background: var(--teal) !important;
+}
+
+.bg-white {
+  background: var(--white) !important;
+}
+
+.bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+       custom-color-card-bg
+************************************/
 .card-bg-cyan {
   background-color: var(--cyan) !important;
 }
@@ -3577,6 +3802,9 @@ body .sl-date {
   background-color: var(--purple) !important;
 }
 
+/************************************
+      custom-color-progress-bar
+************************************/
 .progress-bar-orange {
   background-color: var(--primary) !important;
 }
@@ -3593,6 +3821,9 @@ body .sl-date {
   background-color: var(--teal) !important;
 }
 
+/************************************
+        custom-color-badge
+************************************/
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -3641,6 +3872,9 @@ body .sl-date {
   background-color: var(--yellow) !important;
 }
 
+/************************************
+        custom-color-label
+************************************/
 .label-info {
   background-color: var(--blue) !important;
 }
@@ -3665,6 +3899,9 @@ body .sl-date {
   background-color: var(--megna) !important;
 }
 
+/************************************
+        custom-color-btn
+************************************/
 .btn-success {
   color: var(--white) !important;
   border-color: var(--teal) !important;
@@ -3699,6 +3936,9 @@ body .sl-date {
   background-color: #dd4b39 !important;
 }
 
+/************************************
+        custom-color-status
+************************************/
 .online {
   background: var(--teal);
 }
@@ -3709,6 +3949,25 @@ body .sl-date {
 
 .away {
   background: var(--yellow);
+}
+
+/************************************
+      custom-color-img-round
+************************************/
+.round-primary {
+  background: var(--primary) !important;
+}
+
+.round-success {
+  background: var(--teal) !important;
+}
+
+.round-warning {
+  background: var(--yellow) !important;
+}
+
+.round-danger {
+  background: var(--red) !important;
 }
 
 /************************************
@@ -3921,6 +4180,14 @@ body h4 {
   font-size: 18px;
 }
 
+body .h5, body h5 {
+  font-size: 16px;
+}
+
+body .font-light {
+  font-weight: 300;
+}
+
 body .font-medium {
   font-weight: 500;
 }
@@ -3929,8 +4196,8 @@ body .font-20 {
   font-size: 20px;
 }
 
-body b, body strong {
-  font-weight: bolder;
+body .font-bold {
+  font-weight: 700;
 }
 
 body a {
@@ -3948,6 +4215,10 @@ body a.link {
   body aside {
     display: block !important;
   }
+}
+
+body b, body strong {
+  font-weight: bolder;
 }
 
 body blockquote {
@@ -4013,8 +4284,9 @@ body textarea:focus, body input:focus {
   outline: none !important;
 }
 
-body .font-bold {
-  font-weight: 700;
+body .small, body small {
+  font-size: 80%;
+  font-weight: 400;
 }
 
 body .table {
@@ -4433,6 +4705,10 @@ body .p-t-10 {
   padding-top: 10px;
 }
 
+body .p-l-20 {
+  padding-left: 20px;
+}
+
 body .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4552,6 +4828,15 @@ body .card-subtitle {
   margin-bottom: 15px;
   color: var(--gray);
   font-size: 14px;
+}
+
+body .card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
 }
 
 body .badge {
@@ -5119,6 +5404,7 @@ body .sl-date {
   --navbar-menu-icon-color: rgba(255, 255, 255, 0.5);
   --border-bottom-color: #e9ecef;
   --btn-border-color: #dee2e6;
+  --social-profile-bg-over-color:rgba(56, 83, 161, 0.7);
   --a-color: #fb9678;
   --blue:#03a9f3 !important;
   --blue-light:#1eaaf0;
@@ -5227,7 +5513,7 @@ body .sl-date {
 }
 
 /************************************
-        custom-color-tag
+        custom-color-text
 ************************************/
 .text-muted {
   color: var(--gray) !important;
@@ -5245,19 +5531,19 @@ body .sl-date {
   color: var(--blue) !important;
 }
 
-.text-blue, .bg-blue {
+.text-blue {
   color: var(--blue) !important;
 }
 
-.text-orange, .bg-orange {
+.text-orange {
   color: var(--primary) !important;
 }
 
-.text-cyan, .bg-cyan, .text-cyan {
+.text-cyan {
   color: var(--cyan) !important;
 }
 
-.text-purple, .bg-purple {
+.text-purple {
   color: var(--purple) !important;
 }
 
@@ -5265,10 +5551,44 @@ body .sl-date {
   color: var(--teal) !important;
 }
 
-.text-white, .bg-white, .card-text-white {
+.text-white, .card-text-white {
   color: var(--white) !important;
 }
 
+/************************************
+       custom-color-background
+************************************/
+.bg-blue {
+  background: var(--blue) !important;
+}
+
+.bg-orange {
+  background: var(--primary) !important;
+}
+
+.bg-cyan {
+  background: var(--cyan) !important;
+}
+
+.bg-purple {
+  background: var(--purple) !important;
+}
+
+.bg-green {
+  background: var(--teal) !important;
+}
+
+.bg-white {
+  background: var(--white) !important;
+}
+
+.bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+       custom-color-card-bg
+************************************/
 .card-bg-cyan {
   background-color: var(--cyan) !important;
 }
@@ -5285,6 +5605,9 @@ body .sl-date {
   background-color: var(--purple) !important;
 }
 
+/************************************
+      custom-color-progress-bar
+************************************/
 .progress-bar-orange {
   background-color: var(--primary) !important;
 }
@@ -5301,6 +5624,9 @@ body .sl-date {
   background-color: var(--teal) !important;
 }
 
+/************************************
+        custom-color-badge
+************************************/
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -5349,6 +5675,9 @@ body .sl-date {
   background-color: var(--yellow) !important;
 }
 
+/************************************
+        custom-color-label
+************************************/
 .label-info {
   background-color: var(--blue) !important;
 }
@@ -5373,6 +5702,9 @@ body .sl-date {
   background-color: var(--megna) !important;
 }
 
+/************************************
+        custom-color-btn
+************************************/
 .btn-success {
   color: var(--white) !important;
   border-color: var(--teal) !important;
@@ -5407,6 +5739,9 @@ body .sl-date {
   background-color: #dd4b39 !important;
 }
 
+/************************************
+        custom-color-status
+************************************/
 .online {
   background: var(--teal);
 }
@@ -5417,6 +5752,25 @@ body .sl-date {
 
 .away {
   background: var(--yellow);
+}
+
+/************************************
+      custom-color-img-round
+************************************/
+.round-primary {
+  background: var(--primary) !important;
+}
+
+.round-success {
+  background: var(--teal) !important;
+}
+
+.round-warning {
+  background: var(--yellow) !important;
+}
+
+.round-danger {
+  background: var(--red) !important;
 }
 
 /************************************
@@ -5629,6 +5983,14 @@ body h4 {
   font-size: 18px;
 }
 
+body .h5, body h5 {
+  font-size: 16px;
+}
+
+body .font-light {
+  font-weight: 300;
+}
+
 body .font-medium {
   font-weight: 500;
 }
@@ -5637,8 +5999,8 @@ body .font-20 {
   font-size: 20px;
 }
 
-body b, body strong {
-  font-weight: bolder;
+body .font-bold {
+  font-weight: 700;
 }
 
 body a {
@@ -5656,6 +6018,10 @@ body a.link {
   body aside {
     display: block !important;
   }
+}
+
+body b, body strong {
+  font-weight: bolder;
 }
 
 body blockquote {
@@ -5721,8 +6087,9 @@ body textarea:focus, body input:focus {
   outline: none !important;
 }
 
-body .font-bold {
-  font-weight: 700;
+body .small, body small {
+  font-size: 80%;
+  font-weight: 400;
 }
 
 body .table {
@@ -6141,6 +6508,10 @@ body .p-t-10 {
   padding-top: 10px;
 }
 
+body .p-l-20 {
+  padding-left: 20px;
+}
+
 body .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6260,6 +6631,15 @@ body .card-subtitle {
   margin-bottom: 15px;
   color: var(--gray);
   font-size: 14px;
+}
+
+body .card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
 }
 
 body .badge {
@@ -6803,6 +7183,7 @@ ul#themecolors li a {
   --navbar-menu-icon-color: rgba(255, 255, 255, 0.5);
   --border-bottom-color: #e9ecef;
   --btn-border-color: #dee2e6;
+  --social-profile-bg-over-color:rgba(56, 83, 161, 0.7);
   --a-color: #fb9678;
   --blue:#03a9f3 !important;
   --blue-light:#1eaaf0;
@@ -6911,7 +7292,7 @@ ul#themecolors li a {
 }
 
 /************************************
-        custom-color-tag
+        custom-color-text
 ************************************/
 .text-muted {
   color: var(--gray) !important;
@@ -6929,19 +7310,19 @@ ul#themecolors li a {
   color: var(--blue) !important;
 }
 
-.text-blue, .bg-blue {
+.text-blue {
   color: var(--blue) !important;
 }
 
-.text-orange, .bg-orange {
+.text-orange {
   color: var(--primary) !important;
 }
 
-.text-cyan, .bg-cyan, .text-cyan {
+.text-cyan {
   color: var(--cyan) !important;
 }
 
-.text-purple, .bg-purple {
+.text-purple {
   color: var(--purple) !important;
 }
 
@@ -6949,10 +7330,44 @@ ul#themecolors li a {
   color: var(--teal) !important;
 }
 
-.text-white, .bg-white, .card-text-white {
+.text-white, .card-text-white {
   color: var(--white) !important;
 }
 
+/************************************
+       custom-color-background
+************************************/
+.bg-blue {
+  background: var(--blue) !important;
+}
+
+.bg-orange {
+  background: var(--primary) !important;
+}
+
+.bg-cyan {
+  background: var(--cyan) !important;
+}
+
+.bg-purple {
+  background: var(--purple) !important;
+}
+
+.bg-green {
+  background: var(--teal) !important;
+}
+
+.bg-white {
+  background: var(--white) !important;
+}
+
+.bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+       custom-color-card-bg
+************************************/
 .card-bg-cyan {
   background-color: var(--cyan) !important;
 }
@@ -6969,6 +7384,9 @@ ul#themecolors li a {
   background-color: var(--purple) !important;
 }
 
+/************************************
+      custom-color-progress-bar
+************************************/
 .progress-bar-orange {
   background-color: var(--primary) !important;
 }
@@ -6985,6 +7403,9 @@ ul#themecolors li a {
   background-color: var(--teal) !important;
 }
 
+/************************************
+        custom-color-badge
+************************************/
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -7033,6 +7454,9 @@ ul#themecolors li a {
   background-color: var(--yellow) !important;
 }
 
+/************************************
+        custom-color-label
+************************************/
 .label-info {
   background-color: var(--blue) !important;
 }
@@ -7057,6 +7481,9 @@ ul#themecolors li a {
   background-color: var(--megna) !important;
 }
 
+/************************************
+        custom-color-btn
+************************************/
 .btn-success {
   color: var(--white) !important;
   border-color: var(--teal) !important;
@@ -7091,6 +7518,9 @@ ul#themecolors li a {
   background-color: #dd4b39 !important;
 }
 
+/************************************
+        custom-color-status
+************************************/
 .online {
   background: var(--teal);
 }
@@ -7101,6 +7531,25 @@ ul#themecolors li a {
 
 .away {
   background: var(--yellow);
+}
+
+/************************************
+      custom-color-img-round
+************************************/
+.round-primary {
+  background: var(--primary) !important;
+}
+
+.round-success {
+  background: var(--teal) !important;
+}
+
+.round-warning {
+  background: var(--yellow) !important;
+}
+
+.round-danger {
+  background: var(--red) !important;
 }
 
 /************************************
@@ -7313,6 +7762,14 @@ body h4 {
   font-size: 18px;
 }
 
+body .h5, body h5 {
+  font-size: 16px;
+}
+
+body .font-light {
+  font-weight: 300;
+}
+
 body .font-medium {
   font-weight: 500;
 }
@@ -7321,8 +7778,8 @@ body .font-20 {
   font-size: 20px;
 }
 
-body b, body strong {
-  font-weight: bolder;
+body .font-bold {
+  font-weight: 700;
 }
 
 body a {
@@ -7340,6 +7797,10 @@ body a.link {
   body aside {
     display: block !important;
   }
+}
+
+body b, body strong {
+  font-weight: bolder;
 }
 
 body blockquote {
@@ -7405,8 +7866,9 @@ body textarea:focus, body input:focus {
   outline: none !important;
 }
 
-body .font-bold {
-  font-weight: 700;
+body .small, body small {
+  font-size: 80%;
+  font-weight: 400;
 }
 
 body .table {
@@ -7825,6 +8287,10 @@ body .p-t-10 {
   padding-top: 10px;
 }
 
+body .p-l-20 {
+  padding-left: 20px;
+}
+
 body .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7944,6 +8410,15 @@ body .card-subtitle {
   margin-bottom: 15px;
   color: var(--gray);
   font-size: 14px;
+}
+
+body .card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
 }
 
 body .badge {
@@ -8455,6 +8930,7 @@ textarea.form-control {
   --navbar-menu-icon-color: rgba(255, 255, 255, 0.5);
   --border-bottom-color: #e9ecef;
   --btn-border-color: #dee2e6;
+  --social-profile-bg-over-color:rgba(56, 83, 161, 0.7);
   --a-color: #fb9678;
   --blue:#03a9f3 !important;
   --blue-light:#1eaaf0;
@@ -8563,7 +9039,7 @@ textarea.form-control {
 }
 
 /************************************
-        custom-color-tag
+        custom-color-text
 ************************************/
 .text-muted {
   color: var(--gray) !important;
@@ -8581,19 +9057,19 @@ textarea.form-control {
   color: var(--blue) !important;
 }
 
-.text-blue, .bg-blue {
+.text-blue {
   color: var(--blue) !important;
 }
 
-.text-orange, .bg-orange {
+.text-orange {
   color: var(--primary) !important;
 }
 
-.text-cyan, .bg-cyan, .text-cyan {
+.text-cyan {
   color: var(--cyan) !important;
 }
 
-.text-purple, .bg-purple {
+.text-purple {
   color: var(--purple) !important;
 }
 
@@ -8601,10 +9077,44 @@ textarea.form-control {
   color: var(--teal) !important;
 }
 
-.text-white, .bg-white, .card-text-white {
+.text-white, .card-text-white {
   color: var(--white) !important;
 }
 
+/************************************
+       custom-color-background
+************************************/
+.bg-blue {
+  background: var(--blue) !important;
+}
+
+.bg-orange {
+  background: var(--primary) !important;
+}
+
+.bg-cyan {
+  background: var(--cyan) !important;
+}
+
+.bg-purple {
+  background: var(--purple) !important;
+}
+
+.bg-green {
+  background: var(--teal) !important;
+}
+
+.bg-white {
+  background: var(--white) !important;
+}
+
+.bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+       custom-color-card-bg
+************************************/
 .card-bg-cyan {
   background-color: var(--cyan) !important;
 }
@@ -8621,6 +9131,9 @@ textarea.form-control {
   background-color: var(--purple) !important;
 }
 
+/************************************
+      custom-color-progress-bar
+************************************/
 .progress-bar-orange {
   background-color: var(--primary) !important;
 }
@@ -8637,6 +9150,9 @@ textarea.form-control {
   background-color: var(--teal) !important;
 }
 
+/************************************
+        custom-color-badge
+************************************/
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -8685,6 +9201,9 @@ textarea.form-control {
   background-color: var(--yellow) !important;
 }
 
+/************************************
+        custom-color-label
+************************************/
 .label-info {
   background-color: var(--blue) !important;
 }
@@ -8709,6 +9228,9 @@ textarea.form-control {
   background-color: var(--megna) !important;
 }
 
+/************************************
+        custom-color-btn
+************************************/
 .btn-success {
   color: var(--white) !important;
   border-color: var(--teal) !important;
@@ -8743,6 +9265,9 @@ textarea.form-control {
   background-color: #dd4b39 !important;
 }
 
+/************************************
+        custom-color-status
+************************************/
 .online {
   background: var(--teal);
 }
@@ -8753,6 +9278,25 @@ textarea.form-control {
 
 .away {
   background: var(--yellow);
+}
+
+/************************************
+      custom-color-img-round
+************************************/
+.round-primary {
+  background: var(--primary) !important;
+}
+
+.round-success {
+  background: var(--teal) !important;
+}
+
+.round-warning {
+  background: var(--yellow) !important;
+}
+
+.round-danger {
+  background: var(--red) !important;
 }
 
 /************************************
@@ -8965,6 +9509,14 @@ body h4 {
   font-size: 18px;
 }
 
+body .h5, body h5 {
+  font-size: 16px;
+}
+
+body .font-light {
+  font-weight: 300;
+}
+
 body .font-medium {
   font-weight: 500;
 }
@@ -8973,8 +9525,8 @@ body .font-20 {
   font-size: 20px;
 }
 
-body b, body strong {
-  font-weight: bolder;
+body .font-bold {
+  font-weight: 700;
 }
 
 body a {
@@ -8992,6 +9544,10 @@ body a.link {
   body aside {
     display: block !important;
   }
+}
+
+body b, body strong {
+  font-weight: bolder;
 }
 
 body blockquote {
@@ -9057,8 +9613,9 @@ body textarea:focus, body input:focus {
   outline: none !important;
 }
 
-body .font-bold {
-  font-weight: 700;
+body .small, body small {
+  font-size: 80%;
+  font-weight: 400;
 }
 
 body .table {
@@ -9477,6 +10034,10 @@ body .p-t-10 {
   padding-top: 10px;
 }
 
+body .p-l-20 {
+  padding-left: 20px;
+}
+
 body .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9596,6 +10157,15 @@ body .card-subtitle {
   margin-bottom: 15px;
   color: var(--gray);
   font-size: 14px;
+}
+
+body .card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
 }
 
 body .badge {
@@ -10604,6 +11174,7 @@ sales difference  & visit statastics table
   --navbar-menu-icon-color: rgba(255, 255, 255, 0.5);
   --border-bottom-color: #e9ecef;
   --btn-border-color: #dee2e6;
+  --social-profile-bg-over-color:rgba(56, 83, 161, 0.7);
   --a-color: #fb9678;
   --blue:#03a9f3 !important;
   --blue-light:#1eaaf0;
@@ -10712,7 +11283,7 @@ sales difference  & visit statastics table
 }
 
 /************************************
-        custom-color-tag
+        custom-color-text
 ************************************/
 .text-muted {
   color: var(--gray) !important;
@@ -10730,19 +11301,19 @@ sales difference  & visit statastics table
   color: var(--blue) !important;
 }
 
-.text-blue, .bg-blue {
+.text-blue {
   color: var(--blue) !important;
 }
 
-.text-orange, .bg-orange {
+.text-orange {
   color: var(--primary) !important;
 }
 
-.text-cyan, .bg-cyan, .text-cyan {
+.text-cyan {
   color: var(--cyan) !important;
 }
 
-.text-purple, .bg-purple {
+.text-purple {
   color: var(--purple) !important;
 }
 
@@ -10750,10 +11321,44 @@ sales difference  & visit statastics table
   color: var(--teal) !important;
 }
 
-.text-white, .bg-white, .card-text-white {
+.text-white, .card-text-white {
   color: var(--white) !important;
 }
 
+/************************************
+       custom-color-background
+************************************/
+.bg-blue {
+  background: var(--blue) !important;
+}
+
+.bg-orange {
+  background: var(--primary) !important;
+}
+
+.bg-cyan {
+  background: var(--cyan) !important;
+}
+
+.bg-purple {
+  background: var(--purple) !important;
+}
+
+.bg-green {
+  background: var(--teal) !important;
+}
+
+.bg-white {
+  background: var(--white) !important;
+}
+
+.bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+       custom-color-card-bg
+************************************/
 .card-bg-cyan {
   background-color: var(--cyan) !important;
 }
@@ -10770,6 +11375,9 @@ sales difference  & visit statastics table
   background-color: var(--purple) !important;
 }
 
+/************************************
+      custom-color-progress-bar
+************************************/
 .progress-bar-orange {
   background-color: var(--primary) !important;
 }
@@ -10786,6 +11394,9 @@ sales difference  & visit statastics table
   background-color: var(--teal) !important;
 }
 
+/************************************
+        custom-color-badge
+************************************/
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -10834,6 +11445,9 @@ sales difference  & visit statastics table
   background-color: var(--yellow) !important;
 }
 
+/************************************
+        custom-color-label
+************************************/
 .label-info {
   background-color: var(--blue) !important;
 }
@@ -10858,6 +11472,9 @@ sales difference  & visit statastics table
   background-color: var(--megna) !important;
 }
 
+/************************************
+        custom-color-btn
+************************************/
 .btn-success {
   color: var(--white) !important;
   border-color: var(--teal) !important;
@@ -10892,6 +11509,9 @@ sales difference  & visit statastics table
   background-color: #dd4b39 !important;
 }
 
+/************************************
+        custom-color-status
+************************************/
 .online {
   background: var(--teal);
 }
@@ -10902,6 +11522,25 @@ sales difference  & visit statastics table
 
 .away {
   background: var(--yellow);
+}
+
+/************************************
+      custom-color-img-round
+************************************/
+.round-primary {
+  background: var(--primary) !important;
+}
+
+.round-success {
+  background: var(--teal) !important;
+}
+
+.round-warning {
+  background: var(--yellow) !important;
+}
+
+.round-danger {
+  background: var(--red) !important;
 }
 
 /************************************
@@ -11114,6 +11753,14 @@ body h4 {
   font-size: 18px;
 }
 
+body .h5, body h5 {
+  font-size: 16px;
+}
+
+body .font-light {
+  font-weight: 300;
+}
+
 body .font-medium {
   font-weight: 500;
 }
@@ -11122,8 +11769,8 @@ body .font-20 {
   font-size: 20px;
 }
 
-body b, body strong {
-  font-weight: bolder;
+body .font-bold {
+  font-weight: 700;
 }
 
 body a {
@@ -11141,6 +11788,10 @@ body a.link {
   body aside {
     display: block !important;
   }
+}
+
+body b, body strong {
+  font-weight: bolder;
 }
 
 body blockquote {
@@ -11206,8 +11857,9 @@ body textarea:focus, body input:focus {
   outline: none !important;
 }
 
-body .font-bold {
-  font-weight: 700;
+body .small, body small {
+  font-size: 80%;
+  font-weight: 400;
 }
 
 body .table {
@@ -11626,6 +12278,10 @@ body .p-t-10 {
   padding-top: 10px;
 }
 
+body .p-l-20 {
+  padding-left: 20px;
+}
+
 body .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11745,6 +12401,15 @@ body .card-subtitle {
   margin-bottom: 15px;
   color: var(--gray);
   font-size: 14px;
+}
+
+body .card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
 }
 
 body .badge {
@@ -12170,6 +12835,7 @@ center .img-circle {
   --navbar-menu-icon-color: rgba(255, 255, 255, 0.5);
   --border-bottom-color: #e9ecef;
   --btn-border-color: #dee2e6;
+  --social-profile-bg-over-color:rgba(56, 83, 161, 0.7);
   --a-color: #fb9678;
   --blue:#03a9f3 !important;
   --blue-light:#1eaaf0;
@@ -12278,7 +12944,7 @@ center .img-circle {
 }
 
 /************************************
-        custom-color-tag
+        custom-color-text
 ************************************/
 .text-muted {
   color: var(--gray) !important;
@@ -12296,19 +12962,19 @@ center .img-circle {
   color: var(--blue) !important;
 }
 
-.text-blue, .bg-blue {
+.text-blue {
   color: var(--blue) !important;
 }
 
-.text-orange, .bg-orange {
+.text-orange {
   color: var(--primary) !important;
 }
 
-.text-cyan, .bg-cyan, .text-cyan {
+.text-cyan {
   color: var(--cyan) !important;
 }
 
-.text-purple, .bg-purple {
+.text-purple {
   color: var(--purple) !important;
 }
 
@@ -12316,10 +12982,44 @@ center .img-circle {
   color: var(--teal) !important;
 }
 
-.text-white, .bg-white, .card-text-white {
+.text-white, .card-text-white {
   color: var(--white) !important;
 }
 
+/************************************
+       custom-color-background
+************************************/
+.bg-blue {
+  background: var(--blue) !important;
+}
+
+.bg-orange {
+  background: var(--primary) !important;
+}
+
+.bg-cyan {
+  background: var(--cyan) !important;
+}
+
+.bg-purple {
+  background: var(--purple) !important;
+}
+
+.bg-green {
+  background: var(--teal) !important;
+}
+
+.bg-white {
+  background: var(--white) !important;
+}
+
+.bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+       custom-color-card-bg
+************************************/
 .card-bg-cyan {
   background-color: var(--cyan) !important;
 }
@@ -12336,6 +13036,9 @@ center .img-circle {
   background-color: var(--purple) !important;
 }
 
+/************************************
+      custom-color-progress-bar
+************************************/
 .progress-bar-orange {
   background-color: var(--primary) !important;
 }
@@ -12352,6 +13055,9 @@ center .img-circle {
   background-color: var(--teal) !important;
 }
 
+/************************************
+        custom-color-badge
+************************************/
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -12400,6 +13106,9 @@ center .img-circle {
   background-color: var(--yellow) !important;
 }
 
+/************************************
+        custom-color-label
+************************************/
 .label-info {
   background-color: var(--blue) !important;
 }
@@ -12424,6 +13133,9 @@ center .img-circle {
   background-color: var(--megna) !important;
 }
 
+/************************************
+        custom-color-btn
+************************************/
 .btn-success {
   color: var(--white) !important;
   border-color: var(--teal) !important;
@@ -12458,6 +13170,9 @@ center .img-circle {
   background-color: #dd4b39 !important;
 }
 
+/************************************
+        custom-color-status
+************************************/
 .online {
   background: var(--teal);
 }
@@ -12468,6 +13183,25 @@ center .img-circle {
 
 .away {
   background: var(--yellow);
+}
+
+/************************************
+      custom-color-img-round
+************************************/
+.round-primary {
+  background: var(--primary) !important;
+}
+
+.round-success {
+  background: var(--teal) !important;
+}
+
+.round-warning {
+  background: var(--yellow) !important;
+}
+
+.round-danger {
+  background: var(--red) !important;
 }
 
 /************************************
@@ -12680,6 +13414,14 @@ body h4 {
   font-size: 18px;
 }
 
+body .h5, body h5 {
+  font-size: 16px;
+}
+
+body .font-light {
+  font-weight: 300;
+}
+
 body .font-medium {
   font-weight: 500;
 }
@@ -12688,8 +13430,8 @@ body .font-20 {
   font-size: 20px;
 }
 
-body b, body strong {
-  font-weight: bolder;
+body .font-bold {
+  font-weight: 700;
 }
 
 body a {
@@ -12707,6 +13449,10 @@ body a.link {
   body aside {
     display: block !important;
   }
+}
+
+body b, body strong {
+  font-weight: bolder;
 }
 
 body blockquote {
@@ -12772,8 +13518,9 @@ body textarea:focus, body input:focus {
   outline: none !important;
 }
 
-body .font-bold {
-  font-weight: 700;
+body .small, body small {
+  font-size: 80%;
+  font-weight: 400;
 }
 
 body .table {
@@ -13192,6 +13939,10 @@ body .p-t-10 {
   padding-top: 10px;
 }
 
+body .p-l-20 {
+  padding-left: 20px;
+}
+
 body .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13311,6 +14062,15 @@ body .card-subtitle {
   margin-bottom: 15px;
   color: var(--gray);
   font-size: 14px;
+}
+
+body .card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
 }
 
 body .badge {
@@ -13805,6 +14565,7 @@ body .sl-date {
   --navbar-menu-icon-color: rgba(255, 255, 255, 0.5);
   --border-bottom-color: #e9ecef;
   --btn-border-color: #dee2e6;
+  --social-profile-bg-over-color:rgba(56, 83, 161, 0.7);
   --a-color: #fb9678;
   --blue:#03a9f3 !important;
   --blue-light:#1eaaf0;
@@ -13913,7 +14674,7 @@ body .sl-date {
 }
 
 /************************************
-        custom-color-tag
+        custom-color-text
 ************************************/
 .text-muted {
   color: var(--gray) !important;
@@ -13931,19 +14692,19 @@ body .sl-date {
   color: var(--blue) !important;
 }
 
-.text-blue, .bg-blue {
+.text-blue {
   color: var(--blue) !important;
 }
 
-.text-orange, .bg-orange {
+.text-orange {
   color: var(--primary) !important;
 }
 
-.text-cyan, .bg-cyan, .text-cyan {
+.text-cyan {
   color: var(--cyan) !important;
 }
 
-.text-purple, .bg-purple {
+.text-purple {
   color: var(--purple) !important;
 }
 
@@ -13951,10 +14712,44 @@ body .sl-date {
   color: var(--teal) !important;
 }
 
-.text-white, .bg-white, .card-text-white {
+.text-white, .card-text-white {
   color: var(--white) !important;
 }
 
+/************************************
+       custom-color-background
+************************************/
+.bg-blue {
+  background: var(--blue) !important;
+}
+
+.bg-orange {
+  background: var(--primary) !important;
+}
+
+.bg-cyan {
+  background: var(--cyan) !important;
+}
+
+.bg-purple {
+  background: var(--purple) !important;
+}
+
+.bg-green {
+  background: var(--teal) !important;
+}
+
+.bg-white {
+  background: var(--white) !important;
+}
+
+.bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+       custom-color-card-bg
+************************************/
 .card-bg-cyan {
   background-color: var(--cyan) !important;
 }
@@ -13971,6 +14766,9 @@ body .sl-date {
   background-color: var(--purple) !important;
 }
 
+/************************************
+      custom-color-progress-bar
+************************************/
 .progress-bar-orange {
   background-color: var(--primary) !important;
 }
@@ -13987,6 +14785,9 @@ body .sl-date {
   background-color: var(--teal) !important;
 }
 
+/************************************
+        custom-color-badge
+************************************/
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -14035,6 +14836,9 @@ body .sl-date {
   background-color: var(--yellow) !important;
 }
 
+/************************************
+        custom-color-label
+************************************/
 .label-info {
   background-color: var(--blue) !important;
 }
@@ -14059,6 +14863,9 @@ body .sl-date {
   background-color: var(--megna) !important;
 }
 
+/************************************
+        custom-color-btn
+************************************/
 .btn-success {
   color: var(--white) !important;
   border-color: var(--teal) !important;
@@ -14093,6 +14900,9 @@ body .sl-date {
   background-color: #dd4b39 !important;
 }
 
+/************************************
+        custom-color-status
+************************************/
 .online {
   background: var(--teal);
 }
@@ -14103,6 +14913,25 @@ body .sl-date {
 
 .away {
   background: var(--yellow);
+}
+
+/************************************
+      custom-color-img-round
+************************************/
+.round-primary {
+  background: var(--primary) !important;
+}
+
+.round-success {
+  background: var(--teal) !important;
+}
+
+.round-warning {
+  background: var(--yellow) !important;
+}
+
+.round-danger {
+  background: var(--red) !important;
 }
 
 /************************************
@@ -14315,6 +15144,14 @@ body h4 {
   font-size: 18px;
 }
 
+body .h5, body h5 {
+  font-size: 16px;
+}
+
+body .font-light {
+  font-weight: 300;
+}
+
 body .font-medium {
   font-weight: 500;
 }
@@ -14323,8 +15160,8 @@ body .font-20 {
   font-size: 20px;
 }
 
-body b, body strong {
-  font-weight: bolder;
+body .font-bold {
+  font-weight: 700;
 }
 
 body a {
@@ -14342,6 +15179,10 @@ body a.link {
   body aside {
     display: block !important;
   }
+}
+
+body b, body strong {
+  font-weight: bolder;
 }
 
 body blockquote {
@@ -14407,8 +15248,9 @@ body textarea:focus, body input:focus {
   outline: none !important;
 }
 
-body .font-bold {
-  font-weight: 700;
+body .small, body small {
+  font-size: 80%;
+  font-weight: 400;
 }
 
 body .table {
@@ -14827,6 +15669,10 @@ body .p-t-10 {
   padding-top: 10px;
 }
 
+body .p-l-20 {
+  padding-left: 20px;
+}
+
 body .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14946,6 +15792,15 @@ body .card-subtitle {
   margin-bottom: 15px;
   color: var(--gray);
   font-size: 14px;
+}
+
+body .card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
 }
 
 body .badge {
@@ -15498,6 +16353,50 @@ button.btn.btn-info.btn-circle.btn-lg i {
 }
 
 /************************************
+        social-profile
+************************************/
+.social-profile-first.bg-over {
+  background: var(--social-profile-bg-over-color);
+}
+
+.social-profile-first {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 96px;
+}
+
+/************************************
+        countty-state
+************************************/
+.country-state {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+
+.country-state li {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.country-state h2 {
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+
+/************************************
            root color
 ************************************/
 :root {
@@ -15506,6 +16405,7 @@ button.btn.btn-info.btn-circle.btn-lg i {
   --navbar-menu-icon-color: rgba(255, 255, 255, 0.5);
   --border-bottom-color: #e9ecef;
   --btn-border-color: #dee2e6;
+  --social-profile-bg-over-color:rgba(56, 83, 161, 0.7);
   --a-color: #fb9678;
   --blue:#03a9f3 !important;
   --blue-light:#1eaaf0;
@@ -15614,7 +16514,7 @@ button.btn.btn-info.btn-circle.btn-lg i {
 }
 
 /************************************
-        custom-color-tag
+        custom-color-text
 ************************************/
 .text-muted {
   color: var(--gray) !important;
@@ -15632,19 +16532,19 @@ button.btn.btn-info.btn-circle.btn-lg i {
   color: var(--blue) !important;
 }
 
-.text-blue, .bg-blue {
+.text-blue {
   color: var(--blue) !important;
 }
 
-.text-orange, .bg-orange {
+.text-orange {
   color: var(--primary) !important;
 }
 
-.text-cyan, .bg-cyan, .text-cyan {
+.text-cyan {
   color: var(--cyan) !important;
 }
 
-.text-purple, .bg-purple {
+.text-purple {
   color: var(--purple) !important;
 }
 
@@ -15652,10 +16552,44 @@ button.btn.btn-info.btn-circle.btn-lg i {
   color: var(--teal) !important;
 }
 
-.text-white, .bg-white, .card-text-white {
+.text-white, .card-text-white {
   color: var(--white) !important;
 }
 
+/************************************
+       custom-color-background
+************************************/
+.bg-blue {
+  background: var(--blue) !important;
+}
+
+.bg-orange {
+  background: var(--primary) !important;
+}
+
+.bg-cyan {
+  background: var(--cyan) !important;
+}
+
+.bg-purple {
+  background: var(--purple) !important;
+}
+
+.bg-green {
+  background: var(--teal) !important;
+}
+
+.bg-white {
+  background: var(--white) !important;
+}
+
+.bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+       custom-color-card-bg
+************************************/
 .card-bg-cyan {
   background-color: var(--cyan) !important;
 }
@@ -15672,6 +16606,9 @@ button.btn.btn-info.btn-circle.btn-lg i {
   background-color: var(--purple) !important;
 }
 
+/************************************
+      custom-color-progress-bar
+************************************/
 .progress-bar-orange {
   background-color: var(--primary) !important;
 }
@@ -15688,6 +16625,9 @@ button.btn.btn-info.btn-circle.btn-lg i {
   background-color: var(--teal) !important;
 }
 
+/************************************
+        custom-color-badge
+************************************/
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -15736,6 +16676,9 @@ button.btn.btn-info.btn-circle.btn-lg i {
   background-color: var(--yellow) !important;
 }
 
+/************************************
+        custom-color-label
+************************************/
 .label-info {
   background-color: var(--blue) !important;
 }
@@ -15760,6 +16703,9 @@ button.btn.btn-info.btn-circle.btn-lg i {
   background-color: var(--megna) !important;
 }
 
+/************************************
+        custom-color-btn
+************************************/
 .btn-success {
   color: var(--white) !important;
   border-color: var(--teal) !important;
@@ -15794,6 +16740,9 @@ button.btn.btn-info.btn-circle.btn-lg i {
   background-color: #dd4b39 !important;
 }
 
+/************************************
+        custom-color-status
+************************************/
 .online {
   background: var(--teal);
 }
@@ -15804,6 +16753,25 @@ button.btn.btn-info.btn-circle.btn-lg i {
 
 .away {
   background: var(--yellow);
+}
+
+/************************************
+      custom-color-img-round
+************************************/
+.round-primary {
+  background: var(--primary) !important;
+}
+
+.round-success {
+  background: var(--teal) !important;
+}
+
+.round-warning {
+  background: var(--yellow) !important;
+}
+
+.round-danger {
+  background: var(--red) !important;
 }
 
 /************************************
@@ -16016,6 +16984,14 @@ body h4 {
   font-size: 18px;
 }
 
+body .h5, body h5 {
+  font-size: 16px;
+}
+
+body .font-light {
+  font-weight: 300;
+}
+
 body .font-medium {
   font-weight: 500;
 }
@@ -16024,8 +17000,8 @@ body .font-20 {
   font-size: 20px;
 }
 
-body b, body strong {
-  font-weight: bolder;
+body .font-bold {
+  font-weight: 700;
 }
 
 body a {
@@ -16043,6 +17019,10 @@ body a.link {
   body aside {
     display: block !important;
   }
+}
+
+body b, body strong {
+  font-weight: bolder;
 }
 
 body blockquote {
@@ -16108,8 +17088,9 @@ body textarea:focus, body input:focus {
   outline: none !important;
 }
 
-body .font-bold {
-  font-weight: 700;
+body .small, body small {
+  font-size: 80%;
+  font-weight: 400;
 }
 
 body .table {
@@ -16528,6 +17509,10 @@ body .p-t-10 {
   padding-top: 10px;
 }
 
+body .p-l-20 {
+  padding-left: 20px;
+}
+
 body .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16647,6 +17632,15 @@ body .card-subtitle {
   margin-bottom: 15px;
   color: var(--gray);
   font-size: 14px;
+}
+
+body .card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
 }
 
 body .badge {
@@ -17076,6 +18070,7 @@ body .sl-date {
   --navbar-menu-icon-color: rgba(255, 255, 255, 0.5);
   --border-bottom-color: #e9ecef;
   --btn-border-color: #dee2e6;
+  --social-profile-bg-over-color:rgba(56, 83, 161, 0.7);
   --a-color: #fb9678;
   --blue:#03a9f3 !important;
   --blue-light:#1eaaf0;
@@ -17184,7 +18179,7 @@ body .sl-date {
 }
 
 /************************************
-        custom-color-tag
+        custom-color-text
 ************************************/
 .text-muted {
   color: var(--gray) !important;
@@ -17202,19 +18197,19 @@ body .sl-date {
   color: var(--blue) !important;
 }
 
-.text-blue, .bg-blue {
+.text-blue {
   color: var(--blue) !important;
 }
 
-.text-orange, .bg-orange {
+.text-orange {
   color: var(--primary) !important;
 }
 
-.text-cyan, .bg-cyan, .text-cyan {
+.text-cyan {
   color: var(--cyan) !important;
 }
 
-.text-purple, .bg-purple {
+.text-purple {
   color: var(--purple) !important;
 }
 
@@ -17222,10 +18217,44 @@ body .sl-date {
   color: var(--teal) !important;
 }
 
-.text-white, .bg-white, .card-text-white {
+.text-white, .card-text-white {
   color: var(--white) !important;
 }
 
+/************************************
+       custom-color-background
+************************************/
+.bg-blue {
+  background: var(--blue) !important;
+}
+
+.bg-orange {
+  background: var(--primary) !important;
+}
+
+.bg-cyan {
+  background: var(--cyan) !important;
+}
+
+.bg-purple {
+  background: var(--purple) !important;
+}
+
+.bg-green {
+  background: var(--teal) !important;
+}
+
+.bg-white {
+  background: var(--white) !important;
+}
+
+.bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+       custom-color-card-bg
+************************************/
 .card-bg-cyan {
   background-color: var(--cyan) !important;
 }
@@ -17242,6 +18271,9 @@ body .sl-date {
   background-color: var(--purple) !important;
 }
 
+/************************************
+      custom-color-progress-bar
+************************************/
 .progress-bar-orange {
   background-color: var(--primary) !important;
 }
@@ -17258,6 +18290,9 @@ body .sl-date {
   background-color: var(--teal) !important;
 }
 
+/************************************
+        custom-color-badge
+************************************/
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -17306,6 +18341,9 @@ body .sl-date {
   background-color: var(--yellow) !important;
 }
 
+/************************************
+        custom-color-label
+************************************/
 .label-info {
   background-color: var(--blue) !important;
 }
@@ -17330,6 +18368,9 @@ body .sl-date {
   background-color: var(--megna) !important;
 }
 
+/************************************
+        custom-color-btn
+************************************/
 .btn-success {
   color: var(--white) !important;
   border-color: var(--teal) !important;
@@ -17364,6 +18405,9 @@ body .sl-date {
   background-color: #dd4b39 !important;
 }
 
+/************************************
+        custom-color-status
+************************************/
 .online {
   background: var(--teal);
 }
@@ -17374,6 +18418,25 @@ body .sl-date {
 
 .away {
   background: var(--yellow);
+}
+
+/************************************
+      custom-color-img-round
+************************************/
+.round-primary {
+  background: var(--primary) !important;
+}
+
+.round-success {
+  background: var(--teal) !important;
+}
+
+.round-warning {
+  background: var(--yellow) !important;
+}
+
+.round-danger {
+  background: var(--red) !important;
 }
 
 /************************************
@@ -17586,6 +18649,14 @@ body h4 {
   font-size: 18px;
 }
 
+body .h5, body h5 {
+  font-size: 16px;
+}
+
+body .font-light {
+  font-weight: 300;
+}
+
 body .font-medium {
   font-weight: 500;
 }
@@ -17594,8 +18665,8 @@ body .font-20 {
   font-size: 20px;
 }
 
-body b, body strong {
-  font-weight: bolder;
+body .font-bold {
+  font-weight: 700;
 }
 
 body a {
@@ -17613,6 +18684,10 @@ body a.link {
   body aside {
     display: block !important;
   }
+}
+
+body b, body strong {
+  font-weight: bolder;
 }
 
 body blockquote {
@@ -17678,8 +18753,9 @@ body textarea:focus, body input:focus {
   outline: none !important;
 }
 
-body .font-bold {
-  font-weight: 700;
+body .small, body small {
+  font-size: 80%;
+  font-weight: 400;
 }
 
 body .table {
@@ -18098,6 +19174,10 @@ body .p-t-10 {
   padding-top: 10px;
 }
 
+body .p-l-20 {
+  padding-left: 20px;
+}
+
 body .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18217,6 +19297,15 @@ body .card-subtitle {
   margin-bottom: 15px;
   color: var(--gray);
   font-size: 14px;
+}
+
+body .card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
 }
 
 body .badge {
@@ -18711,6 +19800,7 @@ body .sl-date {
   --navbar-menu-icon-color: rgba(255, 255, 255, 0.5);
   --border-bottom-color: #e9ecef;
   --btn-border-color: #dee2e6;
+  --social-profile-bg-over-color:rgba(56, 83, 161, 0.7);
   --a-color: #fb9678;
   --blue:#03a9f3 !important;
   --blue-light:#1eaaf0;
@@ -18819,7 +19909,7 @@ body .sl-date {
 }
 
 /************************************
-        custom-color-tag
+        custom-color-text
 ************************************/
 .text-muted {
   color: var(--gray) !important;
@@ -18837,19 +19927,19 @@ body .sl-date {
   color: var(--blue) !important;
 }
 
-.text-blue, .bg-blue {
+.text-blue {
   color: var(--blue) !important;
 }
 
-.text-orange, .bg-orange {
+.text-orange {
   color: var(--primary) !important;
 }
 
-.text-cyan, .bg-cyan, .text-cyan {
+.text-cyan {
   color: var(--cyan) !important;
 }
 
-.text-purple, .bg-purple {
+.text-purple {
   color: var(--purple) !important;
 }
 
@@ -18857,10 +19947,44 @@ body .sl-date {
   color: var(--teal) !important;
 }
 
-.text-white, .bg-white, .card-text-white {
+.text-white, .card-text-white {
   color: var(--white) !important;
 }
 
+/************************************
+       custom-color-background
+************************************/
+.bg-blue {
+  background: var(--blue) !important;
+}
+
+.bg-orange {
+  background: var(--primary) !important;
+}
+
+.bg-cyan {
+  background: var(--cyan) !important;
+}
+
+.bg-purple {
+  background: var(--purple) !important;
+}
+
+.bg-green {
+  background: var(--teal) !important;
+}
+
+.bg-white {
+  background: var(--white) !important;
+}
+
+.bg-inverse {
+  background: var(--gray-extra-dark) !important;
+}
+
+/************************************
+       custom-color-card-bg
+************************************/
 .card-bg-cyan {
   background-color: var(--cyan) !important;
 }
@@ -18877,6 +20001,9 @@ body .sl-date {
   background-color: var(--purple) !important;
 }
 
+/************************************
+      custom-color-progress-bar
+************************************/
 .progress-bar-orange {
   background-color: var(--primary) !important;
 }
@@ -18893,6 +20020,9 @@ body .sl-date {
   background-color: var(--teal) !important;
 }
 
+/************************************
+        custom-color-badge
+************************************/
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -18941,6 +20071,9 @@ body .sl-date {
   background-color: var(--yellow) !important;
 }
 
+/************************************
+        custom-color-label
+************************************/
 .label-info {
   background-color: var(--blue) !important;
 }
@@ -18965,6 +20098,9 @@ body .sl-date {
   background-color: var(--megna) !important;
 }
 
+/************************************
+        custom-color-btn
+************************************/
 .btn-success {
   color: var(--white) !important;
   border-color: var(--teal) !important;
@@ -18999,6 +20135,9 @@ body .sl-date {
   background-color: #dd4b39 !important;
 }
 
+/************************************
+        custom-color-status
+************************************/
 .online {
   background: var(--teal);
 }
@@ -19009,6 +20148,25 @@ body .sl-date {
 
 .away {
   background: var(--yellow);
+}
+
+/************************************
+      custom-color-img-round
+************************************/
+.round-primary {
+  background: var(--primary) !important;
+}
+
+.round-success {
+  background: var(--teal) !important;
+}
+
+.round-warning {
+  background: var(--yellow) !important;
+}
+
+.round-danger {
+  background: var(--red) !important;
 }
 
 /************************************
@@ -19221,6 +20379,14 @@ body h4 {
   font-size: 18px;
 }
 
+body .h5, body h5 {
+  font-size: 16px;
+}
+
+body .font-light {
+  font-weight: 300;
+}
+
 body .font-medium {
   font-weight: 500;
 }
@@ -19229,8 +20395,8 @@ body .font-20 {
   font-size: 20px;
 }
 
-body b, body strong {
-  font-weight: bolder;
+body .font-bold {
+  font-weight: 700;
 }
 
 body a {
@@ -19248,6 +20414,10 @@ body a.link {
   body aside {
     display: block !important;
   }
+}
+
+body b, body strong {
+  font-weight: bolder;
 }
 
 body blockquote {
@@ -19313,8 +20483,9 @@ body textarea:focus, body input:focus {
   outline: none !important;
 }
 
-body .font-bold {
-  font-weight: 700;
+body .small, body small {
+  font-size: 80%;
+  font-weight: 400;
 }
 
 body .table {
@@ -19733,6 +20904,10 @@ body .p-t-10 {
   padding-top: 10px;
 }
 
+body .p-l-20 {
+  padding-left: 20px;
+}
+
 body .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19852,6 +21027,15 @@ body .card-subtitle {
   margin-bottom: 15px;
   color: var(--gray);
   font-size: 14px;
+}
+
+body .card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
 }
 
 body .badge {
