@@ -306,12 +306,9 @@
   background-color: var(--yellow) !important;
 }
 
-<<<<<<< HEAD
 /************************************
         custom-color-label
 ************************************/
-=======
->>>>>>> eb32fe7e515a12e10a2384a5514f601cd73b5cba
 .label-info {
   background-color: var(--blue) !important;
 }
@@ -336,12 +333,9 @@
   background-color: var(--megna) !important;
 }
 
-<<<<<<< HEAD
 /************************************
         custom-color-btn
 ************************************/
-=======
->>>>>>> eb32fe7e515a12e10a2384a5514f601cd73b5cba
 .btn-success {
   color: var(--white) !important;
   border-color: var(--teal) !important;
@@ -636,13 +630,8 @@ body .font-20 {
   font-size: 20px;
 }
 
-<<<<<<< HEAD
 body .font-bold {
   font-weight: 700;
-=======
-body b, body strong {
-  font-weight: bolder;
->>>>>>> eb32fe7e515a12e10a2384a5514f601cd73b5cba
 }
 
 body a {
@@ -732,13 +721,6 @@ body textarea:focus, body input:focus {
 body .small, body small {
   font-size: 80%;
   font-weight: 400;
-}
-
-body .table {
-  width: 100%;
-  margin-bottom: 1rem;
-  background-color: transparent;
-  border-collapse: collapse;
 }
 
 body .table {
@@ -1157,13 +1139,10 @@ body .p-t-10 {
   padding-top: 10px;
 }
 
-<<<<<<< HEAD
 body .p-l-20 {
   padding-left: 20px;
 }
 
-=======
->>>>>>> eb32fe7e515a12e10a2384a5514f601cd73b5cba
 body .row {
   display: -webkit-box;
   display: -ms-flexbox;
