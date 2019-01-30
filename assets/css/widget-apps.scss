@@ -120,4 +120,77 @@ button.btn.btn-info.btn-circle.btn-lg {
     i {
         font-size: 18px !important;
     }
+<<<<<<< HEAD
+}
+/************************************
+        social-profile
+************************************/
+.social-profile-first.bg-over {
+    background: var(--social-profile-bg-over-color);
+}
+.social-profile-first {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 96px;
+}
+/************************************
+        countty-state
+************************************/
+.country-state {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+.country-state li {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.country-state h2 {
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+/************************************
+               feeds
+************************************/
+.feeds {
+    margin: 0px;
+    padding: 0px;
+}
+.feeds li {
+    list-style: none;
+    padding: 10px;
+    display: block;
+}
+.feeds li>div {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    color: var(--white);
+}
+.feeds li>div i {
+    line-height: 40px;
+    font-size: 14px;
+}
+.feeds li span {
+    float: right;
+    width: auto;
+    font-size: 12px;
+=======
+>>>>>>> eb32fe7e515a12e10a2384a5514f601cd73b5cba
 }
