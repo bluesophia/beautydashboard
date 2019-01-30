@@ -10,7 +10,7 @@
     --border-bottom-color: #e9ecef;
     --btn-border-color: #dee2e6;
     --a-color: #fb9678;
-    --blue:#03a9f3;
+    --blue:#03a9f3 !important;
     --blue-light:#1eaaf0;
     --blue-extra-light: #99dbf8;
     --indigo:#6610f2;
@@ -49,7 +49,6 @@
     --font-family-sans-serif: "Poppins", sans-serif;
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-
 /************************************
         theme(Light Sidebar)
 ************************************/
@@ -198,10 +197,33 @@
     background-color: var(--orange)!important;
 }
 .badge-primary {
-    color: #fff !important;
+    color: black !important;
     background-color: var(--primary)!important;
 }
+.badge-warning {
+    color: black !important;
+    background-color: var(--yellow)!important;
+}
 
+//label
+.label-info {
+    background-color: var(--blue)!important;
+}
+.label-success {
+    background-color: var(--teal)!important;
+}
+.label-danger {
+    background-color: var(--red)!important;
+}
+.label-primary {
+    background-color: var(--primary) !important;
+}
+.label-warning {
+    background-color: var(--yellow) !important;
+}
+.label-megna {
+    background-color: var(--megna) !important;
+}
 
 //button
 .btn-success {
@@ -376,6 +398,9 @@ body {
     .font-medium {
         font-weight: 500;
     }
+    .font-20 {
+        font-size: 20px;
+    }
     b, strong {
         font-weight: bolder;
     }
@@ -433,6 +458,15 @@ body {
         margin-top: 0;
         margin-bottom: 1rem;
     }
+    sub, sup {
+        position: relative;
+        font-size: 75%;
+        line-height: 0;
+        vertical-align: baseline;
+    }
+    sup {
+        top: -.5em;
+    }
     textarea {
         overflow: auto;
     }
@@ -445,6 +479,12 @@ body {
     /************************************
                    table
     ************************************/
+    .table {
+        width: 100%;
+        margin-bottom: 1rem;
+        background-color: transparent;
+        border-collapse: collapse;
+    }
     .table th, .table thead th {
         font-weight: 500;
     }
@@ -456,6 +496,15 @@ body {
         padding: 1rem;
         vertical-align: top;
         border-top: 1px solid var(--btn-border-color);
+    }
+    .table.no-border tbody td {
+        border: 0px;
+    }
+    .stylish-table tbody tr.active, .stylish-table tbody tr:hover {
+        border-color: #fb9678;
+    }
+    .stylish-table tbody tr {
+        border-left: 3px solid transparent;
     }
     /************************************
                    form
@@ -742,6 +791,8 @@ body {
     }
     .m-t-30 {
         margin-top: 30px;
+    }.m-t-40 {
+        margin-top: 30px;
     }
     .m-r-5 {
         margin-right: 5px;
@@ -755,11 +806,37 @@ body {
     .p-b-20 {
         padding-bottom: 20px;
     }
+    .p-t-10 {
+        padding-top: 10px;
+    }
     .row {
         display: flex;
         flex-wrap: wrap;
         margin-right: -10px;
         margin-left: -10px;
+    }
+    .display-5 {
+        font-size: 3rem;
+    }
+    .no-border {
+        border: none;
+    }
+    /************************************
+                   grid
+    ************************************/
+    .col {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+    .flex-row {
+        -webkit-box-orient: horizontal!important;
+        -webkit-box-direction: normal!important;
+        -ms-flex-direction: row!important;
+        flex-direction: row!important;
     }
     /************************************
                    effect
@@ -833,7 +910,7 @@ body {
                    badge
     ************************************/
     .badge{
-        font-weight: 100 !important;
+        font-weight: 400;
         font-size: 0.7em !important;
         line-height: normal;
         padding: 0.3em 1em !important;
@@ -842,6 +919,20 @@ body {
         }
         
     }
+    /************************************
+                   label
+    ************************************/
+    .label {
+        padding: 3px 10px;
+        line-height: 13px;
+        color: #fff;
+        font-weight: 400;
+        border-radius: 0.25rem;
+        font-size: 64%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
     /************************************
                    button
     ************************************/
@@ -871,10 +962,17 @@ body {
         width: 100%;
     }
     .btn-circle {
-        border-radius: 100%;
+        border-radius: 100% !important;
         width: 40px;
         height: 40px;
         padding: 10px;
+    }
+    .btn-circle.btn-lg, .btn-group-lg>.btn-circle.btn {
+        width: 50px;
+        height: 50px;
+        padding: 14px 15px;
+        font-size: 18px !important;
+        line-height: 23px;
     }
     .btn-secondary {
         color:var(--gray-m-dark);
@@ -885,14 +983,7 @@ body {
         color: var(--gray-m-dark);
         background-color: #e2e6ea;
         border-color: #dae0e5;
-    }
-    // .btn-lg{
-    //     width: 50px;
-    //     height: 50px;
-    //     padding: 14px 15px;
-    //     font-size: 18px;
-    //     line-height: 23px;
-    // }
+    }  line-height: 23px;
     .btn-lg {
         padding: 0.5rem 1rem;
         font-size: 1.09375rem;
@@ -926,6 +1017,22 @@ body {
         outline: none !important;
         box-shadow: none !important;
       }
+    .btn-group-sm>.btn-rounded.btn, .btn-rounded.btn-sm {
+        padding: .25rem .5rem;
+        font-size: 12px;
+    }
+    .btn-success:not(:disabled):not(.disabled).active:focus, .btn-success:not(:disabled):not(.disabled):active:focus, .show>.btn-success.dropdown-toggle:focus {
+        box-shadow: 0 0 0 0.2rem rgba(38, 203, 162, 0.5);
+    }
+    .btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+        color: #fff;
+        background-color: #008f6c;
+        border-color: #008262;
+    }
+    .btn-group-sm>.btn-rounded.btn, .btn-rounded.btn-sm {
+        padding: .25rem .5rem;
+        font-size: 12px;
+    }
     /************************************
                 message-box
     ************************************/
@@ -939,6 +1046,15 @@ body {
         color: var(--gray-extra-dark);
         white-space: nowrap;
         font-weight: 300;
+    }
+    .message-box .message-widget {
+        position: relative;
+    }
+    .message-box .message-widget a {
+        border-bottom: 1px solid var(--border-bottom-color);
+        display: block;
+        text-decoration: none;
+        padding: 9px 15px;
     }
     /************************************
                     round(profile)
@@ -963,7 +1079,7 @@ body {
     }
     .img-circle {
         border-radius: 100%;
-        width: 50px;
+        // width: 50px;
     }
     .img-responsive {
         max-width: 100%;
@@ -1163,6 +1279,26 @@ body {
         font-size: 14px;
         font-weight: 300;
     }
+    .list-unstyled {
+        padding-left: 0;
+        list-style: none;
+    }
+    ul.list-icons {
+        margin: 0px;
+        padding: 0px;
+    }
+    ul.list-icons li {
+        list-style: none;
+        line-height: 30px;
+        margin: 5px 0;
+        transition: 0.2s ease-in;
+    }
+    ul.list-icons li a {
+        color: var(--gray-extra-dark);
+    }
+    ul.list-icons li i {
+        padding-right: 8px;
+    }
     /************************************
                 shapes
     ************************************/
@@ -1171,8 +1307,9 @@ body {
     }
     .sl-date {
         font-size: 10px;
-        color: #6c757d;
+        color: var(--gray);
     }
+    
 }   
 
 .scroll-sidebar {
