@@ -634,6 +634,10 @@ body {
     sup {
         top: -.5em;
     }
+    svg {
+        overflow: hidden;
+        vertical-align: middle;
+    }
     textarea {
         overflow: auto;
     }

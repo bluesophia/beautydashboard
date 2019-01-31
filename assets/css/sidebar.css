@@ -813,6 +813,11 @@ body sup {
   top: -.5em;
 }
 
+body svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
 body textarea {
   overflow: auto;
 }

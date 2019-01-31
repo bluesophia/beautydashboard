@@ -60,7 +60,7 @@
                     <ul class="navbar-nav mr-auto">
                         <!-- menu  -->
                         <li class="nav-item"> 
-                            <a class="nav-link nav-toggler d-block d-md-none waves-effect waves-dark" id="openNav">
+                            <a class="nav-link nav-toggler d-block d-md-none waves-effect waves-dark" id="openNav" onclick="toggleSidebar(openNav)">
                                 <i class="ti-close ti-menu" id="menuBtn"></i>
                             </a> 
                         </li>
@@ -1015,7 +1015,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div id="morris-area-chart" style="height: 340px; position: relative; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                <div id="morris-area-chart" style="height: 340px; position: relative; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); resize: true">
                                     <svg height="340" version="1.1" width="315" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative;">
                                     <desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.2.0</desc>
                                     <defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs>
@@ -1731,21 +1731,6 @@
     <!--Custom JavaScript -->
     <script src="../assets/js/custom.js"></script>
     <script src="../assets/js/custom.min.js"></script>
-    <script>
-            document.getElementById("openNav").addEventListener("click", function(){ 
-                // alert("hhi");
-                const element = document.getElementById("leftSidebar");
-                const openBtn = document.getElementById("menuBtn");
-                
-                openBtn.classList.toggle("ti-menu");
-                
-                if(element.style.display == 'block')
-                element.style.display = 'none';
-                else
-                element.style.display = 'block';
-                        });
-        
-    </script>
     <!-- This page plugins -->
     <!--morris JavaScript -->
     <script src="../assets/node_modules/raphael/raphael-min.js"></script>

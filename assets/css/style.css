@@ -826,6 +826,11 @@ body sup {
   top: -.5em;
 }
 
+body svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
 body textarea {
   overflow: auto;
 }
@@ -2633,6 +2638,11 @@ body sub, body sup {
 
 body sup {
   top: -.5em;
+}
+
+body svg {
+  overflow: hidden;
+  vertical-align: middle;
 }
 
 body textarea {
@@ -4712,6 +4722,11 @@ body sup {
   top: -.5em;
 }
 
+body svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
 body textarea {
   overflow: auto;
 }
@@ -6667,6 +6682,11 @@ body sup {
   top: -.5em;
 }
 
+body svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
 body textarea {
   overflow: auto;
 }
@@ -8598,6 +8618,11 @@ body sup {
   top: -.5em;
 }
 
+body svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
 body textarea {
   overflow: auto;
 }
@@ -10495,6 +10520,11 @@ body sub, body sup {
 
 body sup {
   top: -.5em;
+}
+
+body svg {
+  overflow: hidden;
+  vertical-align: middle;
 }
 
 body textarea {
@@ -12897,6 +12927,11 @@ body sup {
   top: -.5em;
 }
 
+body svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
 body textarea {
   overflow: auto;
 }
@@ -14708,6 +14743,11 @@ body sub, body sup {
 
 body sup {
   top: -.5em;
+}
+
+body svg {
+  overflow: hidden;
+  vertical-align: middle;
 }
 
 body textarea {
@@ -16590,6 +16630,11 @@ body sub, body sup {
 
 body sup {
   top: -.5em;
+}
+
+body svg {
+  overflow: hidden;
+  vertical-align: middle;
 }
 
 body textarea {
@@ -18620,6 +18665,11 @@ body sup {
   top: -.5em;
 }
 
+body svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
 body textarea {
   overflow: auto;
 }
@@ -20601,6 +20651,11 @@ body sup {
   top: -.5em;
 }
 
+body svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
 body textarea {
   overflow: auto;
 }
@@ -22570,6 +22625,11 @@ body sup {
   top: -.5em;
 }
 
+body svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
 body textarea {
   overflow: auto;
 }
@@ -24385,6 +24445,11 @@ body sub, body sup {
 
 body sup {
   top: -.5em;
+}
+
+body svg {
+  overflow: hidden;
+  vertical-align: middle;
 }
 
 body textarea {
@@ -26267,6 +26332,11 @@ body sub, body sup {
 
 body sup {
   top: -.5em;
+}
+
+body svg {
+  overflow: hidden;
+  vertical-align: middle;
 }
 
 body textarea {
