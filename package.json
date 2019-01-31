@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "@mdi/font": "^3.4.93",
+    "jquery-toast-plugin": "^1.3.2",
     "material-design-icons": "^3.0.1",
+    "metismenu": "^3.0.3",
     "perfect-scrollbar": "^1.4.0",
     "ti-icons": "^0.1.2"
   }

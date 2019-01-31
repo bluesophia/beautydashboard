@@ -813,6 +813,11 @@ body sup {
   top: -.5em;
 }
 
+body svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
 body textarea {
   overflow: auto;
 }
@@ -1669,6 +1674,58 @@ body .notify {
   position: relative;
   top: -28px;
   right: -7px;
+  /* Heart beat animation */
+}
+
+body .notify .heartbit {
+  position: absolute;
+  top: -20px;
+  right: -4px;
+  height: 25px;
+  width: 25px;
+  z-index: 10;
+  border: 5px solid #e46a76;
+  border-radius: 70px;
+  -webkit-animation: heartbit 1s ease-out;
+          animation: heartbit 1s ease-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes heartbit {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+@keyframes heartbit {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
 }
 
 body .notify .point {
@@ -1910,6 +1967,10 @@ body .img-responsive {
   .topbar .top-navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
     position: absolute;
   }
+}
+
+.topbar .top-navbar .navbar-collapse .navbar-nav .nav-item i {
+  font-size: 18px;
 }
 
 .topbar .top-navbar .navbar-header .logo {

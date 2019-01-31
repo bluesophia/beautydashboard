@@ -193,7 +193,7 @@ Licensed under the BSD-2-Clause License.
       eventLineColors: ['#005a04', '#ccffbb', '#3a5f0b', '#005502'],
       rangeSelect: null,
       rangeSelectColor: '#eef',
-      resize: false
+      resize: true
     };
 
     Grid.prototype.setData = function(data, redraw) {
@@ -748,7 +748,9 @@ Licensed under the BSD-2-Clause License.
       xLabels: 'auto',
       xLabelFormat: null,
       xLabelMargin: 24,
-      hideHover: false
+      hideHover: false,
+      resize:true,
+      redraw: true
     };
 
     Line.prototype.calc = function() {
@@ -1283,7 +1285,9 @@ Licensed under the BSD-2-Clause License.
 
     areaDefaults = {
       fillOpacity: 'auto',
-      behaveLikeLine: false
+      behaveLikeLine: false,
+      resize: true,
+      redraw: true
     };
 
     function Area(options) {

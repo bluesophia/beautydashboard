@@ -634,6 +634,10 @@ body {
     sup {
         top: -.5em;
     }
+    svg {
+        overflow: hidden;
+        vertical-align: middle;
+    }
     textarea {
         overflow: auto;
     }
@@ -1368,19 +1372,34 @@ body {
         position: relative;
         top: -28px;
         right: -7px;
-        // .heartbit {
-        //     position: absolute;
-        //     top: -20px;
-        //     right: -4px;
-        //     height: 25px;
-        //     width: 25px;
-        //     z-index: 10;
-        //     border: 5px solid #e46a76;
-        //     border-radius: 70px;
-        //     -webkit-animation: heartbit 1s ease-out;
-        //     -webkit-animation-iteration-count: infinite;
-        //     animation-iteration-count: infinite;
-        // }
+        .heartbit {
+            position: absolute;
+            top: -20px;
+            right: -4px;
+            height: 25px;
+            width: 25px;
+            z-index: 10;
+            border: 5px solid #e46a76;
+            border-radius: 70px;
+            animation: heartbit 1s ease-out;
+            animation-iteration-count: infinite;
+        }
+        /* Heart beat animation */
+        @keyframes heartbit{
+            0% {
+                transform: scale(0); 
+                opacity: 0;
+            }
+            50% {
+                transform: scale(0.5); 
+                opacity: 0.5;
+            }
+
+            100% {
+                 transform: scale(1.2); 
+                 opacity: 0;
+            }
+        }
             .point {
                 width: 6px;
                 height: 6px;
