@@ -1688,6 +1688,7 @@ body .notify {
   position: relative;
   top: -28px;
   right: -7px;
+  /* Heart beat animation */
 }
 
 body .notify .heartbit {
@@ -1700,8 +1701,9 @@ body .notify .heartbit {
   border: 5px solid #e46a76;
   border-radius: 70px;
   -webkit-animation: heartbit 1s ease-out;
+          animation: heartbit 1s ease-out;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes heartbit {
@@ -3552,6 +3554,7 @@ body .notify {
   position: relative;
   top: -28px;
   right: -7px;
+  /* Heart beat animation */
 }
 
 body .notify .heartbit {
@@ -3564,8 +3567,9 @@ body .notify .heartbit {
   border: 5px solid #e46a76;
   border-radius: 70px;
   -webkit-animation: heartbit 1s ease-out;
+          animation: heartbit 1s ease-out;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @keyframes heartbit {
@@ -3825,6 +3829,10 @@ body .img-responsive {
   .topbar .top-navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
     position: absolute;
   }
+}
+
+.topbar .top-navbar .navbar-collapse .navbar-nav .nav-item i {
+  font-size: 18px;
 }
 
 .topbar .top-navbar .navbar-header .logo {
@@ -5666,6 +5674,7 @@ body .notify {
   position: relative;
   top: -28px;
   right: -7px;
+  /* Heart beat animation */
 }
 
 body .notify .heartbit {
@@ -5678,8 +5687,9 @@ body .notify .heartbit {
   border: 5px solid #e46a76;
   border-radius: 70px;
   -webkit-animation: heartbit 1s ease-out;
+          animation: heartbit 1s ease-out;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @keyframes heartbit {
@@ -7658,6 +7668,7 @@ body .notify {
   position: relative;
   top: -28px;
   right: -7px;
+  /* Heart beat animation */
 }
 
 body .notify .heartbit {
@@ -7670,8 +7681,9 @@ body .notify .heartbit {
   border: 5px solid #e46a76;
   border-radius: 70px;
   -webkit-animation: heartbit 1s ease-out;
+          animation: heartbit 1s ease-out;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @keyframes heartbit {
@@ -9626,6 +9638,7 @@ body .notify {
   position: relative;
   top: -28px;
   right: -7px;
+  /* Heart beat animation */
 }
 
 body .notify .heartbit {
@@ -9638,8 +9651,9 @@ body .notify .heartbit {
   border: 5px solid #e46a76;
   border-radius: 70px;
   -webkit-animation: heartbit 1s ease-out;
+          animation: heartbit 1s ease-out;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @keyframes heartbit {
@@ -11562,6 +11576,7 @@ body .notify {
   position: relative;
   top: -28px;
   right: -7px;
+  /* Heart beat animation */
 }
 
 body .notify .heartbit {
@@ -11574,8 +11589,9 @@ body .notify .heartbit {
   border: 5px solid #e46a76;
   border-radius: 70px;
   -webkit-animation: heartbit 1s ease-out;
+          animation: heartbit 1s ease-out;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @keyframes heartbit {
@@ -13999,6 +14015,7 @@ body .notify {
   position: relative;
   top: -28px;
   right: -7px;
+  /* Heart beat animation */
 }
 
 body .notify .heartbit {
@@ -14011,8 +14028,9 @@ body .notify .heartbit {
   border: 5px solid #e46a76;
   border-radius: 70px;
   -webkit-animation: heartbit 1s ease-out;
+          animation: heartbit 1s ease-out;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @keyframes heartbit {
@@ -15849,6 +15867,7 @@ body .notify {
   position: relative;
   top: -28px;
   right: -7px;
+  /* Heart beat animation */
 }
 
 body .notify .heartbit {
@@ -15861,8 +15880,9 @@ body .notify .heartbit {
   border: 5px solid #e46a76;
   border-radius: 70px;
   -webkit-animation: heartbit 1s ease-out;
+          animation: heartbit 1s ease-out;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @keyframes heartbit {
@@ -17768,6 +17788,7 @@ body .notify {
   position: relative;
   top: -28px;
   right: -7px;
+  /* Heart beat animation */
 }
 
 body .notify .heartbit {
@@ -17780,8 +17801,9 @@ body .notify .heartbit {
   border: 5px solid #e46a76;
   border-radius: 70px;
   -webkit-animation: heartbit 1s ease-out;
+          animation: heartbit 1s ease-out;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @keyframes heartbit {
@@ -19833,6 +19855,7 @@ body .notify {
   position: relative;
   top: -28px;
   right: -7px;
+  /* Heart beat animation */
 }
 
 body .notify .heartbit {
@@ -19845,8 +19868,9 @@ body .notify .heartbit {
   border: 5px solid #e46a76;
   border-radius: 70px;
   -webkit-animation: heartbit 1s ease-out;
+          animation: heartbit 1s ease-out;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @keyframes heartbit {
@@ -21851,6 +21875,7 @@ body .notify {
   position: relative;
   top: -28px;
   right: -7px;
+  /* Heart beat animation */
 }
 
 body .notify .heartbit {
@@ -21863,8 +21888,9 @@ body .notify .heartbit {
   border: 5px solid #e46a76;
   border-radius: 70px;
   -webkit-animation: heartbit 1s ease-out;
+          animation: heartbit 1s ease-out;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @keyframes heartbit {
@@ -23857,6 +23883,7 @@ body .notify {
   position: relative;
   top: -28px;
   right: -7px;
+  /* Heart beat animation */
 }
 
 body .notify .heartbit {
@@ -23869,8 +23896,9 @@ body .notify .heartbit {
   border: 5px solid #e46a76;
   border-radius: 70px;
   -webkit-animation: heartbit 1s ease-out;
+          animation: heartbit 1s ease-out;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @keyframes heartbit {
@@ -25711,6 +25739,7 @@ body .notify {
   position: relative;
   top: -28px;
   right: -7px;
+  /* Heart beat animation */
 }
 
 body .notify .heartbit {
@@ -25723,8 +25752,9 @@ body .notify .heartbit {
   border: 5px solid #e46a76;
   border-radius: 70px;
   -webkit-animation: heartbit 1s ease-out;
+          animation: heartbit 1s ease-out;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @keyframes heartbit {
@@ -27573,6 +27603,7 @@ body .notify {
   position: relative;
   top: -28px;
   right: -7px;
+  /* Heart beat animation */
 }
 
 body .notify .heartbit {
@@ -27585,8 +27616,9 @@ body .notify .heartbit {
   border: 5px solid #e46a76;
   border-radius: 70px;
   -webkit-animation: heartbit 1s ease-out;
+          animation: heartbit 1s ease-out;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @keyframes heartbit {
@@ -29492,6 +29524,7 @@ body .notify {
   position: relative;
   top: -28px;
   right: -7px;
+  /* Heart beat animation */
 }
 
 body .notify .heartbit {
@@ -29504,8 +29537,9 @@ body .notify .heartbit {
   border: 5px solid #e46a76;
   border-radius: 70px;
   -webkit-animation: heartbit 1s ease-out;
+          animation: heartbit 1s ease-out;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @keyframes heartbit {

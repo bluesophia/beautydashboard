@@ -9,10 +9,25 @@ function toggleSidebar(){
         
     if(element.style.display == 'block'){
         element.style.display = 'none';
+        
     }else{
         element.style.display = 'block';
+        element.style.transition = "all 0.3s ease-in-out";
     }
 }
+/************************************
+             metis-menu
+************************************/
+// function activeDropdown(){
+//     const collapse = document.getElementsByTagName("a");
+//     const i;
+    
+//     for(i = 0; i < collapse.length; i++) {
+//         collapse[i].addEventListener("click", function(){
+//             alert("hi");
+//         })
+//     }
+// }
 /************************************
             toast
 ************************************/
