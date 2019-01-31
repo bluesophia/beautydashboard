@@ -483,7 +483,7 @@ html {
         background: #f9f9f9;
     }
 }
-@media (min-width: 768px){
+@media (min-width: 768px)and (max-width: 1023px){
     .mini-sidebar .sidebar-nav #sidebarnav>li:hover>ul, .mini-sidebar .sidebar-nav #sidebarnav>li:hover>ul.collapse {
         display: block;
     }
@@ -504,7 +504,12 @@ html {
         display: inline;
     }
 }
-
+.sidebar-nav ul li a:hover {
+    color: #fb9678;
+}
+.sidebar-nav ul li a.mm-active, .sidebar-nav ul li a:hover {
+    color: #fb9678;
+}
 .sidebar-nav ul li a.mm-active {
     font-weight: 500;
     color: #343a40;
@@ -1073,17 +1078,6 @@ body {
     /************************************
                    effect
     ************************************/
-    .waves-effect {
-        position: relative;
-        cursor: pointer;
-        display: inline-block;
-        overflow: hidden;
-        user-select: none;
-        vertical-align: middle;
-        z-index: 1;
-        will-change: opacity, transform;
-        transition: all 0.1s ease-out;
-    }
     .animated {
         animation-duration: 1s;
         animation-fill-mode: both;
