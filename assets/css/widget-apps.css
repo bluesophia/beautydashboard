@@ -511,6 +511,10 @@ html {
 /************************************
             mini-sidebar
 ************************************/
+.collapse:not(.show) {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .mini-sidebar.show-sidebar .left-sidebar, .mini-sidebar.show-sidebar .sidebar-footer {
     left: 0px;
@@ -518,7 +522,7 @@ html {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .mini-sidebar .left-sidebar {
+  .mini-sidebar .left-sidebar, .mini-sidebar .user-profile {
     width: 70px;
   }
 }
@@ -557,6 +561,53 @@ html {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .mini-sidebar .sidebar-nav #sidebarnav > li:hover > a {
+    width: 290px !important;
+    background: #f9f9f9;
+  }
+}
+
+@media (min-width: 768px) {
+  .mini-sidebar .sidebar-nav #sidebarnav > li:hover > ul, .mini-sidebar .sidebar-nav #sidebarnav > li:hover > ul.collapse {
+    display: block;
+  }
+}
+
+.sidebar-nav > ul > li.mm-active > a {
+  color: var(--primary) !important;
+  font-weight: 500;
+  border-left: 3px solid var(--primary);
+}
+
+.sidebar-nav > ul > li.active > a {
+  color: #fb9678;
+  font-weight: 500;
+  border-left: 3px solid #fb9678;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .mini-sidebar .sidebar-nav #sidebarnav > li:hover > a .hide-menu {
+    display: inline;
+  }
+}
+
+.sidebar-nav ul li a.mm-active {
+  font-weight: 500;
+  color: #343a40;
+}
+
+.sidebar-nav .has-arrow {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .mini-sidebar .sidebar-nav #sidebarnav > li:hover > ul {
+    height: auto !important;
+    overflow: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
   .mini-sidebar .sidebar-nav #sidebarnav > li > ul {
     position: absolute;
     left: 70px;
@@ -570,13 +621,13 @@ html {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .mini-sidebar .sidebar-nav #sidebarnav .hide-menu, .mini-sidebar .sidebar-nav #sidebarnav .nav-small-cap, .mini-sidebar .sidebar-nav #sidebarnav .sidebar-footer, .mini-sidebar .sidebar-nav #sidebarnav .user-profile .profile-text, .mini-sidebar .sidebar-nav #sidebarnav > .label, .mini-sidebar .sidebar-nav #sidebarnav > li > a.has-arrow:after {
     display: none;
   }
 }
 
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
   .mini-sidebar .sidebar-nav #sidebarnav .hide-menu, .mini-sidebar .sidebar-nav #sidebarnav .nav-small-cap, .mini-sidebar .sidebar-nav #sidebarnav .sidebar-footer, .mini-sidebar .sidebar-nav #sidebarnav .user-profile .profile-text, .mini-sidebar .sidebar-nav #sidebarnav > .label, .mini-sidebar .sidebar-nav #sidebarnav > li > a.has-arrow:after {
     display: block;
   }
@@ -591,6 +642,9 @@ body {
   color: var(--gray-extra-dark);
   text-align: left;
   background-color: #edf1f5;
+  /************************************
+            mini-sidebar
+    ************************************/
   /************************************
                   section
     ************************************/
@@ -891,7 +945,7 @@ body .form-group {
 body .form-group .form-control {
   display: block;
   width: 100%;
-  height: calc(2.0625rem + 2px);
+  height: calc(2.05rem + 2px);
   padding: 0.375rem 0.75rem;
   font-size: 0.875rem;
   font-weight: 400;
