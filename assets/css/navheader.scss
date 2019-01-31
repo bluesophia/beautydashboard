@@ -229,4 +229,10 @@
         width: 180px;
     }
 }
+.app-search .form-control:focus {
+    width: 300px !important;
+    border-color: #fff !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+} 
 

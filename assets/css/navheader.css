@@ -937,9 +937,12 @@ body .form-control {
 }
 
 body .form-control:focus {
-  border-color: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  color: #495057;
+  background-color: #fff;
+  border-color: none !important;
+  outline: 0 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 body .form-material .form-group {
@@ -1796,6 +1799,10 @@ body .navbar-dark .mailbox .message-center {
   position: relative;
 }
 
+body .navbar-dark .mailbox .message-center .user-img img {
+  width: 50px;
+}
+
 body .navbar-dark .mailbox .message-center a {
   border-bottom: 1px solid var(--border-bottom-color);
   display: block;
@@ -2181,5 +2188,13 @@ body .img-responsive {
   -webkit-transition: 0.2s ease-in;
   transition: 0.2s ease-in;
   width: 180px;
+}
+
+.app-search .form-control:focus {
+  width: 300px !important;
+  border-color: #fff !important;
+  outline: 0 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 /*# sourceMappingURL=navheader.css.map */

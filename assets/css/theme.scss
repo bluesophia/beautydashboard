@@ -752,7 +752,10 @@ body {
     }
     
     .form-control:focus {
-        border-color: none;
+        color: #495057;
+        background-color: #fff;
+        border-color: #fff;
+        outline: 0 ;
         box-shadow: none;
     }
     .form-material .form-group {
@@ -1478,6 +1481,11 @@ body {
             height: 317px;
             overflow: auto;
             position: relative;
+            .user-img {
+                img {
+                    width: 50px;
+                }
+            }
             a{
                 border-bottom: 1px solid var(--border-bottom-color);
                 display: block;
