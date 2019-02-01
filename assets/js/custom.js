@@ -28,6 +28,24 @@ function closeRightSidebar(){
     closeBtn.classList.remove("shw-rside");
 }
 /************************************
+        default-theme
+************************************/
+document.addEventListener("DOMContentLoaded", function(event) {     
+    const links = document.querySelectorAll("#themecolors a")
+        
+        for (var i = 0; i < links.length; i++) {
+            links[i].onclick = function(){
+                atag = document.querySelectorAll(".working")
+                // remove
+                atag.forEach(link => {
+                    link.classList.remove("working");
+                })
+                this.classList.add('working');
+            }
+        }
+  });
+    
+/************************************
             toast
 ************************************/
 $(document).ready(function(){

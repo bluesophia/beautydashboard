@@ -95,6 +95,21 @@
   background: var(--megna);
 }
 
+ul#themecolors li a.working:before {
+  content: "\f00c";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+}
+
 /************************************
         theme(Dark Sidebar)
 ************************************/
@@ -2012,6 +2027,21 @@ body .img-responsive {
 
 .megna-theme {
   background: var(--megna);
+}
+
+ul#themecolors li a.working:before {
+  content: "\f00c";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
 }
 
 /************************************
@@ -4195,6 +4225,21 @@ body .img-responsive {
   background: var(--megna);
 }
 
+ul#themecolors li a.working:before {
+  content: "\f00c";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+}
+
 /************************************
         theme(Dark Sidebar)
 ************************************/
@@ -6242,6 +6287,21 @@ body .img-responsive {
   background: var(--megna);
 }
 
+ul#themecolors li a.working:before {
+  content: "\f00c";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+}
+
 /************************************
         theme(Dark Sidebar)
 ************************************/
@@ -8265,6 +8325,21 @@ ul#themecolors li a {
   background: var(--megna);
 }
 
+ul#themecolors li a.working:before {
+  content: "\f00c";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+}
+
 /************************************
         theme(Dark Sidebar)
 ************************************/
@@ -10254,6 +10329,21 @@ textarea.form-control {
 
 .megna-theme {
   background: var(--megna);
+}
+
+ul#themecolors li a.working:before {
+  content: "\f00c";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
 }
 
 /************************************
@@ -12748,6 +12838,21 @@ sales difference  & visit statastics table
   background: var(--megna);
 }
 
+ul#themecolors li a.working:before {
+  content: "\f00c";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+}
+
 /************************************
         theme(Dark Sidebar)
 ************************************/
@@ -14651,6 +14756,21 @@ center .img-circle {
 
 .megna-theme {
   background: var(--megna);
+}
+
+ul#themecolors li a.working:before {
+  content: "\f00c";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
 }
 
 /************************************
@@ -16625,6 +16745,21 @@ body .img-responsive {
 
 .megna-theme {
   background: var(--megna);
+}
+
+ul#themecolors li a.working:before {
+  content: "\f00c";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
 }
 
 /************************************
@@ -18747,6 +18882,21 @@ button.btn.btn-info.btn-circle.btn-lg i {
   background: var(--megna);
 }
 
+ul#themecolors li a.working:before {
+  content: "\f00c";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+}
+
 /************************************
         theme(Dark Sidebar)
 ************************************/
@@ -20820,6 +20970,21 @@ body .img-responsive {
   background: var(--megna);
 }
 
+ul#themecolors li a.working:before {
+  content: "\f00c";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+}
+
 /************************************
         theme(Dark Sidebar)
 ************************************/
@@ -22881,6 +23046,21 @@ body .img-responsive {
   background: var(--megna);
 }
 
+ul#themecolors li a.working:before {
+  content: "\f00c";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+}
+
 /************************************
         theme(Dark Sidebar)
 ************************************/
@@ -24916,6 +25096,21 @@ body .img-responsive {
   background: var(--megna);
 }
 
+ul#themecolors li a.working:before {
+  content: "\f00c";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+}
+
 /************************************
         theme(Dark Sidebar)
 ************************************/
@@ -26831,6 +27026,21 @@ body .img-responsive {
 
 .megna-theme {
   background: var(--megna);
+}
+
+ul#themecolors li a.working:before {
+  content: "\f00c";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
 }
 
 /************************************
@@ -28805,6 +29015,21 @@ body .img-responsive {
 
 .megna-theme {
   background: var(--megna);
+}
+
+ul#themecolors li a.working:before {
+  content: "\f00c";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
 }
 
 /************************************
