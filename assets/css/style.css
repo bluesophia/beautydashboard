@@ -953,10 +953,10 @@ body .form-control {
 body .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: none !important;
-  outline: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body .form-material .form-group {
@@ -2872,10 +2872,10 @@ body .form-control {
 body .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: none !important;
-  outline: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body .form-material .form-group {
@@ -5053,10 +5053,10 @@ body .form-control {
 body .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: none !important;
-  outline: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body .form-material .form-group {
@@ -7100,10 +7100,10 @@ body .form-control {
 body .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: none !important;
-  outline: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body .form-material .form-group {
@@ -8065,9 +8065,9 @@ body .img-responsive {
            right-sidebar
 ************************************/
 .shw-rside {
-  right: 0px;
-  width: 240px;
-  display: block;
+  right: 0px !important;
+  width: 240px !important;
+  display: block !important;
 }
 
 .right-sidebar {
@@ -9123,10 +9123,10 @@ body .form-control {
 body .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: none !important;
-  outline: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body .form-material .form-group {
@@ -11114,10 +11114,10 @@ body .form-control {
 body .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: none !important;
-  outline: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body .form-material .form-group {
@@ -13606,10 +13606,10 @@ body .form-control {
 body .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: none !important;
-  outline: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body .form-material .form-group {
@@ -15511,10 +15511,10 @@ body .form-control {
 body .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: none !important;
-  outline: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body .form-material .form-group {
@@ -17485,10 +17485,10 @@ body .form-control {
 body .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: none !important;
-  outline: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body .form-material .form-group {
@@ -19605,10 +19605,10 @@ body .form-control {
 body .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: none !important;
-  outline: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body .form-material .form-group {
@@ -21678,10 +21678,10 @@ body .form-control {
 body .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: none !important;
-  outline: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body .form-material .form-group {
@@ -23739,10 +23739,10 @@ body .form-control {
 body .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: none !important;
-  outline: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body .form-material .form-group {
@@ -25774,10 +25774,10 @@ body .form-control {
 body .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: none !important;
-  outline: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body .form-material .form-group {
@@ -27691,10 +27691,10 @@ body .form-control {
 body .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: none !important;
-  outline: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body .form-material .form-group {
@@ -29665,10 +29665,10 @@ body .form-control {
 body .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: none !important;
-  outline: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body .form-material .form-group {

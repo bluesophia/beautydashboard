@@ -1,7 +1,7 @@
 /************************************
-        toggle-sidebar
+        toggle-left-sidebar
 ************************************/
-function toggleSidebar(){
+function toggleLeftSidebar(){
     const element = document.getElementById("leftSidebar");
     const openBtn = document.getElementById("menuBtn");
 
@@ -16,18 +16,17 @@ function toggleSidebar(){
     }
 }
 /************************************
-             metis-menu
+        toggle-right-sidebar
 ************************************/
-// function activeDropdown(){
-//     const collapse = document.getElementsByTagName("a");
-//     const i;
-    
-//     for(i = 0; i < collapse.length; i++) {
-//         collapse[i].addEventListener("click", function(){
-//             alert("hi");
-//         })
-//     }
-// }
+function openRightSidebar(){
+    const openBtn = document.getElementById("rightsidebar");
+
+    openBtn.classList.add("shw-rside");
+}
+function closeRightSidebar(){
+    const closeBtn = document.getElementById("rightsidebar");
+    closeBtn.classList.remove("shw-rside");
+}
 /************************************
             toast
 ************************************/
