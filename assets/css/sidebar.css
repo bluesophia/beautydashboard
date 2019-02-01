@@ -81,6 +81,21 @@
   background: var(--megna);
 }
 
+ul#themecolors li a.working:before {
+  content: "\f00c";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+}
+
 /************************************
         theme(Dark Sidebar)
 ************************************/
@@ -567,7 +582,7 @@ html {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .mini-sidebar .sidebar-nav #sidebarnav > li:hover > ul, .mini-sidebar .sidebar-nav #sidebarnav > li:hover > ul.collapse {
     display: block;
   }
@@ -589,6 +604,14 @@ html {
   .mini-sidebar .sidebar-nav #sidebarnav > li:hover > a .hide-menu {
     display: inline;
   }
+}
+
+.sidebar-nav ul li a:hover {
+  color: #fb9678;
+}
+
+.sidebar-nav ul li a.mm-active, .sidebar-nav ul li a:hover {
+  color: #fb9678;
 }
 
 .sidebar-nav ul li a.mm-active {
@@ -929,7 +952,10 @@ body .form-control {
 }
 
 body .form-control:focus {
-  border-color: none;
+  color: #495057;
+  background-color: #fff;
+  border-color: #fff;
+  outline: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -1337,22 +1363,6 @@ body .flex-row {
   -webkit-box-direction: normal !important;
   -ms-flex-direction: row !important;
   flex-direction: row !important;
-}
-
-body .waves-effect {
-  position: relative;
-  cursor: pointer;
-  display: inline-block;
-  overflow: hidden;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  vertical-align: middle;
-  z-index: 1;
-  will-change: opacity, transform;
-  -webkit-transition: all 0.1s ease-out;
-  transition: all 0.1s ease-out;
 }
 
 body .animated {
@@ -1802,6 +1812,10 @@ body .navbar-dark .mailbox .message-center {
   height: 317px;
   overflow: auto;
   position: relative;
+}
+
+body .navbar-dark .mailbox .message-center .user-img img {
+  width: 50px;
 }
 
 body .navbar-dark .mailbox .message-center a {

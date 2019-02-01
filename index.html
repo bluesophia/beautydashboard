@@ -61,7 +61,7 @@
                     <ul class="navbar-nav mr-auto">
                         <!-- menu  -->
                         <li class="nav-item"> 
-                            <a class="nav-link nav-toggler d-block d-md-none waves-effect waves-dark" id="openNav" onclick="toggleSidebar(openNav)">
+                            <a class="nav-link nav-toggler d-block d-md-none waves-effect waves-dark" id="openNav" onclick="toggleLeftSidebar()">
                                 <i class="ti-close ti-menu" id="menuBtn"></i>
                             </a> 
                         </li>
@@ -283,7 +283,11 @@
                             </div>
                         </li>
                         <!-- End mega menu -->
-                        <li class="nav-item right-side-toggle"> <a class="nav-link  waves-effect waves-light" href="javascript:void(0)"><i class="ti-settings"></i></a></li>
+                        <li class="nav-item right-side-toggle" onclick="openRightSidebar()"> 
+                            <a class="nav-link  waves-effect waves-light" href="javascript:void(0)">
+                                <i class="ti-settings"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <!-- end collapse -->
@@ -1652,9 +1656,9 @@
                 <!-- End Todo, chat, notification -->
                 <!-- Right sidebar -->
                 <!-- .right-sidebar -->
-                <div class="right-sidebar ps ps--theme_default shw-rside" data-ps-id="a498fa7f-7c63-0f64-cabb-710fa25aa1fb">
+                <div class="right-sidebar ps ps--theme_default" id="rightsidebar" data-ps-id="a498fa7f-7c63-0f64-cabb-710fa25aa1fb" style="display:block;">
                     <div class="slimscrollright">
-                        <div class="rpanel-title"> Service Panel <span><i class="ti-close right-side-toggle"></i></span></div>
+                        <div class="rpanel-title"> Service Panel <span onclick="closeRightSidebar()"><i class="ti-close right-side-toggle"></i></span></div>
                         <div class="r-panel-body">
                             <ul id="themecolors" class="m-t-20">
                                 <li><b>With Light sidebar</b></li>
@@ -1723,28 +1727,25 @@
     <!-- <script src="./assets/dist/js/perfect-scrollbar.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.4.0/perfect-scrollbar.js"></script>
     <!-- wave effect -->
-    <!-- <script src="./assets/dist/js/waves.js"></script> -->
+    <script src="./assets/js/waves.js"></script>
     <!-- metisMenu effect -->
-    <!-- <script src="./assets/js/metisMenu.min.js"></script> -->
     <script src="https://unpkg.com/metismenu"></script>
     <!--Menu sidebar -->
     <!-- <script src="./assets/dist/js/sidebarmenu.js"></script> -->
     <!--Custom JavaScript -->
-    <script src="../assets/js/custom.js"></script>
+    <script src="./assets/js/custom.js"></script>
     <!-- <script src="../assets/js/custom.min.js"></script> -->
     <!-- This page plugins -->
     <!--morris JavaScript -->
     <!-- <script src="../assets/node_modules/raphael/raphael-min.js"></script> -->
-    <script src="../assets/js/morris.min.js"></script>
+    <script src="./assets/js/morris.min.js"></script>
     <!-- <script src="../assets/node_modules/jquery-sparkline/jquery.sparkline.min.js"></script> -->
     <!-- Popup message jquery -->
     <!-- Chart JS -->
     <!-- <script src="../assets/js/dashboard1.js"></script> -->
     <script src="./assets/js/jquery.toast.min.js"></script>
     <script>
-         $("#sidebarnav").metisMenu(
-             {toggle: true}
-         );
+         $("#sidebarnav").metisMenu();
         
     </script>
 </body>
